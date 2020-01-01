@@ -1,0 +1,551 @@
+.cl2opt
+{
+  	FONT-FAMILY:arial;
+	FONT-SIZE:11px;
+	COLOR:"#000000";
+	font-weight: bold; 
+}
+.cl2
+{
+  	FONT-FAMILY:arial;
+	FONT-SIZE:12px;
+	COLOR:"#000000";
+	font-weight: bold; 
+}
+.t3sign:hover
+{
+	FONT-size:11px;
+	FONT-family:Arial;
+	COLOR:#000000;
+	text-decoration:underline;
+}
+.t3sign
+{
+	FONT-size:11px;
+	FONT-family:Arial;
+	COLOR:#000000;
+	text-decoration:none;
+}
+.v3:hover
+{
+  	FONT-FAMILY:verdana;
+	FONT-SIZE:10px;
+	COLOR:#ffffff;
+	TEXT-DECORATION:underline;
+}
+.v3
+{
+  	FONT-FAMILY:verdana;
+	FONT-SIZE:10px;
+	COLOR:#ffffff;
+    text-decoration:none;
+}
+td.lefttd
+{
+	FONT-FAMILY:arial;
+	FONT-SIZE:12px;
+	COLOR:#ffffff;
+	FONT-WEIGHT:bold;
+}
+td.verdfoot
+{
+	FONT-FAMILY:Verdana;
+	FONT-SIZE:10px;
+	COLOR:#000000;
+	BACKGROUND-COLOR:#d7d7d7;
+	FONT-WEIGHT:bold;
+}
+.tdhead
+{
+	FONT-FAMILY:arial;
+	FONT-SIZE:12px;
+	COLOR:#000000;
+	FONT-WEIGHT:bold;
+}
+td.tdlefthead
+{
+	FONT-FAMILY:arial;
+	FONT-SIZE:12px;
+	COLOR:#003366;
+	FONT-WEIGHT:bold;
+}
+a.href
+{
+	FONT-size:12px;
+	FONT-family:Arial;
+	COLOR:blue;
+}
+a.tim
+{
+	FONT-size:12px;
+	FONT-family:Arial;
+	color:#104dca;
+}
+td.tim
+{
+FONT-FAMILY:Arial;
+FONT-SIZE:12px;
+}
+a
+{
+	FONT-size:12px;
+	FONT-family:Arial;
+}
+a.tdheadcls
+{
+	FONT:arial;
+	FONT-SIZE:11PX;
+	COLOR:#ffffff;
+	FONT-WEIGHT:bold;
+}
+.cl2que
+{
+  	FONT-FAMILY:verdana;
+	FONT-SIZE:10px;
+	COLOR:black
+}
+.cl2queb
+{
+  	FONT-FAMILY:verdana;
+	FONT-SIZE:11px;
+	COLOR:black;
+	FONT-WEIGHT:bold;
+}
+a:vlink
+{
+    FONT-family: Arial;
+	Font-size:10px;
+	COLOR:#fb9c46;
+}
+td.colortdar
+{
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#003366;
+	BACKGROUND-COLOR:#B6CBE6;
+}
+td.vd
+{
+	font:13px arial;
+	color:"#000000";
+	text-decoration:none;
+}
+.debu
+{
+	color:#003366;
+    font-size:9px;
+    font-weight:bold;
+    font-family:verdana;
+    text-decoration:none;
+}
+td.colortd
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#003366;
+}
+td.yellowtd
+{
+font-family:Verdana;
+font-size:10px;
+font-weight:bold;
+color:#000000;
+BACKGROUND-COLOR:#FDFFDC;
+}
+td.background1
+{
+	BACKGROUND-COLOR:#003366;	
+}
+td.background2
+{
+	BACKGROUND-COLOR:#b5b5b5;	
+}
+td.heading1
+{
+FONT-FAMILY:Arial;
+FONT-SIZE:18px;
+FONT-WEIGHT:bold;
+}
+a.t3
+{
+FONT-size:10px;
+FONT-family:Verdana;
+COLOR:#000000;
+FONT-WEIGHT:bold;
+}
+td
+{
+	FONT-size:11px;
+	FONT-family:Arial;
+}
+td.width15
+{
+	FONT-size:15px;
+	FONT-family:Arial;
+}
+td.width12
+{
+	FONT-size:12px;
+	FONT-family:Arial;
+}
+td.width10
+{
+	FONT-size:10px;
+	FONT-family:Arial;
+}
+td.topheading
+{
+	FONT-FAMILY:Arial;
+	FONT-SIZE:10px;
+	COLOR:#FFFFFF;
+}
+td.headingwhite
+{
+FONT-FAMILY:Verdana;
+FONT-SIZE:10px;
+COLOR:#FFFFFF;
+BACKGROUND-COLOR:#003366;
+font-weight:bold;
+}
+.timheading
+{
+FONT-FAMILY:Verdana;
+FONT-SIZE:12px;
+BACKGROUND-COLOR:#B6CBE6;
+COLOR:#003366;
+}
+td.timheadingsmall
+{
+FONT-FAMILY:Verdana;
+FONT-SIZE:9px;
+BACKGROUND-COLOR:#B6CBE6;
+COLOR:#003366;
+}
+td.backheadwhite
+{
+FONT-FAMILY:Arial;
+FONT-SIZE:10px;
+COLOR:#003366;
+BACKGROUND-COLOR:#FFFFFF;
+}
+td.backtableheader
+{
+FONT-FAMILY:Arial;
+FONT-SIZE:11px;
+BACKGROUND-COLOR:#B6CBE6;
+font-weight:bold;
+}
+a.backheadnormal
+{
+FONT-FAMILY:Arial;
+FONT-SIZE:10px;
+BACKGROUND-COLOR:#B6CBE6;
+COLOR:#003366;
+TEXT-DECORATION:none;
+}
+.t4
+{
+	FONT-size:12px;
+	FONT-family:Arial;
+	text-decoration:none;
+}
+a.t4u
+{
+	FONT-size:12px;
+	FONT-family:Arial;
+}
+td.headingtim
+{
+FONT-FAMILY:Verdana;
+FONT-SIZE:12px;
+BACKGROUND-COLOR:#003366;
+COLOR:#B6CBE6;
+}
+td.lefttext
+{
+FONT-FAMILY:Arial;
+FONT-SIZE:11px;
+BACKGROUND-COLOR:#B6CBE6;
+}
+td.tdwhite
+{
+	FONT-FAMILY:arial;
+	FONT-SIZE:11px;
+	text-decoration:none;
+	font-weight: bold;
+	color:"#ffffff";
+}
+td.tdfont
+{
+	FONT-FAMILY:arial;
+	FONT-SIZE:11px;
+	text-decoration:none;
+	font-weight: bold;
+	color:"#003366";
+}
+.tdcls
+{
+	FONT-FAMILY:arial;
+	FONT-SIZE:11px;
+	text-decoration:none;
+	font-weight: bold;
+}
+.tdcls1
+{
+	FONT-FAMILY:arial;
+	FONT-SIZE:11px;
+	text-decoration:none;
+}
+.cl1
+{
+  	FONT-FAMILY:arial;
+    FONT-SIZE:11px;
+	COLOR:#ffffff
+}
+.cl3
+{
+  	FONT-FAMILY:verdana;
+	FONT-SIZE:11px;
+	COLOR:white;
+}
+.verd11
+{
+  	FONT-FAMILY:verdana;
+	FONT-SIZE:11px;
+	COLOR:black;
+}
+td.v2
+{
+  	FONT-FAMILY:verdana;
+	FONT-SIZE:9px;
+	COLOR:#ECEBCD;
+}
+td.v1
+{
+  	FONT-FAMILY:arial;
+	FONT-SIZE:13px;
+	COLOR:#ffd101
+}
+td.det
+{
+    FONT: 13px Arial;
+	COLOR:#104dca
+}
+td.det11
+{
+    FONT: 11px Arial;
+	COLOR:#104dca
+
+td.det1
+{
+    FONT: 12px Arial;
+	COLOR:#104dca
+}
+a.ted1
+{
+    FONT: 10px Arial;
+	COLOR:#000000
+	text-decoration:underline;
+}
+td.ted11
+{
+    FONT: 12px Arial;
+	COLOR:#003366
+}
+a.ted2
+{
+    FONT: 11px Arial;
+	COLOR:#014bca
+}
+a.ted3
+{
+    FONT: 10px Arial;
+	COLOR:#000000;
+	text-decoration:underline;
+}
+a.ted4
+{
+    FONT: 10px verdana;
+	COLOR:#014bca
+}
+a.ted3new
+{
+	FONT-FAMILY:Arial;
+    FONT-SIZE:14px;	
+	COLOR:#000000;
+	text-decoration:underline;
+}
+a.td3
+{
+    FONT-family: Arial;
+	Font-size:10px;
+	COLOR:#000000
+	text-decoration:underline;
+}
+.tim1
+{
+	FONT-FAMILY:Arial;
+	FONT:12px;
+	COLOR:#000000
+}
+td.timins
+{
+	FONT:12px Arial;
+	COLOR:#fb9c46
+}
+td.mfont
+{
+	FONT:12px Arial;
+	COLOR:#000000;
+}
+a.ts1
+{
+	FONT:11px Arial;
+	COLOR:#ffffff
+}
+td.ts2
+{
+	FONT:11px arial;
+	COLOR:#ffffff;
+}
+a.ts3
+{
+	FONT-size:11px;
+	FONT-family:verdana;
+	COLOR:#ffffff;
+}
+td.ts33
+{
+	FONT-size:10px;
+	FONT-family:verdana;
+	COLOR:#ffffff;
+}
+td.mbot1
+{
+	FONT-family: Arial;
+	FONT: 11px;
+	COLOR:#104dca
+ }
+td.title
+{
+	font-family: Arial; 
+	font-size: 10pt;
+	font-weight: bold; 
+	color: #FFFFFF
+}
+td.btitle
+{
+font-family: Verdana; 
+font-size: 7pt;
+font-weight: bold; 
+color: #000000
+}
+td 
+{
+font-family:Arial;
+font-size:9pt;
+color:#000000
+}
+a.links 
+{
+font-family: Arial;
+font-size:11px;
+color:#104dca;
+}
+a.best {
+font-family: arial;
+font-size:11px;
+color:#014bca;
+}
+a.bt {
+font-family: arial;
+font-size:11px;
+color:#d80611;
+}
+
+a.req {
+font-family: Arial;
+font-size:13px;
+color:#003366;
+font-weight: bold; 
+text-decoration:underline;
+}
+td.wtitle{
+ font-family:Verdana; 
+ font-size:8pt;
+ font-weight:bold; 
+ color:#FFFFFF
+}
+td {
+font-family:Arial;
+font-size:9pt;
+color:#000000
+}
+a.bottomlink {
+font-family: Arial;
+font-size:12px;
+color:#ffffff;
+text-decoration:none;
+}
+td.bottomstat {
+font-family: Arial;
+font-size:12px;
+color:#ffffff;
+text-decoration:none;
+}
+.cl5
+{
+  	FONT-FAMILY:Arial;
+	FONT-SIZE:12px;
+	COLOR:"#000000";
+}
+td.tn
+{
+   	FONT-size:10px;
+	FONT-family:Arial;
+	COLOR:#ffffff
+}
+.n1
+{
+	FONT-size:11px;
+	FONT-family:Arial;
+	COLOR:#000000;
+}
+td.tim3
+{
+	FONT:11px verdana;
+	COLOR:#b5b5b5
+}
+.rah{
+	color:#b5b5b5;
+    font-size:11px;
+    font-weight:bold;
+    font-family:arial;
+    text-decoration:none;
+    alink:#fb9c46;
+    vlink:#fb9c46;
+    link:#ffffff;
+}
+td.verdbold
+{
+	FONT:11px verdana;
+	COLOR:#003366;
+	font-weight:bold;
+}
+td.verdwhite
+{
+	FONT:11px verdana;
+	COLOR:#ffffff;
+	font-weight:bold;
+}
+.v4
+{
+  	FONT-FAMILY:verdana;
+	FONT-SIZE:10px;
+	COLOR:#000000;
+	text-decoration:none;
+	BACKGROUND-COLOR:#FDFFDC;
+}

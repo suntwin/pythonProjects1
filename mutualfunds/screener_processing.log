@@ -1,0 +1,578 @@
+2019-04-07 00:35:48,877 - logger_screener - ERROR - Message: Select only works on <select> elements, not on <input>
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 46, in <module>
+    select = Select(elem_u)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/select.py", line 39, in __init__
+    webelement.tag_name)
+UnexpectedTagNameException: Message: Select only works on <select> elements, not on <input>
+
+2019-04-07 00:36:28,418 - logger_screener - ERROR - Message: element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 50, in <module>
+    click_button[0].click()
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+
+2019-04-07 08:45:29,677 - logger_screener - ERROR - Message: element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 51, in <module>
+    click_button[0].click()
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+
+2019-04-07 08:50:56,986 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 50, in <module>
+    click_button2 = selextractor.get_elem_by_xpath_href('//*[@id="main-area"]/form/p[1]/button', 'attr')
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 50, in get_elem_by_xpath_href
+    raise Driver_Find_Error("Error while extracting based on xpath",'s105',e)
+Driver_Find_Error
+2019-04-07 12:56:38,100 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 50, in <module>
+    click_button2 = selextractor.get_elem_by_xpath_href('//*[@id="main-area"]/form/p[1]/button', 'attr')
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 50, in get_elem_by_xpath_href
+    raise Driver_Find_Error("Error while extracting based on xpath",'s105',e)
+Driver_Find_Error
+2019-04-07 12:57:19,332 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 51, in <module>
+    click_button2 = selextractor.get_elem_by_xpath_href('//*[@id="main-area"]/form/p[1]/button', 'attr')
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 50, in get_elem_by_xpath_href
+    raise Driver_Find_Error("Error while extracting based on xpath",'s105',e)
+Driver_Find_Error
+2019-04-07 12:58:08,308 - logger_screener - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 53, in <module>
+    click_button[2].click()
+IndexError: list index out of range
+2019-04-07 12:58:26,421 - logger_screener - ERROR - Message: element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 53, in <module>
+    click_button[0].click()
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+ElementNotVisibleException: Message: element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+
+2019-04-07 21:24:38,409 - logger_screener - ERROR - 'list' object has no attribute 'find_elements_by_tag_name'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 63, in <module>
+    options = [x for x in elem_company_search.find_elements_by_tag_name("option")]
+AttributeError: 'list' object has no attribute 'find_elements_by_tag_name'
+2019-04-07 21:58:10,562 - logger_screener - ERROR - 'list' object has no attribute 'sendKeys'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 67, in <module>
+    results.sendKeys(Keys.DOWN)
+AttributeError: 'list' object has no attribute 'sendKeys'
+2019-04-07 21:58:59,938 - logger_screener - ERROR - 'WebElement' object has no attribute 'sendKeys'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 67, in <module>
+    elem_company_search[1].sendKeys(Keys.DOWN)
+AttributeError: 'WebElement' object has no attribute 'sendKeys'
+2019-04-07 21:59:48,635 - logger_screener - ERROR - 'WebElement' object has no attribute 'sendKeys'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 68, in <module>
+    elem_company_search[1].sendKeys(Keys.DOWN)
+AttributeError: 'WebElement' object has no attribute 'sendKeys'
+2019-04-07 22:00:15,951 - logger_screener - ERROR - 'list' object has no attribute 'sendKeys'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 68, in <module>
+    results.sendKeys(Keys.DOWN)
+AttributeError: 'list' object has no attribute 'sendKeys'
+2019-04-07 22:02:07,993 - logger_screener - ERROR - 'list' object has no attribute 'sendKeys'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 69, in <module>
+    results.sendKeys(Keys.DOWN)
+AttributeError: 'list' object has no attribute 'sendKeys'
+2019-04-07 22:03:19,669 - logger_screener - ERROR - 'WebElement' object has no attribute 'sendKeys'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 69, in <module>
+    elem_company_search[1].sendKeys(Keys.DOWN)
+AttributeError: 'WebElement' object has no attribute 'sendKeys'
+2019-04-07 22:04:36,299 - logger_screener - ERROR - 'WebElement' object has no attribute 'sendKeys'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 69, in <module>
+    elem_company_search[1].sendKeys(Keys.DOWN)
+AttributeError: 'WebElement' object has no attribute 'sendKeys'
+2019-04-07 22:19:13,861 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 75, in <module>
+    stock_elems = selextractor.get_elems_by_class("four columns")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 62, in get_elems_by_class
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s106',e)
+Driver_Find_Error
+2019-04-07 22:20:01,562 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 75, in <module>
+    stock_elems = selextractor.get_elems_by_class("four columns")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 62, in get_elems_by_class
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s106',e)
+Driver_Find_Error
+2019-04-07 22:20:47,031 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 71, in <module>
+    stock_elems = selextractor.get_elems_by_class("four columns")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 62, in get_elems_by_class
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s106',e)
+Driver_Find_Error
+2019-04-07 22:22:08,111 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 72, in <module>
+    stock_elems = selextractor.get_elems_by_class("four columns")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 62, in get_elems_by_class
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s106',e)
+Driver_Find_Error
+2019-04-07 22:22:39,435 - logger_screener - ERROR - name 'stock_elems' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 69, in <module>
+    print("count of pre attributes",len(stock_elems))
+NameError: name 'stock_elems' is not defined
+2019-04-07 22:25:50,816 - logger_screener - ERROR - name 'stock_elems' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 69, in <module>
+    print("count of pre attributes",len(stock_elems))
+NameError: name 'stock_elems' is not defined
+2019-04-07 22:26:16,073 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 73, in <module>
+    stock_elems = selextractor.get_elems_by_class("four columns")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 62, in get_elems_by_class
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s106',e)
+Driver_Find_Error
+2019-04-07 22:43:00,321 - logger_screener - ERROR - name 'driver' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 83, in <module>
+    driver.quit()
+NameError: name 'driver' is not defined
+2019-04-07 22:44:22,766 - logger_screener - ERROR - name 'By' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 79, in <module>
+    EC.presence_of_element_located((By.CLASS_NAME, "four columns")))
+NameError: name 'By' is not defined
+2019-04-07 22:45:15,849 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 81, in <module>
+    EC.presence_of_element_located((By.CLASS_NAME, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-07 22:57:50,628 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 81, in <module>
+    EC.presence_of_element_located((By.CLASS_NAME, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-07 23:06:34,151 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 49, in <module>
+    elem_u = selextractor.get_elem_by_id("id_username")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 76, in get_elem_by_id
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s107',e)
+Driver_Find_Error
+2019-04-07 23:07:13,929 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 85, in <module>
+    EC.presence_of_element_located((By.CLASS_NAME, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-08 20:45:44,698 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 85, in <module>
+    EC.presence_of_element_located((By.CLASS_NAME, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-08 21:00:38,352 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 85, in <module>
+    EC.presence_of_element_located((By.CLASS_NAME, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-08 21:05:37,421 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 85, in <module>
+    EC.presence_of_element_located((By.CLASS_NAME, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-08 21:16:43,277 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 86, in <module>
+    EC.presence_of_element_located((By.CLASS_NAME, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-08 21:17:24,694 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 86, in <module>
+    EC.presence_of_element_located((By.CLASS_NAME, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-08 21:18:00,455 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 86, in <module>
+    EC.presence_of_element_located((By.CLASS_NAME, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-08 21:20:02,132 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 86, in <module>
+    EC.presence_of_element_located((By.CSS_SELECTOR, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-08 21:21:00,453 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 89, in <module>
+    stock_elems = selextractor.get_elems_by_class("four columns")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 63, in get_elems_by_class
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s106',e)
+Driver_Find_Error
+2019-04-08 21:28:43,089 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 86, in <module>
+    EC.presence_of_element_located((By.CSS_SELECTOR, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-11 22:37:46,037 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 90, in <module>
+    stock_elems = selextractor.get_elems_by_class("li four columns")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 63, in get_elems_by_class
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s106',e)
+Driver_Find_Error
+2019-04-11 22:38:58,124 - logger_screener - ERROR - Message: 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 86, in <module>
+    EC.presence_of_element_located((By.CSS_SELECTOR, "four columns")))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+2019-04-11 22:49:02,357 - logger_screener - ERROR - 'list' object has no attribute 'text'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 93, in <module>
+    print("count of attributes",(stock_elems.text))
+AttributeError: 'list' object has no attribute 'text'
+2019-04-11 23:11:28,600 - logger_screener - ERROR - 'list' object has no attribute 'text'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 93, in <module>
+    print("count of attributes",(stock_elems.text).split(":"))
+AttributeError: 'list' object has no attribute 'text'
+2019-04-11 23:15:06,327 - logger_screener - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 96, in <module>
+    stock_dict[e[0]]=e[1]
+IndexError: list index out of range
+2019-04-11 23:16:01,293 - logger_screener - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 97, in <module>
+    stock_dict[e[0]]=e[1]
+IndexError: list index out of range
+2019-04-11 23:22:21,580 - logger_screener - ERROR - name 'col' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 101, in <module>
+    stock_dict[col+str(i)]=e[0]
+NameError: name 'col' is not defined
+2019-04-11 23:54:25,226 - logger_screener - ERROR - Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 62, in <module>
+    click_button[1].click()
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+
+2019-04-11 23:57:18,321 - logger_screener - ERROR - 'builtin_function_or_method' object is not iterable
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 114, in <module>
+    columns = list(stock_dict.keys)
+TypeError: 'builtin_function_or_method' object is not iterable
+2019-04-11 23:58:04,321 - logger_screener - ERROR - Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 62, in <module>
+    click_button[1].click()
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+
+2019-04-12 18:00:53,264 - logger_screener - ERROR - Message: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 52, in <module>
+    selextractor = SeleniumExtractor(screener_login)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 18, in __init__
+    self.driver = webdriver.Chrome('/users/niteshchawla/Downloads/docs/chromedriver',chrome_options=options)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/chrome/webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+SessionNotCreatedException: Message: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189),platform=Mac OS X 10.14.0 x86_64)
+
+2019-04-12 18:10:30,823 - logger_screener - ERROR - 'list' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 114, in <module>
+    csvwriter = CsvWriter(abspath,screener_file,columns1)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 8, in __init__
+    self.field_names = field_names.split(',')
+AttributeError: 'list' object has no attribute 'split'
+2019-04-13 00:17:27,376 - logger_screener - ERROR - 'symbol'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 181, in <module>
+    symbol = row['symbol']
+KeyError: 'symbol'
+2019-04-13 00:18:46,544 - logger_screener - ERROR - 
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 159, in <module>
+    elem_u = selextractor.get_elem_by_id("id_username")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 76, in get_elem_by_id
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s107',e)
+Driver_Find_Error
+2019-04-13 00:19:55,060 - logger_screener - ERROR - 'symbol'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 181, in <module>
+    symbol = row['symbol']
+KeyError: 'symbol'
+2019-04-13 00:21:16,278 - logger_screener - ERROR - 'symbol'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 182, in <module>
+    symbol = row['symbol']
+KeyError: 'symbol'
+2019-04-13 00:23:09,960 - logger_screener - ERROR - find() takes no keyword arguments
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 184, in <module>
+    stock_dict = get_symbol_details(symbol)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 81, in get_symbol_details
+    if(e[0].find('52 Weeks',beg=0,end=len(e[0]))):
+TypeError: find() takes no keyword arguments
+2019-04-13 00:30:20,258 - logger_screener - ERROR - dict contains fields not in fieldnames: u'Price to Free Cash Flow', u'EPS last year', u'Book Value', u'Return on equity', u'Dividend Yield', u'Return on assets', u'Profit growth', u'Working Capital to Sales ratio', u'EPS', u'Cash by market cap', u'Average return on equity 7Years', u'Dividend last year', u'Sales growth 7Years', u'Sales growth 5Years', u'Intrinsic Value', u'Stock P/E', u'YOY Quarterly profit growth', u'Return on invested capital', u'Altman Z Score', u'Profit growth 3Years', u'Profit growth 5Years', u'Current Price', u'Profit growth 7Years', u'Piotroski score', u'Face Value', u'ROE', u'Sales growth 3Years', u'Cash 5Years back', u'Volume', u'Average return on equity 5Years', u'OPM 5Year', 'Listed on BSE and NSE', u'ROCE', u'Debt', u'NCAVPS', u'Net worth', u'Sales growth', u'Cash beginning of last year', u'Number of equity shares', u'Enterprise Value to EBIT', u'Interest Coverage', u'Average Earnings 5Year', u'YOY Quarterly sales growth', u'Return on capital employed', u'Enterprise Value', u'Price to Cash Flow', u'Cash 3Years back', u'Cash end of last year', u'Sales Growth (3Yrs)', u'Price to Sales', '52 weeks HighLow', u'Debt to equity', 'Company Website', 'symbol', u'Average return on equity 3Years', u'EVEBITDA', u'Market Cap'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 188, in <module>
+    csvwriter.writefile_rows(stock_list)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 33, in writefile_rows
+    self.filewriter.writerows(rows)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 157, in writerows
+    rows.append(self._dict_to_list(rowdict))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 148, in _dict_to_list
+    + ", ".join([repr(x) for x in wrong_fields]))
+ValueError: dict contains fields not in fieldnames: u'Price to Free Cash Flow', u'EPS last year', u'Book Value', u'Return on equity', u'Dividend Yield', u'Return on assets', u'Profit growth', u'Working Capital to Sales ratio', u'EPS', u'Cash by market cap', u'Average return on equity 7Years', u'Dividend last year', u'Sales growth 7Years', u'Sales growth 5Years', u'Intrinsic Value', u'Stock P/E', u'YOY Quarterly profit growth', u'Return on invested capital', u'Altman Z Score', u'Profit growth 3Years', u'Profit growth 5Years', u'Current Price', u'Profit growth 7Years', u'Piotroski score', u'Face Value', u'ROE', u'Sales growth 3Years', u'Cash 5Years back', u'Volume', u'Average return on equity 5Years', u'OPM 5Year', 'Listed on BSE and NSE', u'ROCE', u'Debt', u'NCAVPS', u'Net worth', u'Sales growth', u'Cash beginning of last year', u'Number of equity shares', u'Enterprise Value to EBIT', u'Interest Coverage', u'Average Earnings 5Year', u'YOY Quarterly sales growth', u'Return on capital employed', u'Enterprise Value', u'Price to Cash Flow', u'Cash 3Years back', u'Cash end of last year', u'Sales Growth (3Yrs)', u'Price to Sales', '52 weeks HighLow', u'Debt to equity', 'Company Website', 'symbol', u'Average return on equity 3Years', u'EVEBITDA', u'Market Cap'
+2019-04-13 00:39:26,689 - logger_screener - ERROR - dict contains fields not in fieldnames: u'Price to Free Cash Flow', u'EPS last year', u'Book Value', u'Return on equity', u'Dividend Yield', u'Return on assets', u'Profit growth', u'Working Capital to Sales ratio', u'EPS', u'Cash by market cap', u'Average return on equity 7Years', u'Dividend last year', u'Sales growth 7Years', u'Sales growth 5Years', u'Intrinsic Value', u'Stock P/E', u'YOY Quarterly profit growth', u'Return on invested capital', u'Altman Z Score', u'Profit growth 3Years', u'Profit growth 5Years', u'Current Price', u'Profit growth 7Years', u'Piotroski score', u'Face Value', u'ROE', u'Sales growth 3Years', u'Cash 5Years back', u'Volume', u'Average return on equity 5Years', u'OPM 5Year', 'Listed on BSE and NSE', u'ROCE', u'Debt', u'NCAVPS', u'Net worth', u'Sales growth', u'Cash beginning of last year', u'Number of equity shares', u'Enterprise Value to EBIT', u'Interest Coverage', u'Average Earnings 5Year', u'YOY Quarterly sales growth', u'Return on capital employed', u'Enterprise Value', u'Price to Cash Flow', u'Cash 3Years back', u'Cash end of last year', u'Sales Growth (3Yrs)', u'Price to Sales', '52 weeks HighLow', u'Debt to equity', 'Company Website', 'symbol', u'Average return on equity 3Years', u'EVEBITDA', u'Market Cap'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 188, in <module>
+    csvwriter.writefile_rows(stock_list)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 33, in writefile_rows
+    self.filewriter.writerows(rows)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 157, in writerows
+    rows.append(self._dict_to_list(rowdict))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 148, in _dict_to_list
+    + ", ".join([repr(x) for x in wrong_fields]))
+ValueError: dict contains fields not in fieldnames: u'Price to Free Cash Flow', u'EPS last year', u'Book Value', u'Return on equity', u'Dividend Yield', u'Return on assets', u'Profit growth', u'Working Capital to Sales ratio', u'EPS', u'Cash by market cap', u'Average return on equity 7Years', u'Dividend last year', u'Sales growth 7Years', u'Sales growth 5Years', u'Intrinsic Value', u'Stock P/E', u'YOY Quarterly profit growth', u'Return on invested capital', u'Altman Z Score', u'Profit growth 3Years', u'Profit growth 5Years', u'Current Price', u'Profit growth 7Years', u'Piotroski score', u'Face Value', u'ROE', u'Sales growth 3Years', u'Cash 5Years back', u'Volume', u'Average return on equity 5Years', u'OPM 5Year', 'Listed on BSE and NSE', u'ROCE', u'Debt', u'NCAVPS', u'Net worth', u'Sales growth', u'Cash beginning of last year', u'Number of equity shares', u'Enterprise Value to EBIT', u'Interest Coverage', u'Average Earnings 5Year', u'YOY Quarterly sales growth', u'Return on capital employed', u'Enterprise Value', u'Price to Cash Flow', u'Cash 3Years back', u'Cash end of last year', u'Sales Growth (3Yrs)', u'Price to Sales', '52 weeks HighLow', u'Debt to equity', 'Company Website', 'symbol', u'Average return on equity 3Years', u'EVEBITDA', u'Market Cap'
+2019-04-13 00:44:04,173 - logger_screener - ERROR - dict contains fields not in fieldnames: u'Price to Free Cash Flow', u'EPS last year', u'Book Value', u'Return on equity', u'Dividend Yield', u'Return on assets', u'Profit growth', u'Working Capital to Sales ratio', u'EPS', u'Cash by market cap', u'Average return on equity 7Years', u'Dividend last year', u'Sales growth 7Years', u'Sales growth 5Years', u'Intrinsic Value', u'Stock P/E', u'YOY Quarterly profit growth', u'Return on invested capital', u'Altman Z Score', u'Profit growth 3Years', u'Profit growth 5Years', u'Current Price', u'Profit growth 7Years', u'Piotroski score', u'Face Value', u'ROE', u'Sales growth 3Years', u'Cash 5Years back', u'Volume', u'Average return on equity 5Years', u'OPM 5Year', 'Listed on BSE and NSE', u'ROCE', u'Debt', u'NCAVPS', u'Net worth', u'Sales growth', u'Cash beginning of last year', u'Number of equity shares', u'Enterprise Value to EBIT', u'Interest Coverage', u'Average Earnings 5Year', u'YOY Quarterly sales growth', u'Return on capital employed', u'Enterprise Value', u'Price to Cash Flow', u'Cash 3Years back', u'Cash end of last year', u'Sales Growth (3Yrs)', u'Price to Sales', '52 weeks HighLow', u'Debt to equity', 'Company Website', 'symbol', u'Average return on equity 3Years', u'EVEBITDA', u'Market Cap'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 188, in <module>
+    csvwriter.writefile_rows(stock_list)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 33, in writefile_rows
+    self.filewriter.writerows(rows)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 157, in writerows
+    rows.append(self._dict_to_list(rowdict))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 148, in _dict_to_list
+    + ", ".join([repr(x) for x in wrong_fields]))
+ValueError: dict contains fields not in fieldnames: u'Price to Free Cash Flow', u'EPS last year', u'Book Value', u'Return on equity', u'Dividend Yield', u'Return on assets', u'Profit growth', u'Working Capital to Sales ratio', u'EPS', u'Cash by market cap', u'Average return on equity 7Years', u'Dividend last year', u'Sales growth 7Years', u'Sales growth 5Years', u'Intrinsic Value', u'Stock P/E', u'YOY Quarterly profit growth', u'Return on invested capital', u'Altman Z Score', u'Profit growth 3Years', u'Profit growth 5Years', u'Current Price', u'Profit growth 7Years', u'Piotroski score', u'Face Value', u'ROE', u'Sales growth 3Years', u'Cash 5Years back', u'Volume', u'Average return on equity 5Years', u'OPM 5Year', 'Listed on BSE and NSE', u'ROCE', u'Debt', u'NCAVPS', u'Net worth', u'Sales growth', u'Cash beginning of last year', u'Number of equity shares', u'Enterprise Value to EBIT', u'Interest Coverage', u'Average Earnings 5Year', u'YOY Quarterly sales growth', u'Return on capital employed', u'Enterprise Value', u'Price to Cash Flow', u'Cash 3Years back', u'Cash end of last year', u'Sales Growth (3Yrs)', u'Price to Sales', '52 weeks HighLow', u'Debt to equity', 'Company Website', 'symbol', u'Average return on equity 3Years', u'EVEBITDA', u'Market Cap'
+2019-04-13 00:47:37,241 - logger_screener - ERROR - name 'OrderedDict' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 185, in <module>
+    sorted_stock_dict = OrderedDict(sorted(stock_dict.items()))
+NameError: name 'OrderedDict' is not defined
+2019-04-13 00:56:14,247 - logger_screener - ERROR - dict contains fields not in fieldnames: '52 weeks HighLow', u'Altman Z Score', u'Average Earnings 5Year', u'Average return on equity 3Years', u'Average return on equity 5Years', u'Average return on equity 7Years', u'Book Value', u'Cash 3Years back', u'Cash 5Years back', u'Cash beginning of last year', u'Cash by market cap', u'Cash end of last year', 'Company Website', u'Current Price', u'Debt', u'Debt to equity', u'Dividend Yield', u'Dividend last year', u'EPS', u'EPS last year', u'EVEBITDA', u'Enterprise Value', u'Enterprise Value to EBIT', u'Face Value', u'Interest Coverage', u'Intrinsic Value', 'Listed on BSE and NSE', u'Market Cap', u'NCAVPS', u'Net worth', u'Number of equity shares', u'OPM 5Year', u'Piotroski score', u'Price to Cash Flow', u'Price to Free Cash Flow', u'Price to Sales', u'Profit growth', u'Profit growth 3Years', u'Profit growth 5Years', u'Profit growth 7Years', u'ROCE', u'ROE', u'Return on assets', u'Return on capital employed', u'Return on equity', u'Return on invested capital', u'Sales Growth (3Yrs)', u'Sales growth', u'Sales growth 3Years', u'Sales growth 5Years', u'Sales growth 7Years', u'Stock P/E', u'Volume', u'Working Capital to Sales ratio', u'YOY Quarterly profit growth', u'YOY Quarterly sales growth', 'symbol'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 189, in <module>
+    csvwriter.writefile_rows(stock_list)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 33, in writefile_rows
+    self.filewriter.writerows(rows)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 157, in writerows
+    rows.append(self._dict_to_list(rowdict))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 148, in _dict_to_list
+    + ", ".join([repr(x) for x in wrong_fields]))
+ValueError: dict contains fields not in fieldnames: '52 weeks HighLow', u'Altman Z Score', u'Average Earnings 5Year', u'Average return on equity 3Years', u'Average return on equity 5Years', u'Average return on equity 7Years', u'Book Value', u'Cash 3Years back', u'Cash 5Years back', u'Cash beginning of last year', u'Cash by market cap', u'Cash end of last year', 'Company Website', u'Current Price', u'Debt', u'Debt to equity', u'Dividend Yield', u'Dividend last year', u'EPS', u'EPS last year', u'EVEBITDA', u'Enterprise Value', u'Enterprise Value to EBIT', u'Face Value', u'Interest Coverage', u'Intrinsic Value', 'Listed on BSE and NSE', u'Market Cap', u'NCAVPS', u'Net worth', u'Number of equity shares', u'OPM 5Year', u'Piotroski score', u'Price to Cash Flow', u'Price to Free Cash Flow', u'Price to Sales', u'Profit growth', u'Profit growth 3Years', u'Profit growth 5Years', u'Profit growth 7Years', u'ROCE', u'ROE', u'Return on assets', u'Return on capital employed', u'Return on equity', u'Return on invested capital', u'Sales Growth (3Yrs)', u'Sales growth', u'Sales growth 3Years', u'Sales growth 5Years', u'Sales growth 7Years', u'Stock P/E', u'Volume', u'Working Capital to Sales ratio', u'YOY Quarterly profit growth', u'YOY Quarterly sales growth', 'symbol'
+2019-04-13 01:02:25,347 - logger_screener - ERROR - dict contains fields not in fieldnames: u'Altman Z Score', u'Average Earnings 5Year', u'Average return on equity 3Years', u'Average return on equity 5Years', u'Average return on equity 7Years', u'Book Value', u'Cash 3Years back', u'Cash 5Years back', u'Cash beginning of last year', u'Cash by market cap', u'Cash end of last year', 'Company Website', u'Current Price', u'Debt', u'Debt to equity', u'Dividend Yield', u'Dividend last year', u'EPS', u'EPS last year', u'EVEBITDA', u'Enterprise Value', u'Enterprise Value to EBIT', u'Face Value', u'Interest Coverage', u'Intrinsic Value', 'Listed on BSE and NSE', u'Market Cap', u'NCAVPS', u'Net worth', u'Number of equity shares', u'OPM 5Year', u'Piotroski score', u'Price to Cash Flow', u'Price to Free Cash Flow', u'Price to Sales', u'Profit growth', u'Profit growth 3Years', u'Profit growth 5Years', u'Profit growth 7Years', u'ROCE', u'ROE', u'Return on assets', u'Return on capital employed', u'Return on equity', u'Return on invested capital', u'Sales Growth (3Yrs)', u'Sales growth', u'Sales growth 3Years', u'Sales growth 5Years', u'Sales growth 7Years', u'Stock P/E', u'Volume', u'Working Capital to Sales ratio', u'YOY Quarterly profit growth', u'YOY Quarterly sales growth', 'symbol'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 189, in <module>
+    csvwriter.writefile_rows(stock_list)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 33, in writefile_rows
+    self.filewriter.writerows(rows)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 157, in writerows
+    rows.append(self._dict_to_list(rowdict))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 148, in _dict_to_list
+    + ", ".join([repr(x) for x in wrong_fields]))
+ValueError: dict contains fields not in fieldnames: u'Altman Z Score', u'Average Earnings 5Year', u'Average return on equity 3Years', u'Average return on equity 5Years', u'Average return on equity 7Years', u'Book Value', u'Cash 3Years back', u'Cash 5Years back', u'Cash beginning of last year', u'Cash by market cap', u'Cash end of last year', 'Company Website', u'Current Price', u'Debt', u'Debt to equity', u'Dividend Yield', u'Dividend last year', u'EPS', u'EPS last year', u'EVEBITDA', u'Enterprise Value', u'Enterprise Value to EBIT', u'Face Value', u'Interest Coverage', u'Intrinsic Value', 'Listed on BSE and NSE', u'Market Cap', u'NCAVPS', u'Net worth', u'Number of equity shares', u'OPM 5Year', u'Piotroski score', u'Price to Cash Flow', u'Price to Free Cash Flow', u'Price to Sales', u'Profit growth', u'Profit growth 3Years', u'Profit growth 5Years', u'Profit growth 7Years', u'ROCE', u'ROE', u'Return on assets', u'Return on capital employed', u'Return on equity', u'Return on invested capital', u'Sales Growth (3Yrs)', u'Sales growth', u'Sales growth 3Years', u'Sales growth 5Years', u'Sales growth 7Years', u'Stock P/E', u'Volume', u'Working Capital to Sales ratio', u'YOY Quarterly profit growth', u'YOY Quarterly sales growth', 'symbol'
+2019-04-13 01:10:12,334 - logger_screener - ERROR - dict contains fields not in fieldnames: '52 weeks HighLow', u'Altman Z Score', u'Average Earnings 5Year', u'Average return on equity 3Years', u'Average return on equity 5Years', u'Average return on equity 7Years', u'Book Value', u'Cash 3Years back', u'Cash 5Years back', u'Cash beginning of last year', u'Cash by market cap', u'Cash end of last year', 'Company Website', u'Current Price', u'Debt', u'Debt to equity', u'Dividend Yield', u'Dividend last year', u'EPS', u'EPS last year', u'EVEBITDA', u'Enterprise Value', u'Enterprise Value to EBIT', u'Face Value', u'Interest Coverage', u'Intrinsic Value', 'Listed on BSE and NSE', u'Market Cap', u'NCAVPS', u'Net worth', u'Number of equity shares', u'OPM 5Year', u'Piotroski score', u'Price to Cash Flow', u'Price to Free Cash Flow', u'Price to Sales', u'Profit growth', u'Profit growth 3Years', u'Profit growth 5Years', u'Profit growth 7Years', u'ROCE', u'ROE', u'Return on assets', u'Return on capital employed', u'Return on equity', u'Return on invested capital', u'Sales Growth (3Yrs)', u'Sales growth', u'Sales growth 3Years', u'Sales growth 5Years', u'Sales growth 7Years', u'Stock P/E', u'Volume', u'Working Capital to Sales ratio', u'YOY Quarterly profit growth', u'YOY Quarterly sales growth', 'symbol'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 189, in <module>
+    csvwriter.writefile_rows(stock_list)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 33, in writefile_rows
+    self.filewriter.writerows(rows)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 157, in writerows
+    rows.append(self._dict_to_list(rowdict))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 148, in _dict_to_list
+    + ", ".join([repr(x) for x in wrong_fields]))
+ValueError: dict contains fields not in fieldnames: '52 weeks HighLow', u'Altman Z Score', u'Average Earnings 5Year', u'Average return on equity 3Years', u'Average return on equity 5Years', u'Average return on equity 7Years', u'Book Value', u'Cash 3Years back', u'Cash 5Years back', u'Cash beginning of last year', u'Cash by market cap', u'Cash end of last year', 'Company Website', u'Current Price', u'Debt', u'Debt to equity', u'Dividend Yield', u'Dividend last year', u'EPS', u'EPS last year', u'EVEBITDA', u'Enterprise Value', u'Enterprise Value to EBIT', u'Face Value', u'Interest Coverage', u'Intrinsic Value', 'Listed on BSE and NSE', u'Market Cap', u'NCAVPS', u'Net worth', u'Number of equity shares', u'OPM 5Year', u'Piotroski score', u'Price to Cash Flow', u'Price to Free Cash Flow', u'Price to Sales', u'Profit growth', u'Profit growth 3Years', u'Profit growth 5Years', u'Profit growth 7Years', u'ROCE', u'ROE', u'Return on assets', u'Return on capital employed', u'Return on equity', u'Return on invested capital', u'Sales Growth (3Yrs)', u'Sales growth', u'Sales growth 3Years', u'Sales growth 5Years', u'Sales growth 7Years', u'Stock P/E', u'Volume', u'Working Capital to Sales ratio', u'YOY Quarterly profit growth', u'YOY Quarterly sales growth', 'symbol'
+2019-04-13 01:11:35,534 - logger_screener - ERROR - dict contains fields not in fieldnames: u'Net worth', u'EPS last year', u'Book Value', u'Dividend Yield', '52 weeks HighLow', u'Profit growth', u'Working Capital to Sales ratio', u'EPS', u'Cash by market cap', u'Average return on equity 7Years', u'Dividend last year', u'Intrinsic Value', u'Sales growth 5Years', u'Cash 5Years back', u'YOY Quarterly profit growth', u'Return on invested capital', u'Altman Z Score', u'Return on equity', u'Profit growth 5Years', u'Current Price', u'Profit growth 7Years', u'Average return on equity 5Years', u'Face Value', u'ROE', u'Stock P/E', u'Volume', u'Piotroski score', u'OPM 5Year', 'Listed on BSE and NSE', u'ROCE', u'Sales growth 7Years', u'NCAVPS', u'Price to Free Cash Flow', u'Sales growth', u'Cash beginning of last year', u'Number of equity shares', u'Profit growth 3Years', u'Enterprise Value to EBIT', u'Average Earnings 5Year', u'Cash end of last year', u'YOY Quarterly sales growth', u'Return on capital employed', u'Price to Cash Flow', u'Enterprise Value', u'Sales growth 3Years', u'Cash 3Years back', u'Interest Coverage', u'Debt', u'Sales Growth (3Yrs)', u'Price to Sales', u'Return on assets', u'Debt to equity', 'Company Website', 'symbol', u'Average return on equity 3Years', u'EVEBITDA', u'Market Cap'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 189, in <module>
+    csvwriter.writefile_rows(stock_list)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 33, in writefile_rows
+    self.filewriter.writerows(rows)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 157, in writerows
+    rows.append(self._dict_to_list(rowdict))
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/csv.py", line 148, in _dict_to_list
+    + ", ".join([repr(x) for x in wrong_fields]))
+ValueError: dict contains fields not in fieldnames: u'Net worth', u'EPS last year', u'Book Value', u'Dividend Yield', '52 weeks HighLow', u'Profit growth', u'Working Capital to Sales ratio', u'EPS', u'Cash by market cap', u'Average return on equity 7Years', u'Dividend last year', u'Intrinsic Value', u'Sales growth 5Years', u'Cash 5Years back', u'YOY Quarterly profit growth', u'Return on invested capital', u'Altman Z Score', u'Return on equity', u'Profit growth 5Years', u'Current Price', u'Profit growth 7Years', u'Average return on equity 5Years', u'Face Value', u'ROE', u'Stock P/E', u'Volume', u'Piotroski score', u'OPM 5Year', 'Listed on BSE and NSE', u'ROCE', u'Sales growth 7Years', u'NCAVPS', u'Price to Free Cash Flow', u'Sales growth', u'Cash beginning of last year', u'Number of equity shares', u'Profit growth 3Years', u'Enterprise Value to EBIT', u'Average Earnings 5Year', u'Cash end of last year', u'YOY Quarterly sales growth', u'Return on capital employed', u'Price to Cash Flow', u'Enterprise Value', u'Sales growth 3Years', u'Cash 3Years back', u'Interest Coverage', u'Debt', u'Sales Growth (3Yrs)', u'Price to Sales', u'Return on assets', u'Debt to equity', 'Company Website', 'symbol', u'Average return on equity 3Years', u'EVEBITDA', u'Market Cap'
+2019-04-13 01:16:03,705 - logger_screener - ERROR - '\n                "52 weeks HighLow"'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 188, in <module>
+    csvwriter.writefile_row(stock_dict)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 24, in writefile_row
+    print row[self.field_names[i]]
+KeyError: '\n                "52 weeks HighLow"'
+2019-04-13 01:24:36,598 - logger_screener - ERROR - 'list' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 171, in <module>
+    csvwriter = CsvWriter(abspath,screener_file,columns1)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 8, in __init__
+    self.field_names = field_names.split(',')
+AttributeError: 'list' object has no attribute 'split'
+2019-04-13 01:26:31,510 - logger_screener - ERROR - 'Listed on BSE and NSE'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 183, in <module>
+    csvwriter.writefile_row(stock_dict)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 24, in writefile_row
+    print row[self.field_names[i]]
+KeyError: 'Listed on BSE and NSE'
+2019-04-13 01:32:05,211 - logger_screener - ERROR - 'Listed on BSE and NSE'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 183, in <module>
+    csvwriter.writefile_row(stock_dict)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 24, in writefile_row
+    print row[self.field_names[i]]
+KeyError: 'Listed on BSE and NSE'
+2019-04-13 01:43:23,813 - logger_screener - ERROR - '52 weeks HighLow'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 184, in <module>
+    csvwriter.writefile_row(stock_dict)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 24, in writefile_row
+    print row[self.field_names[i]]
+KeyError: '52 weeks HighLow'
+2019-04-13 01:45:15,520 - logger_screener - ERROR - '52 weeks HighLow'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 184, in <module>
+    csvwriter.writefile_row(stock_dict)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 24, in writefile_row
+    print row[self.field_names[i]]
+KeyError: '52 weeks HighLow'
+2019-04-13 01:52:15,071 - logger_screener - ERROR - '52 weeks HighLow'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 186, in <module>
+    csvwriter.writefile_row(stock_dict)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 24, in writefile_row
+    print row[self.field_names[i]]
+KeyError: '52 weeks HighLow'
+2019-04-13 02:04:24,859 - logger_screener - ERROR - 'list' object has no attribute 'clear'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 185, in <module>
+    stock_dict = get_symbol_details(symbol)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 46, in get_symbol_details
+    elem_company_search.clear()
+AttributeError: 'list' object has no attribute 'clear'
+2019-04-20 17:45:30,232 - logger_screener - ERROR - 'Altman Z Score'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 190, in <module>
+    csvwriter.writefile_row(stock_dict)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 24, in writefile_row
+    print row[self.field_names[i]]
+KeyError: 'Altman Z Score'
+2019-04-21 17:59:52,264 - logger_screener - ERROR - 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 185, in <module>
+    stock_dict = get_symbol_details(symbol)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/screener_extract.py", line 74, in get_symbol_details
+    e = (elem.text).split(":")
+AttributeError: 'NoneType' object has no attribute 'split'

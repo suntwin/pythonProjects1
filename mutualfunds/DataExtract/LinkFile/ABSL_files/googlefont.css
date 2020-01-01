@@ -1,0 +1,448 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Fira Sans Thin'), local('FiraSans-Thin'), url(https://www.moneycontrol.com/commonfiles/font/Ynpq02VHJlzawsZhjoqF0zTOQ_MqJVwkKsUn0wKzc2I.woff2?classic=true) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Fira Sans Thin'), local('FiraSans-Thin'), url(https://www.moneycontrol.com/commonfiles/font/Ynpq02VHJlzawsZhjoqF0zUj_cnvWIuuBMVgbX098Mw.woff2?classic=true) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Fira Sans Thin'), local('FiraSans-Thin'), url(https://www.moneycontrol.com/commonfiles/font/Ynpq02VHJlzawsZhjoqF00bcKLIaa1LC45dFaAfauRA.woff2?classic=true) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Fira Sans Thin'), local('FiraSans-Thin'), url(https://www.moneycontrol.com/commonfiles/font/Ynpq02VHJlzawsZhjoqF02o_sUJ8uO4YLWRInS22T3Y.woff2?classic=true) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Fira Sans Thin'), local('FiraSans-Thin'), url(https://www.moneycontrol.com/commonfiles/font/Ynpq02VHJlzawsZhjoqF076up8jxqWt8HVA3mDhkV_0.woff2?classic=true) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Fira Sans Thin'), local('FiraSans-Thin'), url(https://www.moneycontrol.com/commonfiles/font/Ynpq02VHJlzawsZhjoqF0yYE0-AqJ3nfInTTiDXDjU4.woff2?classic=true) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Fira Sans Thin'), local('FiraSans-Thin'), url(https://www.moneycontrol.com/commonfiles/font/Ynpq02VHJlzawsZhjoqF044P5ICox8Kq3LLUNMylGO4.woff2?classic=true) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://www.moneycontrol.com/commonfiles/font/VTBnrK42EiOBncVyQXZ7j6-j2U0lmluP9RWlSytm3ho.woff2?classic=true) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://www.moneycontrol.com/commonfiles/font/VTBnrK42EiOBncVyQXZ7j5X5f-9o1vgP2EXwfjgl7AY.woff2?classic=true) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://www.moneycontrol.com/commonfiles/font/VTBnrK42EiOBncVyQXZ7jxWV49_lSm1NYrwo-zkhivY.woff2?classic=true) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://www.moneycontrol.com/commonfiles/font/VTBnrK42EiOBncVyQXZ7j6aRobkAwv3vxw3jMhVENGA.woff2?classic=true) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://www.moneycontrol.com/commonfiles/font/VTBnrK42EiOBncVyQXZ7j_8zf_FOSsgRmwsS7Aa9k2w.woff2?classic=true) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://www.moneycontrol.com/commonfiles/font/VTBnrK42EiOBncVyQXZ7jz0LW-43aMEzIO6XUTLjad8.woff2?classic=true) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'), url(https://www.moneycontrol.com/commonfiles/font/VTBnrK42EiOBncVyQXZ7j-gdm0LZdjqr5-oayXSOefg.woff2?classic=true) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(https://www.moneycontrol.com/commonfiles/font/g5Sf_134cAtTKkNnIjIkXxJtnKITppOI_IvcXXDNrsc.woff2?classic=true) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(https://www.moneycontrol.com/commonfiles/font/T3abUOg4YgfjOby2l-QudhJtnKITppOI_IvcXXDNrsc.woff2?classic=true) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(https://www.moneycontrol.com/commonfiles/font/yB7tFp5j00CzdUIRV-khUhJtnKITppOI_IvcXXDNrsc.woff2?classic=true) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(https://www.moneycontrol.com/commonfiles/font/5jAMGMsBXS6xUYEytGcZdBJtnKITppOI_IvcXXDNrsc%20(1).woff2?classic=true) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(https://www.moneycontrol.com/commonfiles/font/BzUSZ4bBt2kmpGGQUA6ZQBJtnKITppOI_IvcXXDNrsc.woff2?classic=true) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(https://www.moneycontrol.com/commonfiles/font/MIPWVWI_mY_QERxcMVPEwBJtnKITppOI_IvcXXDNrsc.woff2?classic=true) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(https://www.moneycontrol.com/commonfiles/font/EjsrzDkQUQCDwsBtLpcVQVtXRa8TVwTICgirnJhmVJw.woff2?classic=true) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://www.moneycontrol.com/commonfiles/font/zM2u8V3CuPVwAAXFQcDi4K-j2U0lmluP9RWlSytm3ho.woff2?classic=true) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://www.moneycontrol.com/commonfiles/font/zM2u8V3CuPVwAAXFQcDi4JX5f-9o1vgP2EXwfjgl7AY.woff2?classic=true) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://www.moneycontrol.com/commonfiles/font/zM2u8V3CuPVwAAXFQcDi4BWV49_lSm1NYrwo-zkhivY.woff2?classic=true) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://www.moneycontrol.com/commonfiles/font/zM2u8V3CuPVwAAXFQcDi4KaRobkAwv3vxw3jMhVENGA.woff2?classic=true) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://www.moneycontrol.com/commonfiles/font/zM2u8V3CuPVwAAXFQcDi4P8zf_FOSsgRmwsS7Aa9k2w.woff2?classic=true) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://www.moneycontrol.com/commonfiles/font/zM2u8V3CuPVwAAXFQcDi4D0LW-43aMEzIO6XUTLjad8.woff2?classic=true) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'), url(https://www.moneycontrol.com/commonfiles/font/zM2u8V3CuPVwAAXFQcDi4Ogdm0LZdjqr5-oayXSOefg.woff2?classic=true) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), url(https://www.moneycontrol.com/commonfiles/font/TPhEsJuyxIEzWtby22btfq-j2U0lmluP9RWlSytm3ho.woff2?classic=true) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), url(https://www.moneycontrol.com/commonfiles/font/TPhEsJuyxIEzWtby22btfpX5f-9o1vgP2EXwfjgl7AY.woff2?classic=true) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), url(https://www.moneycontrol.com/commonfiles/font/TPhEsJuyxIEzWtby22btfhWV49_lSm1NYrwo-zkhivY.woff2?classic=true) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), url(https://www.moneycontrol.com/commonfiles/font/TPhEsJuyxIEzWtby22btfqaRobkAwv3vxw3jMhVENGA.woff2?classic=true) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), url(https://www.moneycontrol.com/commonfiles/font/TPhEsJuyxIEzWtby22btfv8zf_FOSsgRmwsS7Aa9k2w.woff2?classic=true) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), url(https://www.moneycontrol.com/commonfiles/font/TPhEsJuyxIEzWtby22btfj0LW-43aMEzIO6XUTLjad8.woff2?classic=true) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), url(https://www.moneycontrol.com/commonfiles/font/TPhEsJuyxIEzWtby22btfugdm0LZdjqr5-oayXSOefg.woff2?classic=true) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://www.moneycontrol.com/commonfiles/font/DugPdSljmOTocZOR2CItOq-j2U0lmluP9RWlSytm3ho.woff2?classic=true) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://www.moneycontrol.com/commonfiles/font/DugPdSljmOTocZOR2CItOpX5f-9o1vgP2EXwfjgl7AY.woff2?classic=true) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://www.moneycontrol.com/commonfiles/font/DugPdSljmOTocZOR2CItOhWV49_lSm1NYrwo-zkhivY.woff2?classic=true) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://www.moneycontrol.com/commonfiles/font/DugPdSljmOTocZOR2CItOqaRobkAwv3vxw3jMhVENGA.woff2?classic=true) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://www.moneycontrol.com/commonfiles/font/DugPdSljmOTocZOR2CItOv8zf_FOSsgRmwsS7Aa9k2w.woff2?classic=true) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://www.moneycontrol.com/commonfiles/font/DugPdSljmOTocZOR2CItOj0LW-43aMEzIO6XUTLjad8.woff2?classic=true) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://www.moneycontrol.com/commonfiles/font/DugPdSljmOTocZOR2CItOugdm0LZdjqr5-oayXSOefg.woff2?classic=true) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Fira Sans ExtraBold'), local('FiraSans-ExtraBold'), url(https://www.moneycontrol.com/commonfiles/font/htOw9f-chtELyJuFCkCrFq-j2U0lmluP9RWlSytm3ho.woff2?classic=true) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Fira Sans ExtraBold'), local('FiraSans-ExtraBold'), url(https://www.moneycontrol.com/commonfiles/font/htOw9f-chtELyJuFCkCrFpX5f-9o1vgP2EXwfjgl7AY.woff2?classic=true) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Fira Sans ExtraBold'), local('FiraSans-ExtraBold'), url(https://www.moneycontrol.com/commonfiles/font/htOw9f-chtELyJuFCkCrFhWV49_lSm1NYrwo-zkhivY.woff2?classic=true) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Fira Sans ExtraBold'), local('FiraSans-ExtraBold'), url(https://www.moneycontrol.com/commonfiles/font/htOw9f-chtELyJuFCkCrFqaRobkAwv3vxw3jMhVENGA.woff2?classic=true) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Fira Sans ExtraBold'), local('FiraSans-ExtraBold'), url(https://www.moneycontrol.com/commonfiles/font/htOw9f-chtELyJuFCkCrFv8zf_FOSsgRmwsS7Aa9k2w.woff2?classic=true) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Fira Sans ExtraBold'), local('FiraSans-ExtraBold'), url(https://www.moneycontrol.com/commonfiles/font/htOw9f-chtELyJuFCkCrFj0LW-43aMEzIO6XUTLjad8.woff2?classic=true) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Fira Sans ExtraBold'), local('FiraSans-ExtraBold'), url(https://www.moneycontrol.com/commonfiles/font/htOw9f-chtELyJuFCkCrFugdm0LZdjqr5-oayXSOefg.woff2?classic=true) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Fira Sans Black'), local('FiraSans-Black'), url(https://www.moneycontrol.com/commonfiles/font/rowJfijyp23uW9P2J-sluK-j2U0lmluP9RWlSytm3ho.woff2?classic=true) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Fira Sans Black'), local('FiraSans-Black'), url(https://www.moneycontrol.com/commonfiles/font/rowJfijyp23uW9P2J-sluJX5f-9o1vgP2EXwfjgl7AY.woff2?classic=true) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Fira Sans Black'), local('FiraSans-Black'), url(https://www.moneycontrol.com/commonfiles/font/rowJfijyp23uW9P2J-sluBWV49_lSm1NYrwo-zkhivY.woff2?classic=true) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Fira Sans Black'), local('FiraSans-Black'), url(https://www.moneycontrol.com/commonfiles/font/rowJfijyp23uW9P2J-sluKaRobkAwv3vxw3jMhVENGA.woff2?classic=true) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Fira Sans Black'), local('FiraSans-Black'), url(https://www.moneycontrol.com/commonfiles/font/rowJfijyp23uW9P2J-sluP8zf_FOSsgRmwsS7Aa9k2w.woff2?classic=true) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Fira Sans Black'), local('FiraSans-Black'), url(https://www.moneycontrol.com/commonfiles/font/rowJfijyp23uW9P2J-sluD0LW-43aMEzIO6XUTLjad8.woff2?classic=true) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Fira Sans Black'), local('FiraSans-Black'), url(https://www.moneycontrol.com/commonfiles/font/rowJfijyp23uW9P2J-sluOgdm0LZdjqr5-oayXSOefg.woff2?classic=true) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}

@@ -1,0 +1,10 @@
+e6.JPGQ: When should I use Amazon DynamoDB vs Amazon S3?
+Amazon DynamoDB stores structured data, indexed by primary key, and allows low latency read and write access to items ranging from
+1 byte up to 400KB. Amazon S3 stores unstructured blobs and suited for storing large objects up to 5 TB. In order to optimize your costs
+across AWS services, large objects or infrequently accessed data sets should be stored in Amazon S3, while smaller data elements or file
+pointers (possibly to Amazon S3 objects) are best saved in Amazon DynamoDB
+
+                   e6.JPG
+                   
+
+                   

@@ -1,0 +1,5 @@
+SYMBOL,ADJUSTMENT_TYPE,DATE,FACTOR,URL,NSE
+GAIL,bonus,9/7/19,0.5,https://www.moneycontrol.com/india/stockpricequote/oildrillingandexploration/gailindia/GAI,GAIL
+Avadh Sugar,bonus,27/6/19,0.5,https://www.moneycontrol.com/india/stockpricequote/sugar/avadhsugarenergy/ASE03,AVADHSUGAR
+Magadh Sugar,bonus,27/6/19,0.714285714,https://www.moneycontrol.com/india/stockpricequote/sugar/magadhsugarenergy/MSE01,MAGADSUGAR
+Relaxo Footwear,bonus,26/6/19,0.5,https://www.moneycontrol.com/india/stockpricequote/leatherproducts/relaxofootwears/RF07,RELAXO

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+
+
+
+
+ 
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=no">
+		<title>myGov</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="/LoginServices/main/dtagent_ICA23STVbjrx_7000100161008.js" data-dtconfig="agentUri=/LoginServices/main/dtagent_ICA23STVbjrx_7000100161008.js|rid=RID_-1245309540|rpid=-2010329144|bandwidth=300|lastModification=1544667929733|lab=1|tp=500,50,3,1,5|reportUrl=/LoginServices/main/dynaTraceMonitor|app=MyGov|domain=my.gov.au"></script><script type="text/javascript" src="/mygov/content/scripts/navTiming.js"></script>
+		<link rel="shortcut icon" href="/mygov/content/mgv2/icons/favicon.ico">
+		<link type="text/css" rel="stylesheet" href="/mygov/content/mgv2/css/mgv2-application.css">
+	</head>
+	<body>
+	
+		<nav class="uikit-skip-link">
+			<a class="uikit-skip-link__link" href="#content">Skip to main content</a>
+		</nav>
+		
+		<header role="banner" class="unauth"><section class="wrapper"><div class="inner"><div class="unauth-grid"><div class="unauth-grid-row"><img id="unauth-govt-crest" src="/mygov/content/mgv2/icons/austgovt-inline-white.svg" alt="Australian Government Coat of Arms" role="img" /><div class="header-logo unauth"><a href="/mygov"><img src="/mygov/content/mgv2/icons/mygov-logo.svg" class="header-logo-img" alt="myGov home" id="unauth-mygov-logo" /></a></div></div></div></div></section></header><noscript><div class="outage"><div class="outage__inner"><div><span class="is-visuallyhidden">Warning message:</span><p>JavaScript is required for myGov to work correctly.</p></div></div></div></noscript>
+
+		
+		<div class="wrapper"><div class="main-block" id="content">	
+			
+
+<a class="button-back button-back-home" href="/mygov">Back to home</a>
+<h1>Unsupported action</h1>
+<p>This action is not supported.</p>
+
+		</div></div>
+
+		
+		<footer role="contentinfo"><div class="wrapper"><div class="inner"><section class="footer-links"><nav><ul><li><a href="/mygov/content/html/about.html">About myGov</a></li><li><a href="/mygov/content/html/contact.html">Contact us</a></li><li><a href="/mygov/content/html/terms.html">Terms of use</a></li><li><a href="/mygov/content/html/privacy.html">Privacy</a></li><li><a href="/mygov/content/html/copyright.html">Copyright</a></li><li><a href="/mygov/content/html/security.html">Security</a></li><li><a href="/mygov/content/html/accessibility.html">Accessibility</a></li><li><a href="/mygov/content/html/help.html">Help</a></li></ul></nav></section><section class="footer-logo"><img src="/mygov/content/mgv2/icons/austgovt-inline.svg" alt="Australian Government Coat of Arms" width="289" height="70" role="img" /></section></div></div></footer>
+
+		
+  		<script type="text/javascript" src="/mygov/content/mgv2/js/mgv2-vendor.js"></script>
+  		<script type="text/javascript" src="/mygov/content/mgv2/js/mgv2-application.js"></script>
+		<script type="text/javascript" src="/mygov/content/scripts/navTimingEnd.js"></script>
+	</body>
+</html>

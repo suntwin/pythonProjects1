@@ -1,0 +1,126 @@
+VERSION BUILD=11.5.499.3066
+TAB T=1
+TAB CLOSEALLOTHERS
+SET !PLAYBACKDELAY 0.2
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935#
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=1
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=1
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=2
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=2
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=3
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=3
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=4
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=4
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=5
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=5
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=6
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=6
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=7
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=7
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=8
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=8
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=9
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=9
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=10
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=10
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=11
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=11
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=12
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=12
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=13
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=13
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=14
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=14
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=15
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=15
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=16
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=16
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=17
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=17
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=18
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=18
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=19
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=19
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=20
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=20
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=21
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=21
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=22
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=22
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=23
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=23
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=24
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=24
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=25
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=25
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=26
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=26
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=27
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=27
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=28
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=28
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=29
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=29
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=30
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=30
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=31
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=31
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=32
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=32
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=33
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=33
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=34
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=34
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=35
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=35
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=36
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=36
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=37
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=37
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=38
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=38
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=39
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=39
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=40
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=40
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=41
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=41
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=42
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=42
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=43
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=43
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=44
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=44
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=45
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=45
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=46
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=46
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=47
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=47
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=48
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=48
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=49
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=49
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=50
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=50
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=51
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=51
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=52
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=52
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=53
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=53
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=54
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=54
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=55
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=55
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=56
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=56
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=57
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=57
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=58
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=58
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=59
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=59
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=60
+URL GOTO=https://www.whizlabs.com/lms/mod/quiz/review.php?attempt=579935&page=60
+SAVEAS TYPE=PNG FOLDER=C:\pythonProjects\imacro\test1 FILE=61

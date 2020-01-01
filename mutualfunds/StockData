@@ -1,0 +1,11 @@
+import urllib2
+from bs4 import BeautifulSoup
+HtmlFile = open("C:\\pythonProjects\\mutualfunds\\sample.html", 'r')
+source_code = HtmlFile.read() 
+soup = BeautifulSoup(source_code, 'html.parser')
+
+for link in soup.find_all('div',{"class":"qtext"}):
+	print(link.contents)
+
+for link in soup.find_all('INPUT',{"name":"q591343:1_choice0"}):
+	print(link.contents)

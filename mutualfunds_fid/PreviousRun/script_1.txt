@@ -1,0 +1,600 @@
+SET !EXTRACT_TEST_POPUP NO
+VERSION BUILD=11.5.497.9113
+TAB T=1
+TAB CLOSEALLOTHERS
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCC492
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=l-t-emerging-businesses-fund-dp_MCC492.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCC490
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=l-t-emerging-businesses-fund-rp_MCC490.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCC275
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=l-t-midcap-fund-direct_MCC275.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MRC935
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=reliance-small-cap-direct_MRC935.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MAG735
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=idfc-sterling-equity-direct_MAG735.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCC037
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=l-t-midcap-fund_MCC037.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MRC587
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=reliance-small-cap-fund_MRC587.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MAG162
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=idfc-sterling-equity-fund-rp_MAG162.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS1867
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-2-dp_MBS1867.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSA031
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sbi-small-midcap-fund-direct_MSA031.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS1865
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-2-rp_MBS1865.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSA012
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sbi-small-midcap-fund_MSA012.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS1821
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-1-dp_MBS1821.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MMA100
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=mirae-emerging-bluechip-direct_MMA100.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS1819
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-1-rp_MBS1819.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MFI075
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sahara-midcap-fund-direct_MFI075.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCA205
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=can-robeco-emer-equities-direct_MCA205.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MMA088
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=mirae-emerging-bluechip-fund_MMA088.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCA033
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=can-robeco-emerg-equities_MCA033.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MFI013
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sahara-midcap-fund_MFI013.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS831
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-pure-value-direct_MBS831.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS833
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-small-midcap-direct_MBS833.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS267
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-pure-value-fund_MBS267.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN572
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-smile-fund-direct_MSN572.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN339
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-smile-fund-ip_MSN339.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN066
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-smile-fund_MSN066.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS104
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-small-and-midcap-fund_MBS104.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1123
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-small-cap-series-iii-dp-g_MSN1123.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1047
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-6-dp-g_MSN1047.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS829
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-midcap-fund-direct_MBS829.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1143
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-small-cap-series-iv-dp-g_MSN1143.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1037
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-5-dp-g_MSN1037.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1187
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-9-dp-g_MSN1187.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1182
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-8-dp-g_MSN1182.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS1997
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-5-dp_MBS1997.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1051
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-7-dp-g_MSN1051.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1121
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-small-cap-series-iii-rp-g_MSN1121.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1035
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-5-rp-g_MSN1035.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1045
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-6-rp-g_MSN1045.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1075
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-small-cap-series-ii-dp-g_MSN1075.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1141
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-small-cap-series-iv-rp-g_MSN1141.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1049
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-7-rp-g_MSN1049.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1185
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-9-rp-g_MSN1185.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1180
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-8-rp-g_MSN1180.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1201
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-10-dp-g_MSN1201.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1073
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-small-cap-series-ii-rp-g_MSN1073.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MHD1161
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=hdfc-midcap-opport-direct_MHD1161.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS1995
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-5-rp_MBS1995.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS027
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sun-life-midcap-fund_MBS027.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1199
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-10-rp-g_MSN1199.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MFI069
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sahara-star-value-fund-direct_MFI069.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MFI061
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sahara-star-value-fund_MFI061.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN335
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-midcap-ip_MSN335.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN568
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-midcap-direct_MSN568.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MHD068
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=hdfc-midcap-opportunities_MHD068.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MTA776
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=tata-mid-cap-growth-direct_MTA776.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MTE297
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=templeton-i-equity-income-dir_MTE297.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MKM528
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=kotak-emerging-equity-direct_MKM528.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MDS574
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=dsp-br-small-mid-cap-direct_MDS574.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCM132
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=taurus-discovery-fund-direct_MCM132.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN012
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-midcap-rp_MSN012.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS1877
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-4-dp_MBS1877.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS1875
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-4-rp_MBS1875.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCM041
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=taurus-discovery-fund_MCM041.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MTA122
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=tata-mid-cap-growth-fund_MTA122.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MPI1150
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=icici-pru-midcap-fund-direct_MPI1150.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MTE092
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=templeton-i-equity-income_MTE092.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MJP117
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=edelweiss-m-s-cp-dp_MJP117.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS1873
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-3-dp_MBS1873.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS2057
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-6-dp_MBS2057.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MDS056
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=dsp-br-small-mid-cap-rp_MDS056.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MTE313
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=franklin-i-smaller-co-direct_MTE313.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS1871
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-3-rp_MBS1871.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MLI554
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=invesco-india-mid-n-small-dp_MLI554.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MMO002
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=motilal-most-shares-midcap-100-etf_MMO002.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MKM516
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=kotak-mid-cap-fund-direct_MKM516.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MJP007
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=edelweiss-m-s-cp_MJP007.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MAB726
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=bnp-paribas-mid-cap-fund-dir_MAB726.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MKM099
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=kotak-emerging-equity-regular_MKM099.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MRC955
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=reliance-mid-small-cap-direct_MRC955.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MLI556
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=invesco-india-mid-cap-direct_MLI556.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MPI089
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=icici-pru-midcap-fund_MPI089.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MDS584
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=dsp-br-micro-cap-fund-direct_MDS584.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MTE090
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=franklin-i-smaller-cos_MTE090.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MRC110
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=reliance-mid-small-cap-fund_MRC110.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS2055
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-emer-leaders-sr-6-rp_MBS2055.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MAA316
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=axis-small-cap-fund-direct_MAA316.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MTE317
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=franklin-i-prima-direct_MTE317.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MDS076
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=dsp-br-micro-cap-fund-rp_MDS076.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MAB045
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=bnp-paribas-mid-cap-fund_MAB045.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MLI183
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=invesco-india-mid-n-smallcap_MLI183.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MKM073
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=kotak-mid-cap-fund-regular_MKM073.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MFI089
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sahara-wealth-plus-vpo-direct_MFI089.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MHS331
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=hsbc-midcap-equity-direct_MHS331.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MLI021
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=invesco-india-mid-cap_MLI021.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MFI019
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sahara-wealth-plus-vpo_MFI019.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MKP002
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=franklin-india-prima-fund_MKP002.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MAA314
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=axis-small-cap-fund_MAA314.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MHS048
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=hsbc-midcap-equity-fund_MHS048.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MAA194
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=axis-mid-cap-fund-direct_MAA194.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCA278
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=can-robeco-india-opport-sr-2-dp-_MCA278.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCA276
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=can-robeco-india-opport-sr-2-rp-_MCA276.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN797
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-1-dp-g_MSN797.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN843
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-3-dp-g_MSN843.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN869
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-4-dp-g_MSN869.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCA270
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=can-robeco-india-opport-dp-_MCA270.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN839
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-2-dp-g_MSN839.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN795
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-1-rp-g_MSN795.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN841
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-3-rp-g_MSN841.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN837
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-2-rp-g_MSN837.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN867
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-4-rp-g_MSN867.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MCA268
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=can-robeco-india-opport-rp-_MCA268.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MAA099
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=axis-mid-cap-fund_MAA099.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSB536
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sbi-emerging-businesses-direct_MSB536.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MFI087
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sahara-wealth-plus-fpo-direct_MFI087.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MFI017
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sahara-wealth-plus-fpo_MFI017.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MAG733
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=idfc-premier-equity-direct_MAG733.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MUT637
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=uti-mid-cap-direct_MUT637.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSB059
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sbi-emerging-busi_MSB059.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MAG094
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=idfc-premier-equity-regular_MAG094.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MUT063
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=uti-mid-cap_MUT063.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MMO027
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=motilal-focused-midcap-30-dp_MMO027.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MUK091
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=union-small-mid-cap-dp_MUK091.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSB505
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sbi-magnum-midcap-fund-direct_MSB505.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MMO025
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=motilal-focused-midcap-30-rp_MMO025.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MUK089
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=union-small-mid-cap-rp_MUK089.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS839
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sl-mnc-fund-direct_MBS839.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSB065
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sbi-magnum-midcap-fund_MSB065.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MBS017
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=birla-sun-life-mnc-fund_MBS017.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSB509
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sbi-magnum-global-fund-direct_MSB509.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSB011
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sbi-magnum-global-fund_MSB011.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MIB232
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=idbi-small-cap-fund-rp_MIB232.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MIB234
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=idbi-small-cap-fund-dp_MIB234.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MIB230
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=idbi-midcap-fund-dp_MIB230.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MIB228
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=idbi-midcap-fund-rp_MIB228.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1324
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-14-rp-g_MSN1324.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1326
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-14-dp-g_MSN1326.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1341
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-15-rp-g_MSN1341.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1343
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-15-dp-g_MSN1343.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1345
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-small-cap-sr-v-rp-g_MSN1345.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1347
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-small-cap-sr-v-dp-g_MSN1347.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1353
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-small-cap-sr-vi-rp-g_MSN1353.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1355
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-small-cap-sr-vi-dp-g_MSN1355.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1357
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-16-rp-g_MSN1357.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1359
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-16-dp-g_MSN1359.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1300
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-12-rp-g_MSN1300.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1294
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-11-dp-g_MSN1294.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1302
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-12-dp-g_MSN1302.csv
+WAIT SECONDS=15
+URL GOTO=http://www.moneycontrol.com/india/mutualfunds/mfinfo/portfolio_holdings/MSN1292
+TAG POS=3 TYPE=TABLE ATTR=TXT:* EXTRACT=TXT
+SAVEAS TYPE=EXTRACT FOLDER=C:\pythonProjects\mutualfunds\All FILE=sundaram-select-micro-cap-sr-11-rp-g_MSN1292.csv
+WAIT SECONDS=15

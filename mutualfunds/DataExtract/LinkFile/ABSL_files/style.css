@@ -1,0 +1,484 @@
+@charset "utf-8";
+
+/*// CSS RESET ---- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0; padding: 0; border: 0;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,
+q:before, q:after {content: ''; content: none;}
+#marketRadar table {border-collapse: collapse;border-spacing: 0;}
+*{padding:0; margin:0; outline:0}
+a{text-decoration:none;} a:hover{text-decoration:underline;}
+/*// Float containers fix ---- */
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {	display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {	height: 1%;}
+.clearfix {	display: block;}
+/* End hide from IE-mac */
+.FL{float:left;}.FR{float:right;}#marketRadar .CL{clear:both; font-size:0; line-height:0; height:0;}.CLB{clear:both}
+.CTR{text-align:center}.TAR{text-align:right;}.uline{ text-decoration:underline;}.PR{ position:relative}.UC{ text-transform:uppercase}
+:focus{outline:0;}
+.ic_detach{background:url(https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -275px -494px no-repeat; width:15px; height:15px; display:inline-block;}
+/*// Margin/Padding ---- */
+.MA5{margin:5px;}.MA10{margin:10px;}
+.MT2{margin-top:2px;}.MT3{margin-top:3px;}.MT5{margin-top:5px;}.MT7{margin-top:7px;}.MT10{margin-top:10px;}.MT12{margin-top:12px;}.MT15{margin-top:15px;}.MT20{margin-top:20px;} .MT25{margin-top:25px;}.MT30 { margin-top:30px; } .MT35 { margin-top:35px; }.MT40 { margin-top:40px; } .MT45 { margin-top:45px; } .MT92{ margin-top:97px;}
+.MR3{ margin-right:3px;}.MR5{margin-right:5px;}.MR10{margin-right:10px;}.MR12{margin-right:12px;}.MR15{margin-right:15px;}.MR18{margin-right:18px;}.MR20{margin-right:20px;}.MR25{ margin-right:25px;}
+.MB3{margin-bottom:3px;}.MB5{margin-bottom:5px;}.MB7{margin-bottom:5px;}.MB10{margin-bottom:10px;}.MB15{margin-bottom:15px;}.MB20{ margin-bottom:20px;}.MB35{ margin-bottom:35px;}
+.ML2{margin-left:2px;}.ML3{margin-left:3px;}.ML5{margin-left:5px;}.ML10{margin-left:10px;}.ML15{margin-left:15px;}.ML20{margin-left:20px;} .ML25{margin-left:25px;}.ML40{margin-left:40px;}.ML45{margin-left:45px;}.ML65{margin-left:65px;}
+.PA3{padding:3px;}.PA5{padding:5px;}.PA7{padding:7px;}.PA10{padding:10px;}.PA12{padding:12px;} .PA15 { padding:15px; } .PA20 { padding:20px; }
+.PT2{padding-top:2px;}.PT3{padding-top:3px;}.PT4{ padding-top:4px;}.PT5{padding-top:5px;}.PT7{padding-top:7px;}.PT8{padding-top:8px;}.PT10{padding-top:10px;}.PT12{padding-top:12px;}.PT15{padding-top:15px;}.PT20{padding-top:20px;}.PT25{padding-top:25px;}.PT30{padding-top:30px;}
+.PR3{padding-right:3px;}.PR5{padding-right:5px;}.PR7{padding-right:7px;}.PR10{padding-right:10px;}.PR15{padding-right:15px;}.PR20{padding-right:20px;}.PR25{padding-right:25px;}.PR30{padding-right:30px;}.PR40{padding-right:40px;} .PR35 { padding-right:35px; }
+.PB2{padding-bottom:2px;}.PB3{padding-bottom:3px;}.PB5{padding-bottom:5px;}.PB7{padding-bottom:7px;}.PB10{padding-bottom:10px;}.PB15{padding-bottom:15px;}.PB20{padding-bottom:20px;}.PB30{padding-bottom:30px;}.PB35{padding-bottom:35px;}
+.PL1{padding-left:1px;}.PL3{padding-left:3px;}.PL5{padding-left:5px;}.PL7{padding-left:7px;}.PL9{padding-left:9px;}.PL10{padding-left:10px;}.PL15{padding-left:15px;}.PL20{padding-left:20px;}.PL25{ padding-left:25px;}.PL30{padding-left:30px;}.PL40{ padding-left:40px;}.PL65{ padding-left:65px;}
+.PA8{padding:8px;} .MT2mns{margin-top:-2px;}.PL12{padding-left:12px;}.PR12{padding-right:12px;}
+
+/* FONTs Setting */
+#marketRadar .bl_10{font:10px arial; color:#043c74;}
+#marketRadar .bl_11{font:11px arial; color:#043c74;}
+#marketRadar .bl_12{font:12px arial; color:#043c74;}
+#marketRadar .bl_13{font:13px arial; color:#043c74;}
+#marketRadar .bl_14{font:14px arial; color:#043c74;}
+#marketRadar .bl_15{font:15px arial; color:#043c74;}
+#marketRadar .b_14{font:14px arial; color:#000;}
+
+#marketRadar .gd_10{font:10px arial; color:#333;}
+#marketRadar .gd_11{font:11px arial; color:#333;}
+#marketRadar .gd_12{font:12px arial; color:#333;}
+#marketRadar .gd_13{font:13px arial; color:#333;}
+#marketRadar .gd_14{font:14px arial; color:#333;}
+#marketRadar .gd_15{font:15px arial; color:#333;}
+#marketRadar .gd_16{font:16px arial; color:#333;}
+#marketRadar .gd_18{font:18px arial; color:#333;}
+
+#marketRadar .gl_10{font:10px arial; color:#5b5b5b;}
+#marketRadar .gl_11{font:11px arial; color:#5b5b5b;}
+#marketRadar .gl_12{font:12px arial; color:#5b5b5b;}
+#marketRadar .gl_13{font:13px arial; color:#5b5b5b;}
+#marketRadar .gl_14{font:14px arial; color:#5b5b5b;}
+#marketRadar .gl_15{font:15px arial; color:#5b5b5b;}
+#marketRadar .gl_16{font:16px arial; color:#5b5b5b;}
+#marketRadar .gl_18{font:18px arial; color:#5b5b5b;}
+
+#marketRadar .gr_10{font:10px arial; color:#009900;}
+#marketRadar .gr_11{font:11px arial; color:#009900;}
+#marketRadar .gr_12{font:12px arial; color:#009900;}
+#marketRadar .gr_13{font:13px arial; color:#009900;}
+#marketRadar .gr_14{font:14px arial; color:#009900;}
+#marketRadar .gr_15{font:15px arial; color:#009900;}
+#marketRadar .gr_16{font:16px arial; color:#009900;}
+#marketRadar .gr_18{font:18px arial; color:#009900;}
+
+#marketRadar .r_10{font:10px arial; color:#d40000;}
+#marketRadar .r_11{font:11px arial; color:#d40000;}
+#marketRadar .r_12{font:12px arial; color:#d40000;}
+#marketRadar .r_13{font:13px arial; color:#d40000;}
+#marketRadar .r_14{font:14px arial; color:#d40000;}
+#marketRadar .r_15{font:15px arial; color:#d40000;}
+#marketRadar .r_16{font:16px arial; color:#d40000;}
+#marketRadar .r_18{font:18px arial; color:#d40000;}
+
+#marketRadar .gl_12a{font:12px arial; color:#6f7579;}
+
+/*Width*/
+#marketRadar .W215{width:215px;}
+#marketRadar .W650{width:650px;}
+
+#marketRadar{width:967px; /*height:74px;*/ position:relative; border:#aaa8a8 1px solid; box-shadow:#f2f2f2 2px 2px 2px; -moz-box-shadow:#f2f2f2 2px 2px 2px; -webkit-box-shadow:#f2f2f2 2px 2px 2px;
+margin:0 auto; border-top-left-radius:4px; -moz-border-top-left-radius:4px;- webkit-border-top-left-radius:4px;}
+#marketRadar .tpSec{height:49px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) 0px -208px repeat-x;}
+#marketRadar .chkMrkRdr{position:relative; float:left; width:26px;}
+#marketRadar .chkMrkRdr a.icon{height:46px; width:26px; background: url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) 0px 0px no-repeat;position:absolute; cursor:pointer;z-index: 2;}
+#marketRadar .chkMrkRdr a.icon.act{height:74px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) 0px -48px no-repeat;}
+#marketRadar .editRadar{ width:79px; float:right; border-left:#d7d7d7 1px solid; padding-left:5px;height:23px; }
+#marketRadar .editRadar span.icon{display:inline-block; width:15px; height:15px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -48px -32px no-repeat; margin:10px 0 3px 9px; cursor:pointer;}
+#marketRadar .stockDsl{width:856px; height:46px; float:left; overflow:hidden; margin-left:26px; *margin-left:0px;}
+#marketRadar .stockDsl .mrdBox{float:left; width:160px; border-left:#d7d7d7 1px solid; border-right:#fff 1px solid; height:32px; padding:8px; position:relative; *overflow:hidden;}
+#marketRadar .stockDsl .mrdBox .moveBx{position:absolute; top:46px;padding-top:8px; width: 95%; height: 38px;}
+#marketRadar .stockDsl .mrdBox .moveBx.current{top:0px;}
+#marketRadar .btArrow{width:9px;height:10px;background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -150px -32px no-repeat;display:inline-block; vertical-align:middle;}
+#marketRadar .btSec{height:24px; padding:0 1px;}
+#marketRadar .btSec .titleSec{height:24px; padding:0 8px; background:#576a78; font:bold 12px/24px arial; color:#fff; text-align:center; float:left; text-transform:uppercase; width: 135px;}
+#marketRadar .mrdTickr{width:962px; height:24px;}
+#marketRadar .promoBanner{position:absolute; top:49px; right:2px; height:23px; text-align:right;}
+#marketRadar .mrdTickr, #marketRadar .promoBanner{ display:block;}
+
+/* Red Green Arrow */
+#marketRadar .grArrow{display:inline-block; width:13px; height:7px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -46px 0px no-repeat; vertical-align:middle;}
+#marketRadar .rdArrow{display:inline-block; width:13px; height:7px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -46px -8px no-repeat; vertical-align:middle;}
+#marketRadar .grArrow2{display:inline-block; width:13px; height:7px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -48px -16px no-repeat; vertical-align:middle;}
+#marketRadar .rdArrow2{display:inline-block; width:13px; height:7px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -48px -24px no-repeat; vertical-align:middle;}
+
+
+/* Ticker Setting */
+.tickercontainer {width: 962px;height: 24px;margin: 0; padding: 0; overflow: hidden;position:relative; background-color:#FFF;
+}
+.tickercontainer .mask { position: relative; top: 0; height: 24px; overflow: hidden;}
+ul.newsticker {position: relative; font: 14px Arial; color:#333; list-style-type: none; margin: 0; padding: 0;}
+ul.newsticker li {float: left;margin: 0;padding-left:8px; padding-top:5px;}
+
+#newsTicker li span.devider{border-right:#c7c7c7 1px solid; display:inline-block; height:12px; margin-bottom:-2px; padding-right:5px;}
+#newsTicker li a{color:#043c74;}
+#marketRadar .stkDtls{padding:0 5px;}
+#marketRadar li span.devider{border-right:#c7c7c7 1px solid; display:inline-block; height:10px; margin-top:3px; padding-right:5px;}
+#marketRadar .editDD{width:167px;border:#b9b8b8 1px solid;box-shadow:#f2f2f2 2px 2px 2px; -moz-box-shadow:#f2f2f2 2px 2px 2px; -webkit-box-shadow:#f2f2f2 2px 2px 2px; text-align:left;
+background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) repeat-x 0px -263px; position:absolute; right: -1px; z-index: 999; top: 48px;display:none;}
+#marketRadar .editDD .tarrow{width:15px; height:6px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -64px 0px no-repeat;position:absolute; right: 22px; top: -6px;}
+#marketRadar .editDD ul{margin-top:9px;}
+#marketRadar .editDD li a{border-top:#fff 1px solid; border-bottom:#d7d7d7 1px solid; display:block; height:29px; padding-left:13px; font:12px/28px arial;color:#576a78;}
+#marketRadar .editDD li.lst a{border-bottom:none;}
+#marketRadar .editDD li a:hover{text-decoration:none;background:#495b68;color:#fff;border-top:#495b68 1px solid;}
+
+#marketRadar .marketRdr{padding:7px;background:#3b4954; /*position:absolute; top: 74px;*/ width: 954px; display:none;}
+#lastStock{ padding-left:2px;}
+#marketRadar .marketRdr .title{font:20px arial;color:#fff;padding:3px 0 7px 5px;}
+#marketRadar .whtBx{background:#fff;padding:10px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-top-left-radius:0px;-moz-border-top-left-radius:0px;-webkit-border-top-left-radius:0px;}
+#marketRadar .whtBx .tbs{overflow:hidden;}
+#marketRadar .whtBx .tbs li{float:left; height:26px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) bottom left no-repeat;}
+#marketRadar .whtBx .tbs li a{color:#333; display:block; font:15px/26px arial; padding:0 12px; text-decoration:none;}
+#marketRadar .whtBx .tbs li.act, #marketRadar .whtBx .tbs li.first, #marketRadar .whtBx .tbs li.prvs{background:none;}
+#marketRadar .whtBx .tbs li.act a{border:1px solid #3b4955; border-bottom:0; border-top-left-radius:8px; -moz-border-top-left-radius:8px; -webkit-border-top-left-radius:8px;
+border-top-right-radius:8px; -moz-border-top-right-radius:8px; -webkit-border-top-right-radius:8px; background:#fff;}
+#marketRadar .whtBx .tbsCont{box-shadow:#efefef 2px 1px 1px;-moz-box-shadow:#efefef 2px 1px 1px;-webkit-box-shadow:#efefef 2px 1px 1px; border:1px solid #3b4955; margin-top:-1px;
+border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-top-left-radius:0px;-moz-border-top-left-radius:0px;-webkit-border-top-left-radius:0px;}
+#marketRadar .whtBx .tbsCont .content{display:none;}
+#marketRadar .whtBx .tbsCont span.nxtAr{display:inline-block;width:9px;height:14px;background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -64px -10px no-repeat; margin-top:3px;}
+#marketRadar .bggrey{background:#f6f6f6;}
+#marketRadar .tblsPort{margin-top:1px;}
+#marketRadar .tblsPort th{background:#f0f0f0; height:25px;font:11px arial;color:#333; padding-left:15px;}
+#marketRadar .tblsPort td{padding:8px 0 8px 15px; font:13px arial; color:#404040; border-top:#e0e0e0 1px solid;text-align:center;}
+#marketRadar .tblsPort .first td{border-top:0px; padding:15px 0 8px 15px;}
+#marketRadar .tblsPort2{margin-top:1px; margin-bottom:10px;}
+#marketRadar .tblsPort2 th{background:#f0f0f0; height:25px;font:11px arial;color:#333; padding-left:15px;}
+#marketRadar .tblsPort2 tr.grey td{background:#f9f9f9; border-left:#fff 3px solid;}
+#marketRadar .tblsPort2 tr.grey td.brdNn{border-left:0;}
+#marketRadar .tblsPort2 td{padding:8px 0 8px 12px; font:13px arial; color:#404040; text-align:center;}
+
+#marketRadar .stockDsl.overx{position:absolute; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) 0px -208px repeat-x; z-index: 9;display:none;}
+#marketRadar .stockDsl.overx .mrdBox{position:relative;}
+#marketRadar .stockDsl.overx a.overClr{position:absolute; top:0; left:-1px; width:215px;height:31px; background:#576a78; font:bold 15px arial;color:#fff; text-align:center;display:block;
+text-indent:-9999999px; padding-top:15px; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; filter: alpha(opacity=60); -moz-opacity: 0.6;  -khtml-opacity: 0.6;  opacity: 0.6;}
+#marketRadar .stockDsl.overx a:hover.overClr{text-indent:0;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; filter: alpha(opacity=100); -moz-opacity: 1;  
+-khtml-opacity: 1;  opacity: 1; text-decoration:none;}
+#marketRadar .radarBack1{position:fixed; top:0; left:0; width:100%;height:100%; background:#000;z-index: 8;display:none; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; filter: alpha(opacity=80); -moz-opacity: 0.8;  -khtml-opacity: 0.8;  opacity: 0.8;}
+
+#marketRadar .checkBox{ height:15px; width:15px; vertical-align: text-top;}
+#marketRadar .w16{ font:16px Arial; color:#FFF;}
+#marketRadar .bluebtn{ background:#015c7c; padding:7px 13px; font:bold 13px Arial; display:block; float: left; color:#fff; text-decoration:none; border-radius:5px;}
+#marketRadar .nobgdbtn{padding:7px 13px; font:bold 13px Arial; display:block; float: left; color:#fff; text-decoration:none;}
+
+
+#marketRadar .editcon{ position:absolute; z-index:99999; background:#26323a; border:8px solid #fff; width:935px; padding:15px 9px 13px 9px; top:62px; left:-1px;}
+#marketRadar .arwht{ background: url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -45px -95px; width:24px; height:12px; display:inline-block; position:absolute; z-index:99; margin:-35px 0px 0px 110px;}
+#marketRadar .editcon .w22b{ font:bold 22px/21px Arial; color:#FFF;}
+#marketRadar .editcon .w16b{ font:bold 16px Arial; color:#FFF;}
+#marketRadar .editcon .wdt574{ width:574px;}
+#marketRadar .editcon .slvbtn{ color:#333333; font:13px Arial; background:#e5e5e5; padding:5px 11px; border-radius:5px; text-decoration:none; display:block;}
+#marketRadar .editcon .MR193{ margin-right:193px;}
+#marketRadar .editcon .whtbgr{ width:172px; float:right;}
+#marketRadar .editcon .lftcold{ width:212px; margin-left:1px; margin-top:2px; padding-bottom:2px;}	
+#marketRadar .editcon .srchbv{ padding:2px 0px 0px 0px; border-bottom:1px solid #fff; font:13px Arial, Helvetica, sans-serif; color:#516371;}
+#marketRadar .editcon .srchbxv{ background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -369px -34px; border:none; font: 14px Arial; color:#516371; padding-left:27px; width:170px; height:22px;}
+#marketRadar .editcon .lftcold ul li{background:#dddddd; width:215px;}
+#marketRadar .editcon .lftcold ul li a{ border-bottom:1px solid #FFF; border-top:0px; border-left:0px; text-decoration:none; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -199px 11px; padding:8px 0px 8px 12px; font:14px Arial; color:#015c7c; display:inline-block; width:203px; height:20px;}
+#marketRadar .editcon .lftcold ul li .srchbv a{ border:1px solid #FFF; border-top:0px; border-left:0px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -369px -34px; border:none; font: 14px Arial; color:#516371; padding-left:37px; width:170px;}
+#marketRadar .editcon .lftcold ul li.act{background: none;}
+#marketRadar .editcon .lftcold ul li.act .srchbv a{ width:177px; color:#516371;}
+#marketRadar .editcon .lftcold ul li.act a{ color:#2a2a2a; border:0px; border-right:0px; width:203px;}
+#marketRadar .editcon .bd20{ font:20px/35px Arial; color:#2c2c2c;}
+#marketRadar .editcon .tabdb{ width:518px; margin-top:15px;}
+#marketRadar .tab1s{overflow:hidden;}
+#marketRadar .tab1s li{float:left; height:26px;}
+#marketRadar .tab1s li a{color:#333; display:block; font:15px/26px arial; padding:0 12px; text-decoration:none;}
+#marketRadar .tab1s li a.act{border:#dfdfdf 1px solid; border-bottom:0; border-top-left-radius:8px; -moz-border-top-left-radius:8px; -webkit-border-top-left-radius:8px; background-color:#EEEEEE; font-weight:bold;
+border-top-right-radius:8px; -moz-border-top-right-radius:8px; -webkit-border-top-right-radius:8px; }
+#marketRadar .tab1sCont{box-shadow:#efefef 2px 1px 1px;-moz-box-shadow:#efefef 2px 1px 1px;-webkit-box-shadow:#efefef 2px 1px 1px; padding:12px; height:248px; border:#e7e7e7 1px solid; margin-top:-1px;
+border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-top-left-radius:0px;-moz-border-top-left-radius:0px;-webkit-border-top-left-radius:0px; background-color:#EEEEEE;}
+#marketRadar .tab1sCont2{ background: none repeat scroll 0 0 #EEEEEE;box-shadow:#efefef 2px 1px 1px;-moz-box-shadow:#efefef 2px 1px 1px;-webkit-box-shadow:#efefef 2px 1px 1px; padding:12px; height:242px; border:#e7e7e7 1px solid; margin-top:-1px;
+border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-top-left-radius:0px;-moz-border-top-left-radius:0px;-webkit-border-top-left-radius:0px;}
+#marketRadar .htabs{	overflow:hidden; }
+#marketRadar .tabsn{	margin-top:2px;	overflow:hidden;}
+#marketRadar .mstactd{ width:150px; float:left; margin-right:5px;}
+#marketRadar .mstactd ul li{ border-bottom:1px solid #e0e0e0; padding:10px 0px 7px 5px; font:13px Arial; color:#26323a;}
+#marketRadar .mstactd ul li span{ padding-left:5px;}
+#marketRadar .jspContainer{overflow: hidden;position: relative;}
+#marketRadar .jspPane{position: absolute;}
+#marketRadar .jspVerticalBar{position: absolute; right:0; width: 10px;}
+#marketRadar .jspHorizontalBar{ display:none;}
+#marketRadar .jspVerticalBar *,{margin: 0;padding: 0;}
+#marketRadar .jspCap{display: none;}
+#marketRadar .jspTrack{background: url(https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_vsprite1.png) repeat-y -224px 0px; position: relative; width:10px;}
+#marketRadar .jspDrag{background: url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -150px 0px; position: relative; cursor: pointer; height:30px; width:10px !important; overflow:hidden;}
+#marketRadar .jspArrow{text-indent: -20000px;display: block;cursor: pointer;}
+#marketRadar .jspArrow.jspDisabled{cursor: default;background: #80808d;}
+#marketRadar .jspVerticalBar .jspArrow{height: 10px;}
+#marketRadar .jspVerticalBar .jspArrow:focus{outline: none;}
+#marketRadar .jspCorner{background: #eeeef4;float: left;height: 100%;}
+* html #marketRadar .jspCorner{margin: 0 -3px 0 0;}
+#marketRadar .scroll-pane {width: 173px; height:270px; overflow:auto;cursor:all-scroll;}
+#marketRadar .whtbgr ul li{ width:140px; border-bottom:1px solid #6e7377; font:13px Arial; color:#FFF; padding:9px 5px;}
+#marketRadar .whtbgr .closevv{ width:9px; height:9px; margin-top:5px; float:right; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -123px -29px; display:inline-block;}
+#marketRadar .bd15nv{ color:#333; font:15px Arial, Helvetica, sans-serif;}
+#marketRadar .mstactdvv{ width:150px; float:left; margin-right:15px;}
+#marketRadar .mstactdvv ul li{ border-top:1px solid #e0e0e0; padding:10px 5px 7px 5px; font:13px Arial; color:#26323a;}
+#marketRadar .mstactdvv ul li span{ padding-left:5px;}
+#marketRadar .mstactdvv1{ width:150px; float:left; margin-right:13px;}
+#marketRadar .mstactdvv1 ul li{ border-top:1px solid #e0e0e0; padding:10px 5px 7px 5px; font:13px Arial; color:#26323a;}
+#marketRadar .mstactdvv1 ul li span{ padding-left:5px;}
+#marketRadar .mstactdvv2{ width:150px; float:left; margin-right:21px;}
+#marketRadar .mstactdvv2 ul li{ border-bottom:1px solid #e0e0e0; padding:10px 5px 7px 5px; font:13px Arial; color:#26323a;}
+#marketRadar .mstactdvv2 ul li span{ padding-left:5px;}
+
+#marketRadar .mstactdvv3{ width:220px; float:left; margin-right:21px;}
+#marketRadar .mstactdvv3 ul li{ border-top:1px solid #e0e0e0; padding:10px 5px 7px 5px; font:13px Arial; color:#26323a;}
+#marketRadar .mstactdvv3 ul li span{ padding-left:5px;}
+#marketRadar .larwmkt{ width:26px; height:26px; display:inline-block; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -67px -26px;}
+#marketRadar .rarwmkt{ width:26px; height:26px; display:inline-block; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -96px -26px;}
+#marketRadar .lichk{ background:#3f505b; color:#fff !important; border-radius:5px;}
+#marketRadar .tabn .tabdb{ width:518px; margin-top:0px;}
+#marketRadar .bd15bb{ font:15px Arial; color:#2c2c2c;}
+#marketRadar .bd20nol{ font:20px Arial; color:#2c2c2c;}
+#marketRadar .tab1sCont1{box-shadow:#efefef 2px 1px 1px;-moz-box-shadow:#efefef 2px 1px 1px;-webkit-box-shadow:#efefef 2px 1px 1px; padding:12px; height:202px; border:#e7e7e7 1px solid; margin-top:-1px;
+border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-top-left-radius:0px;-moz-border-top-left-radius:0px;-webkit-border-top-left-radius:0px; background-color:#EEEEEE;}
+#marketRadar .btnmktsrch{ width:110px; height:33px; display:inline-block; float:left; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -46px -56px; margin-left:8px;}
+#marketRadar .srchmktbg{ width:383px; height:33px; float:left; background: url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat 0px -128px;}
+#marketRadar .srchmktbg1{ width:383px; height:33px; float:left; background: url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat 0px -168px;}
+#marketRadar .txtbxmktrad{ color:#949494; font:18px Arial; width:330px; height:21px; margin:6px 0px 0px 8px; border:0px; background:none; float:left;}
+#marketRadar #port_login{ padding:20px 19px 0px 7px;}
+#marketRadar #port_login .brdrht{ border-right:1px solid #e9e9e9;}
+#marketRadar #port_login .rhtcol{ width:233px; float:right;}
+#marketRadar #port_login .bd18ns{ font:18px Arial; color:#393939;}
+#marketRadar #port_login .bd14ns{ font:14px Arial; color:#393939;}
+#marketRadar .bd18ns{ font:18px Arial; color:#393939;}
+#marketRadar #port_login .bd14nsit{ font: italic 14px Arial; color:#585858;}
+#marketRadar .signtxtbg {background: url("https://img-d03.moneycontrol.co.in/images/common/mccommon_sprite_v12.gif") no-repeat 0 -848px; display: inline-block; height: 36px; width: 232px;}
+#marketRadar .signtxtfld {border: 0 none !important; color: #AEAEAE; font: 13px/30px Arial; height: 30px; margin: 3px 8px; width: 216px;}
+#marketRadar input.btnsigns {background: url("https://img-d03.moneycontrol.co.in/images/common/mccommon_sprite_v12.gif") no-repeat -234px -848px; border: medium none; cursor: pointer; display: block; height: 35px; text-indent: -99999px;width: 88px;}
+#marketRadar .blit12 {color: #01496B !important; font: italic 12px Arial,Helvetica,sans-serif !important;}	
+#marketRadar .chktxtnb{font:11px arial; text-decoration:none; color:#797979;}
+#marketRadar .portlogbtmlin{ border-bottom:1px solid #e9e9e9;}
+#marketRadar #port_login .PB40{ padding-bottom:40px;}
+#marketRadar .socialsinmktrd {color: #4C4C4C; font: 12px Arial; padding: 23px 0 0px 7px;}
+#marketRadar .socising_twt1, .socising_fb1, .socising_gplus1, .socising_in1, .yahoo_ico1 {background: url("https://img-d03.moneycontrol.co.in/images/common/mccommon_sprite_v12.gif") no-repeat -329px -850px; display: inline-block !important; height: 29px !important; width: 29px;}
+#marketRadar .socising_fb1 {background-position: -364px -850px;}
+#marketRadar .socising_gplus1 {background-position: -495px -849px;}
+#marketRadar .socising_in1 {background-position: -528px -850px;}
+#marketRadar .yahoo_ico1 {background-position: -176px -680px;}
+#marketRadar .userchar {color: #666666; font: 10px Arial;}
+#marketRadar input.btnregs {background: url("https://img-d03.moneycontrol.co.in/images/common/mccommon_sprite_v12.gif") no-repeat -403px -850px; border: medium none; cursor: pointer; display: block; height: 35px; text-indent: -99999px; width: 88px;}
+#marketRadar ul.tabsrch li{ margin-right:8px; float:left;}
+#marketRadar ul.tabsrch li a{ font:14px Arial; color:#989898; display:inline-block; text-decoration:none; padding:4px 20px; border:1px solid #c7efff; background:#fff; border-radius:5px;}
+#marketRadar ul.tabsrch li a.act{ background:#26323a; color:#fff; border:1px solid #434d54;}
+#marketRadar #srchnnn .tabdb{ margin-top:10px;}
+#marketRadar .tab1sCont2 .tabdb{ margin-top:0px !important;}
+#marketRadar .drpsrch{ float:right; width:24px; height:29px; display:inline-block; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -123px 3px; margin-right:5px;}
+#marketRadar #srchnnn .srchDD{width:167px;height:131px;border:#b9b8b8 1px solid;box-shadow:#f2f2f2 2px 2px 2px; -moz-box-shadow:#f2f2f2 2px 2px 2px; -webkit-box-shadow:#f2f2f2 2px 2px 2px;
+background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) repeat-x 0px -263px; position:absolute; right: -2px; z-index: 999; top: 25px;display:none;}
+#marketRadar #srchnnn .srchDD .tarrow{width:15px; height:6px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -64px 0px no-repeat;position:absolute; right: 10px; top: -6px;}
+#marketRadar #srchnnn .srchDD ul{margin-top:9px;}
+#marketRadar #srchnnn .srchDD li a{border-top:#fff 1px solid; text-transform:uppercase; border-bottom:#d7d7d7 1px solid; display:block; height:29px; padding-left:13px; font:12px/28px arial;color:#576a78;}
+#marketRadar #srchnnn .srchDD li.lst a{border-bottom:none;}
+#marketRadar #srchnnn .srchDD li a:hover{text-decoration:none;background:#495b68;color:#fff;border-top:#495b68 1px solid;}
+
+#marketRadar .PT40 {padding-top: 40px;}
+#marketRadar .w270 {width: 270px;}
+#marketRadar .b_13 {font: 13px arial;color: #000;}
+#marketRadar .b_15 {font: 15px arial;color: #000;}
+#marketRadar .editcon.trkr {top: 78px;display: none;}
+#marketRadar .editcon.trkr .whtbgl {width: 875px;padding: 30px;}
+#marketRadar .blackbtn {background: #000;border-radius: 5px 5px 5px 5px;color: #FFFFFF;display: block;float: left;font: bold 13px Arial;padding: 7px 13px;text-decoration: none;}
+#marketRadar .blkbtn {color: #000;display: block;float: left;font: bold 13px Arial;padding: 7px 13px;text-decoration: none;}
+#marketRadar .btSec.actUp {position: absolute;z-index: 9;background: #fff;}
+#marketRadar .slider {width: 270px;}
+#marketRadar .slider > .dragger {background: url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -88px 0px no-repeat;width: 23px;height: 24px;}
+ 
+
+#marketRadar #stackNm{position:absolute; top:-22px; z-index: 9; left:32px; font:bold 16px arial; color:#fff;display:none;}
+#marketRadar .skcNo0{left:50px !important;}
+#marketRadar .skcNo1{left:263px !important;}
+#marketRadar .skcNo2{left:477px !important;}
+#marketRadar .skcNo3{left:690px !important;}
+#marketRadar .w125{width:125px;}
+
+
+/* 24-06-2013*/
+#marketRadar .prtf_bggry{background-color:#eeeeee;}
+
+.icon_add {background: url(https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat 0 -608px; margin-top:5px; display: inline-block; float: left; height: 12px; margin-right: 5px; width: 12px;}
+.icon_fullView {background: url(https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -24px -608px; margin-top:5px; display: inline-block; float: left; height: 12px; margin-right: 5px; width: 14px;}
+.prtf_links a{font:12px/22px Arial, Helvetica, sans-serif; color:#043c74; display:inline-block; clear:both;font-weight:bold; text-decoration:none;}
+.prtf_links a.disable{color:#eeeeee;}
+#marketRadar .whtBx .tbs li{background-position: 0px -456px;}
+#addPortfolio{padding:15px 10px;}
+#addPortfolio h2{font: normal 20px Arial, Helvetica, sans-serif; color:#2c2c2c; margin-left:8px;}
+#addPortfolio table{border-collapse:collapse;}
+#addPortfolio table thead{margin-bottom:15px;}
+#addPortfolio table th{background:#cacdcf; color:#333333; font:12px Arial, Helvetica, sans-serif; text-transform:uppercase; padding:7px 10px 7px 15px; text-align:left;}
+#addPortfolio table td{font:15px Arial, Helvetica, sans-serif; color:#333333; padding:4px 10px 4px 15px;}
+#addPortfolio table td.fst_row{padding-top:15px !important;}
+#addPortfolio table td input{width:115px; border:1px solid #d8d8d8; font:15px Arial, Helvetica, sans-serif; color:#333333; padding:3px 10px;}
+#addPortfolio a.nobgdbtn{color:#000000;}
+.MR50{margin-right:50px;}
+
+#addEdit_portfolio{padding:15px 10px;}
+#addEdit_portfolio h2{font: normal 20px Arial, Helvetica, sans-serif; color:#2c2c2c; margin-left:8px;}
+#addEdit_portfolio .whtbgl{float:left; width:710px;}
+#addEdit_portfolio .whtbgr{width:175px; background-color:#3b4954; float:right; padding:12px 8px;}
+#addEdit_portfolio .mstactdvv{width:215px;}
+
+#marketRadar .whtBx .tbs li.act a{background:#eeeeee; font-weight:bold;}
+#marketRadar .tblsPort2 th, #marketRadar .tblsPort th{background:#cacdcf;}
+#marketRadar  span.icon_edit{background: url(" https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png") no-repeat -150px -495px; cursor: pointer; display: inline-block; height: 15px; width: 15px; margin-right:7px; float:left;}
+.editRadar_lnk a{color:#FFF; font:14px Arial, Helvetica, sans-serif; margin:0px 15px 0px 10px; display:inline-block;}
+#marketRadar .stockDsl .mrdBox{width:196px;}
+
+.MrkRdr_tt .tt_arrw{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -217px -496px no-repeat; width:16px; height:9px; position:absolute; top:-9px;}
+.ML70{margin-left:70px;}
+/*.MrkRdr_tt .title{color:#FFF; font:bold 15px Arial, Helvetica, sans-serif;}*/
+.qck_View{top:40px;}
+
+.grn_tick a{color:#fff}
+.grn_tick{padding-left:22px;  background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -386px -522px no-repeat;}
+.qck_View li{display:block;  }
+.qck_View li.lst a{border-bottom:0px none; }
+.qck_View li a{color:#FFF; font:12px Arial, Helvetica, sans-serif; display:block; border-bottom:1px solid #FFF; padding:6px 0px; text-decoration:none;}
+.custmz{font:12px Arial, Helvetica, sans-serif; color:#FFF; text-align:left; right:0px; margin-top:3px;}
+.custmz .tt_arrw{left:120px;}
+
+
+
+.notbtn{ background:#26323a; font: 12px/18px Arial; color:#fff; padding:0px 5px; border-radius:4px; text-decoration:none;}
+.srchmktBy{width:125px; font:15px/23px Arial, Helvetica, sans-serif; height:23px;font-weight:bold; color:#727272; text-align:center; border-left:1px solid #d3d3d3; margin-top:5px;}
+.notification{font:12px Arial, Helvetica, sans-serif; color:#000000; margin:5px 0px; padding:7px 10px 7px 25px; width:485px;}
+
+.notification.yellow_clr{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -380px -75px no-repeat #ffffca; border:1px solid #ffeaa2;}
+
+.notification.green_clr{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -380px -75px no-repeat #ffffca; border:1px solid #ffeaa2;}
+
+.notification.pink_clr{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -380px -75px no-repeat #ffb4b0; border:1px solid #ffa2a7;}
+
+.notification.yellow_clr a.close_noti{color:#ffbd71; font-size:14px; float:right;}
+.notification.pink_clr a.close_noti{color:#e87b68; font-size:14px; float:right;}
+.notification.grren_clr a.close_noti{color:#e87b68; font-size:14px; float:right;}
+
+#marketRadar .editcon .w22b span{ font:bold 28px/21px Arial; color:#FFF;}
+#marketRadar .closePnl, #marketRadar .closePnl2{position:absolute; right:0px; z-index:8; top: -40px; display:none; width:100px; height:30px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -47px -495px;}
+#marketRadar .editcon .whtbgl{background:#fff; border-radius:5px;}
+#marketRadar .editcon .edtrf{ width:752px; float:left;}
+#marketRadar .editcon .bl12nc{ font:12px Arial; color:#02b1ee; text-decoration:underline;}
+#marketRadar .editcon .bl11nc{ font:11px Arial; color:#02b1ee; text-decoration:underline;}
+#marketRadar .editcon .w13{color: #FFFFFF; font: 13px Arial;}
+#marketRadar .editcon .selctbgn{ background:#1e282e; width:141px; line-height:27px; padding:4px 22px 4px 15px;}
+#marketRadar .editcon .whtbgr {float: right; width: 183px;}
+.custbg{  background:url(https://img-d03.moneycontrol.co.in/images/mcradar/arwbg.png) no-repeat right top;  }
+.custbg .title{ color:#3b4954; font:29px/36px Arial;}
+.poibull ul li{ background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -386px -450px; font:15px/25px Arial; color:#3b4954; padding-left:21px;}
+.poibull ul li a{ color:#015c7c; text-decoration:underline;}
+#switch_ds{ background:#26323a; border:2px solid #028ebf; width:149px; margin-top:11px; *margin-top:0; *top:11px; *position:relative; border-radius:5px; padding:14px 26px 12px 6px;}
+#switch_ds1 .arwdtop{ width:22px; height:13px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -174px -496px; display:block; position:absolute; z-index:9999; margin:0px 0px 0px 108px;}
+#switch_ds .w13{ font:13px Arial, Helvetica, sans-serif; color:#fff;}
+#switch_ds .arwdwn{ background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -200px -496px; display:inline-block; width:10px; height:10px;}
+#marketRadar .bluebtndc{background:#015C7C; border-radius: 5px 5px 5px 5px; color: #FFFFFF; display: block; float: left; font: bold 13px Arial; padding: 7px 6px; text-decoration: none;}
+#marketRadar .nobgdbtndc{color: #FFFFFF; display: block; float: left; font: bold 13px Arial; padding: 7px 6px; text-decoration: none;}
+#switch_ds ul li{ border-bottom:1px solid #767a7d; padding:9px 0px 9px 8px;}
+#switch_ds ul li a{ font:13px Arial, Helvetica, sans-serif; color:#fff;}
+#switch_ds1{width:186px; top:18px; left:-57px; position:absolute; z-index:999;}
+#marketRadar .editcon .w21b{color: #FFFFFF; font: 21px Arial;}
+
+.MR_takeatour{width:917px; background:#4e5b65; padding:20px 25px; margin:0px auto 2px; border-radius:7px;}
+.grn_22{font:22px Arial, Helvetica, sans-serif; color:#8dc500;}
+.wht_20{font:20px Arial, Helvetica, sans-serif; color:#FFF;}
+.MRtour_close{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -242px -493px no-repeat; width:28px; height:28px; display:inline-block; position:absolute; top:7px; right:7px;}
+.btn_taketour{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -150px -527px no-repeat; width:116px; height:34px; display:inline-block;}
+.MRtour_arrow{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -274px -495px no-repeat; display:inline-block; position:absolute;}
+.MRtour_arrow.Up{background-position:-274px -495px; width:28px; height:16px; margin-top:-41px;}
+.MRtour_arrow.Down{background-position:-274px -530px; width:28px; height:16px; bottom:-16px;}
+.MRtour_arrow.Left{background-position:-313px -530px; width:16px; height:28px; margin-left:-31px;}
+.MRtour_arrow.Right{background-position:-317px -495px; width:16px; height:28px; right:-16px;}
+
+.quickView_tt{background:#3b4954; border:2px solid #8ec208; padding:25px 15px 8px; border-radius:10px; box-shadow:2px 2px 2px rgba(0,0,0,0.2); font:15px/20px Arial, Helvetica, sans-serif; color:#FFF; width:345px; position:absolute; z-index:999;}
+.quickView_tt .btn_prev{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) 0px -529px no-repeat; width:81px; height:26px; display:inline-block;}
+.quickView_tt .btn_next{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -85px -529px no-repeat; width:61px; height:26px; display:inline-block;}
+
+.thankm .title{ color:#3b4954; font:29px/36px Arial;}
+#marketRadar .stockDsl .icon{display:inline-block; width:11px; height:11px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -344px -564px no-repeat; margin:10px 0 3px 9px; cursor:pointer; position:absolute; top:-7px; z-index:9999;}
+#marketRadar .stockDsl .edt_stack1{left:215px;}
+#marketRadar .stockDsl .edt_stack2{left:429px;}
+#marketRadar .stockDsl .edt_stack3{left:644px;}
+#marketRadar .stockDsl .edt_stack4{left:856px;}
+
+
+#marketRadar .bn17{ font:17px/25px Arial; color:#3b4954;}
+#marketRadar .linkstak a{ font:16px Arial; color:#015c7c;}
+#marketRadar .linkstak .edits{ width:13px; height:13px; display:inline-block; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -160px -56px;}
+#marketRadar .btnblue{ background:#015c7c; padding:7px 13px; font:bold 13px Arial; display:block; float: left; color:#fff; text-decoration:none; border-radius:5px;}
+#marketRadar .w12{color: #FFFFFF; font: 12px Arial;}
+
+#marketRadar .editcon .lftcold ul li a .tooladd{ width:58px; height:24px; left:-2px; top:-25px; background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -176px -56px; position:absolute;}
+#marketRadar .icon_help{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -342px -529px no-repeat; width:14px; height:14px; display:inline-block;}
+#marketRadar .icon_cust{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -343px -546px no-repeat; width:13px; height:13px; display:inline-block;}
+#marketRadar .editRadar .cust{display:block; text-decoration:underline;}
+#marketRadar .cstck_ttip{background:url( https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -0px -564px no-repeat; width:137px; height:28px; display:inline-block;; font:13px Arial, Helvetica, sans-serif; color:#FFF; position:absolute; z-index:999999; text-align:center; padding-top:4px; margin-top:-30px; display:none; }
+#cstck_ttip1{left:147px;}
+#cstck_ttip2{left:358px;}
+#marketRadar #cstck_ttip3{left:575px;}
+#marketRadar #cstck_ttip4{left:785px;}
+
+.W580{width:580px;}
+.W255{width:255px;}
+
+#marketRadar .editcon .lftcold ul li a span {
+    background: url("https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png") no-repeat scroll -386px -482px #F8F8F8;
+    border-bottom: 1px solid #B1B1B1;
+    border-radius: 8px 8px 8px 8px;
+    color: #515151;
+    display: inline-block;
+    font: 12px Arial;
+    padding: 1px 7px 1px 16px;
+    position: relative;
+}
+.loaderRd {
+    background: none repeat scroll 0 0 #000000;
+    height: 75px;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.defSel{height:250px;overflow:scroll;overflow-x:hidden;width:170px}
+.loaderRd img{margin-left:450px; margin-top:15px;}
+#MR_help{position:absolute; top:0px; left:0; z-index:10; display:none;}
+.MrkRdr_tt p.grn_tick{margin:5px 0px;}
+#add_edit_portfolio{width:935px;}
+.custmzPop_close {
+    background: url("https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png") no-repeat scroll -122px -29px transparent;
+    display: inline-block;
+    height: 9px;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    width: 9px;
+}
+.mr_icon_refresh{background: url(https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) no-repeat -48px -608px; margin-top:5px; display: inline-block; height: 12px; width: 12px;}
+.mr_icon_feedback{background:url("https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png") no-repeat -214px -572px; width:16px; height:11px; display:inline-block;}
+.save_msg{font:italic 13px/31px Arial, Helvetica, sans-serif; color:#000000; background:#f8f1b8; border:1px solid #f0bf71; width:165px; height:31px; text-align:center;}
+.save_msg .close_savemsg{background:url(https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -262px -572px no-repeat;width:10px; height:10px; display:inline-block; position:absolute; top:1px; right:1px;}
+.swtch_back{font:italic 12px/14px Arial, Helvetica, sans-serif; color:#FFF; padding-bottom:10px;}
+
+.chkMrkRdr .MrkRdr_tt{background:#FFFFFF; border:2px solid #3d4952; border-radius:0px; box-shadow:2px 2px 5px rgba(0,0,0,0.3);padding:13px 8px; box-shadow:-2px 2px 2px rgba(0,0,0,0.3), 0px -2px 2px rgba(0,0,0,0.3); position:absolute; z-index:99999; border-radius:5px; width:148px; display:none;
+}
+.chkMrkRdr .MrkRdr_tt .title {
+color: #000000;
+border-bottom:1px solid #a3aaaa;
+font: bold 15px Arial,Helvetica,sans-serif;
+}
+.chkMrkRdr .MrkRdr_tt li.bl_arrow{background:url(https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -374px -539px no-repeat; padding-left:10px; border-bottom:1px solid #e3e5e5;}
+.chkMrkRdr .MrkRdr_tt a{color:#043c74;}
+.chkMrkRdr .MrkRdr_tt .tt_arrw{background:url(https://img-d03.moneycontrol.co.in/images/mcradar/market_radar_spritev8.png) -243px -573px no-repeat; width:13px; height:8px; top:-8px;}
+.chkMrkRdr .MrkRdr_tt li.bl_arrow.lst{border-bottom:0px;}

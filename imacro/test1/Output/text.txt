@@ -1,0 +1,60 @@
+8.JPGWhich of the following is not a benefit of a query over a scan? Choose the correct answer from the options below.
+Please select:
+A. Returns all attributes on an item
+B. It does not do consistent reads
+© C. Much more efficient because it searches indexes only
+D. Returns the items matching the primary key search
+
+                   8.JPG
+                   
+
+                   
+8.JPGCompany B is writing 10 items to the products table every second. Each item is 15.5Kb in size. What would be the
+required provisioned write throughput for best performance? Choose the correct answer from the options below
+Please select
+O A. 10
+B. 160
+C. 155
+o D. 16
+
+                   8.JPG
+                   
+
+                   
+8.JPGIn DynamoDB, an atomic counter allows all write requests to be applied in the order they are received by incrementing or
+decrementing the attribute value.
+Please select
+© A. True
+B, False
+
+                   8.JPG
+                   
+
+                   
+8.JPGOf the 6 available sections on a CloudFormation template (Template Description Declaration, Template Format Versiorn
+Declaration, Parameters, Resources, Mappings, Outputs), which is the only one required for a CloudFormation template to
+be accepted? Choose an answer from the options below
+Please select
+o A. Parameters
+© B. Template Declaration
+C. Mappings
+D. Resources
+
+                   8.JPG
+                   
+
+                   
+8.JPGCompany B has many users updating the same table. At times it is not uncommon for multiple users to update the same
+item and attribute of an item at the same time. If user A calls an item in a table to update an attribute at the same time as
+user B and user B updates the table first, what can we deploy in DynamoDB to ensure User A is not updating an item that
+was updated since User A's table read? Choose the correct answer from the options below
+Please select
+A. Conditional Writes
+B. Eventual Consistency
+C. Extra API read calls to determine if the data was updated before the update call is made
+D. Atomic Counters
+
+                   8.JPG
+                   
+
+                   

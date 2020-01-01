@@ -1,0 +1,1944 @@
+2019-05-22 15:35:16,830 - logger_bonus - ERROR - 'ISIN'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 128, in get_split_details
+    csvwriter.writefile_row(split_item)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 24, in writefile_row
+    print row[self.field_names[i]]
+KeyError: 'ISIN'
+2019-05-22 15:35:27,465 - logger_bonus - ERROR - 'ISIN'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 128, in get_split_details
+    csvwriter.writefile_row(split_item)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/csvWriter.py", line 24, in writefile_row
+    print row[self.field_names[i]]
+KeyError: 'ISIN'
+2019-05-22 15:56:58,423 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+IndexError: list index out of range
+2019-06-21 22:29:59,345 - logger_bonus - ERROR - Message: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=75.0.3770.90)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.0 x86_64)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 63, in get_split_list
+    selextractor = SeleniumExtractor(split_url)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 18, in __init__
+    self.driver = webdriver.Chrome('/users/niteshchawla/Downloads/docs/chromedriver',chrome_options=options)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/chrome/webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Users/niteshchawla/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+SessionNotCreatedException: Message: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=75.0.3770.90)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Mac OS X 10.14.0 x86_64)
+
+<<<<<<< HEAD
+2019-12-10 01:55:29,512 - logger_bonus - ERROR - Message: session not created: This version of ChromeDriver only supports Chrome version 76
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 62, in get_split_list
+    selextractor=SeleniumExtractor(split_url)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 18, in __init__
+    self.driver = webdriver.Chrome('/users/niteshchawla/Downloads/docs/chromedriver',chrome_options=options)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/chrome/webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 76
+
+2019-12-10 01:59:18,696 - logger_bonus - ERROR - Message: session not created: This version of ChromeDriver only supports Chrome version 76
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 62, in get_split_list
+    selextractor=SeleniumExtractor(split_url)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 18, in __init__
+    self.driver = webdriver.Chrome('/users/niteshchawla/Downloads/docs/chromedriver',chrome_options=options)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/chrome/webdriver.py", line 81, in __init__
+    desired_capabilities=desired_capabilities)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 76
+
+2019-12-10 02:01:27,460 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:02:35,525 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:02:41,636 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:03:08,458 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:03:21,369 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:04:12,247 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:05:36,106 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:05:50,166 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:06:21,403 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:06:52,973 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:07:29,441 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:07:59,256 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:08:42,760 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:09:41,550 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:10:33,553 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:11:30,722 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:12:55,272 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:13:37,022 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:14:25,952 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:15:23,859 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:16:40,724 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:17:56,946 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:18:53,520 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:19:54,157 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:21:21,567 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:22:52,808 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:24:50,170 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:27:17,521 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 02:28:27,150 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 03:36:54,995 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 03:58:02,078 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 04:18:48,894 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 05:01:04,511 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 06:03:54,184 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 12:59:06,350 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 12:59:36,276 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:00:09,725 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:00:48,433 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:01:16,181 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:01:46,757 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:02:30,353 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:03:25,013 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:04:20,498 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:05:17,059 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:06:00,943 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:06:12,235 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:06:54,302 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:20:05,063 - logger_bonus - ERROR - Message: timeout
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 117, in get_split_details
+    selextractor=SeleniumExtractor(split_item['URL'])
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 19, in __init__
+    self.loadedpage = self.driver.get(url)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:20:24,602 - logger_bonus - ERROR - Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 119, in get_split_details
+    nse_elem=res[0].find_element_by_xpath("//*[@id='nChrtPrc']/div[4]/div[1]")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 351, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 659, in find_element
+    {"using": by, "value": value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='nChrtPrc']/div[4]/div[1]"}
+  (Session info: chrome=78.0.3904.108)
+
+2019-12-10 13:53:02,963 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:04,970 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:06,974 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:08,977 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:11,023 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:13,024 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:15,030 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:17,036 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:19,039 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:21,045 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:23,050 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:25,051 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:27,052 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:29,053 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:31,054 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:33,059 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:35,063 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:37,066 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:39,072 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:41,078 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:43,084 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:45,089 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:47,091 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:49,098 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:51,101 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:53,107 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:55,110 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:57,121 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:53:59,123 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:54:01,130 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:54:03,132 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:54:05,136 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:54:07,138 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 13:54:09,140 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 130, in get_split_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:15,685 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:17,695 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:19,698 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:21,705 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:23,711 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:25,716 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:27,719 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:29,723 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:31,728 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:33,733 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:35,736 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:37,740 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:39,743 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:41,746 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:43,750 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:45,756 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:47,759 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:49,762 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:51,764 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:53,768 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:55,770 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:57,775 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:39:59,779 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:01,783 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:03,789 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:05,790 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:07,792 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:09,797 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:11,803 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:13,806 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:15,807 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:17,814 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:19,815 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:21,820 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:23,823 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:25,827 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:27,832 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:29,833 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:31,839 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:33,844 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:35,846 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:37,850 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:39,856 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:41,862 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:43,866 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:45,874 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:47,879 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:49,881 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:51,886 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:53,892 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:55,895 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:57,900 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:40:59,903 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:01,906 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:03,910 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:05,915 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:07,921 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:09,926 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:11,928 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:13,930 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:15,935 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:17,939 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:19,944 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:21,948 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:23,953 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:25,957 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:27,962 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:29,966 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:31,970 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:33,973 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:35,978 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:37,983 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:39,986 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:41,991 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:43,995 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:41:46,000 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:16,219 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:18,233 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:20,236 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:22,241 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:24,246 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:26,251 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:28,253 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:30,254 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:32,265 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:34,267 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:36,272 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:38,274 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:40,276 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:42,278 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:44,283 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:46,287 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:48,291 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:50,297 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:52,302 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:54,306 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:56,309 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:58:58,313 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:59:00,317 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 15:59:02,319 - logger_bonus - ERROR - name 'selextractor' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 129, in get_bonus_details
+    selextractor.driver.quit()
+NameError: name 'selextractor' is not defined
+2019-12-10 19:01:03,319 - logger_bonus - ERROR - name 'unicode' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 71, in get_elem_by_id
+    elems = self.driver.find_element_by_id(id)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 63, in get_split_list
+    elem=selextractor.get_elem_by_id("sel_year")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 76, in get_elem_by_id
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s107',e)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/selenium_error.py", line 12, in __init__
+    message=unicode(message).encode("utf-8")
+NameError: name 'unicode' is not defined
+2019-12-10 19:17:06,199 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 70, in get_split_list
+    rows=results[0]
+IndexError: list index out of range
+2019-12-10 19:17:26,657 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 70, in get_split_list
+    rows=results[0]
+IndexError: list index out of range
+2019-12-10 19:17:51,324 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 70, in get_split_list
+    rows=results[0]
+IndexError: list index out of range
+2019-12-10 19:18:26,324 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 70, in get_split_list
+    rows=results[0]
+IndexError: list index out of range
+2019-12-10 19:18:54,306 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 70, in get_split_list
+    rows=results[0]
+IndexError: list index out of range
+2019-12-10 19:19:28,386 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 70, in get_split_list
+    rows=results[0]
+IndexError: list index out of range
+2019-12-10 19:20:58,197 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 70, in get_split_list
+    rows=results[0]
+IndexError: list index out of range
+2019-12-10 23:03:29,212 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 70, in get_split_list
+    rows=results[0]
+IndexError: list index out of range
+2019-12-11 00:03:37,998 - logger_bonus - ERROR - name 'unicode' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 49, in get_elem_by_xpath_href
+    linktext = elem.get_attribute(attr).encode("utf-8")
+AttributeError: 'list' object has no attribute 'get_attribute'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 94, in get_split_list
+    results=selextractor.get_elem_by_xpath_href("/html/body/div[2]/div[3]/div/table[5]/tbody/tr[2]/td[2]/table/tbody/tr[4]/td[4]/table/tbody", "")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 51, in get_elem_by_xpath_href
+    raise Driver_Find_Error("Error while extracting based on xpath",'s105',e)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/selenium_error.py", line 12, in __init__
+    message=unicode(message).encode("utf-8")
+NameError: name 'unicode' is not defined
+2019-12-11 00:03:55,786 - logger_bonus - ERROR - name 'unicode' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 58, in get_elems_by_class
+    elems = self.driver.find_elements_by_class_name(class_name)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 580, in find_elements_by_class_name
+    return self.find_elements(by=By.CLASS_NAME, value=name)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 1007, in find_elements
+    'value': value})['value'] or []
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=78.0.3904.108)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 65, in get_split_list
+    results=selextractor.get_elems_by_class("tbldata14")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 63, in get_elems_by_class
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s106',e)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/selenium_error.py", line 12, in __init__
+    message=unicode(message).encode("utf-8")
+NameError: name 'unicode' is not defined
+2019-12-11 00:04:00,098 - logger_bonus - ERROR - name 'unicode' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 71, in get_elem_by_id
+    elems = self.driver.find_element_by_id(id)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 59, in get_split_list
+    elem=selextractor.get_elem_by_id("sel_year")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 76, in get_elem_by_id
+    raise Driver_Find_Error("Error while extracting elements based on class name",'s107',e)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/selenium_error.py", line 12, in __init__
+    message=unicode(message).encode("utf-8")
+NameError: name 'unicode' is not defined
+2019-12-11 00:05:39,963 - logger_bonus - ERROR - name 'unicode' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 49, in get_elem_by_xpath_href
+    linktext = elem.get_attribute(attr).encode("utf-8")
+AttributeError: 'list' object has no attribute 'get_attribute'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 94, in get_split_list
+    results=selextractor.get_elem_by_xpath_href("/html/body/div[2]/div[3]/div/table[5]/tbody/tr[2]/td[2]/table/tbody/tr[4]/td[4]/table/tbody", "")
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/seleniumextractor.py", line 51, in get_elem_by_xpath_href
+    raise Driver_Find_Error("Error while extracting based on xpath",'s105',e)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/selenium_error.py", line 12, in __init__
+    message=unicode(message).encode("utf-8")
+NameError: name 'unicode' is not defined
+2019-12-11 00:32:15,971 - logger_bonus - ERROR - 'SeleniumExtractor' object has no attribute 'get_elem_by_xpath'
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 69, in get_split_list
+    results_bckup=selextractor.get_elem_by_xpath("//*[@id='mc_mainWrapper']/div[3]/div/table[5]/tbody/tr[2]/td[2]/table/tbody/tr[4]/td[4]/table/tbody/tr/td[2]/table/tbody")
+AttributeError: 'SeleniumExtractor' object has no attribute 'get_elem_by_xpath'
+2019-12-11 00:34:13,978 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 80, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 00:48:02,869 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 00:56:56,862 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:01:49,051 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:02:21,750 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:02:58,916 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:03:29,638 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:04:08,645 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:04:51,334 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:05:49,269 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:06:24,502 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:07:03,532 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:07:41,760 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:08:22,178 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:09:14,961 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:09:43,182 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:10:12,750 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:10:39,067 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:11:09,862 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:11:42,697 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:12:07,330 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:12:25,583 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 99, in get_split_list
+    dict_row['SYMBOL']=col0.text.splitlines(0)[0]
+IndexError: list index out of range
+2019-12-11 01:12:46,041 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:13:08,228 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 01:13:30,283 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/split_extract.py", line 100, in get_split_list
+    url=col0.find_elements(By.TAG_NAME, "a")[0].get_attribute("href")
+IndexError: list index out of range
+2019-12-11 02:00:04,905 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 96, in get_bonus_list
+    rows=results_bckup[0]
+IndexError: list index out of range
+2019-12-11 02:00:22,744 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 96, in get_bonus_list
+    rows=results_bckup[0]
+IndexError: list index out of range
+2019-12-11 02:00:49,592 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 96, in get_bonus_list
+    rows=results_bckup[0]
+IndexError: list index out of range
+2019-12-11 02:01:07,504 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 96, in get_bonus_list
+    rows=results_bckup[0]
+IndexError: list index out of range
+2019-12-11 02:01:29,694 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 96, in get_bonus_list
+    rows=results_bckup[0]
+IndexError: list index out of range
+2019-12-11 02:01:52,665 - logger_bonus - ERROR - list index out of range
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_extract.py", line 96, in get_bonus_list
+    rows=results_bckup[0]
+IndexError: list index out of range
+=======
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3

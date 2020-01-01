@@ -1,0 +1,10 @@
+import urllib2
+from bs4 import BeautifulSoup
+# f = urllib2.urlopen('http://www.moneycontrol.com/mutual-funds/performance-tracker/returns/small-and-mid-cap.html')
+req = urllib2.Request('http://www.moneycontrol.com/mutual-funds/performance-tracker/returns/small-and-mid-cap.html')
+response = urllib2.urlopen(req)
+thepage = response.read()
+#print thepage
+soup = BeautifulSoup(thepage, 'html.parser')
+for link in soup.find_all("META", {"name" : "q591343:1_:sequencecheck"}):
+    print(link.contents)

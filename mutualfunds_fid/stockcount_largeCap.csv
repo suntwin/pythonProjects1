@@ -1,0 +1,352 @@
+,Equity_x,stock_name,Equity_y,Sector
+0,127,HDFC Bank,HDFC Bank,Banking & Financial Services
+1,117,Maruti Suzuki,Maruti Suzuki,Automotive
+2,116,ICICI Bank,ICICI Bank,Banking & Financial Services
+3,113,ITC,ITC,Tobacco
+4,113,Larsen,Larsen,Engineering & Capital Goods
+5,105,IndusInd Bank,IndusInd Bank,Banking & Financial Services
+6,96,Infosys,Infosys,Information Technology
+7,95,Reliance,Reliance,Oil & Gas
+8,93,SBI,SBI,Banking & Financial Services
+9,92,HDFC,HDFC,Banking & Financial Services
+10,90,Kotak Mahindra,Kotak Mahindra,Banking & Financial Services
+11,79,Tata Motors,Tata Motors,Automotive
+12,77,HCL Tech,HCL Tech,Information Technology
+13,77,IOC,IOC,Oil & Gas
+14,75,Sun Pharma,Sun Pharma,Pharmaceuticals
+15,72,Power Grid Corp,Power Grid Corp,Utilities
+16,68,Hero Motocorp,Hero Motocorp,Automotive
+17,65,Axis Bank,Axis Bank,Banking & Financial Services
+18,65,Hindalco,Hindalco,Metals & Mining
+19,64,M&M;,M&M;,Automotive
+20,63,Tata Steel,Tata Steel,Metals & Mining
+21,62,UltraTechCement,UltraTechCement,Cement & Construction
+22,59,Vedanta,Vedanta,Metals & Mining
+23,57,Britannia,Britannia,Food & Beverages
+24,54,Yes Bank,Yes Bank,Banking & Financial Services
+25,54,Petronet LNG,Petronet LNG,Oil & Gas
+26,52,Bharat Elec,Bharat Elec,Manufacturing
+27,51,NTPC,NTPC,Utilities
+28,49,BPCL,BPCL,Oil & Gas
+29,49,Eicher Motors,Eicher Motors,Automotive
+30,49,TCS,TCS,Information Technology
+31,47,GAIL,GAIL,Oil & Gas
+32,46,HUL,HUL,Consumer Non-durables
+33,46,Aurobindo Pharm,Aurobindo Pharm,Pharmaceuticals
+34,44,Zee Entertain,Zee Entertain,Media & Entertainment
+35,43,Bharti Airtel,Bharti Airtel,Telecommunication
+36,42,Shree Cements,Shree Cements,Cement & Construction
+37,41,Cummins,Cummins,Engineering & Capital Goods
+38,41,Asian Paints,Asian Paints,Chemicals
+39,41,Motherson Sumi,Motherson Sumi,Automotive
+40,41,Bank of Baroda,Bank of Baroda,Banking & Financial Services
+41,39,Bajaj Finserv,Bajaj Finserv,Banking & Financial Services
+42,38,Max Financial,Max Financial,Manufacturing
+43,38,UPL,UPL,Chemicals
+44,37,ONGC,ONGC,Oil & Gas
+45,37,Bajaj Finance,Bajaj Finance,Banking & Financial Services
+46,37,HPCL,HPCL,Oil & Gas
+47,36,Lupin,Lupin,Pharmaceuticals
+48,36,Grasim,Grasim,Conglomerates
+49,34,Federal Bank,Federal Bank,Banking & Financial Services
+50,31,Tech Mahindra,Tech Mahindra,Information Technology
+51,29,Tata Motors (D),Tata Motors (D),Automotive
+52,28,Coal India,Coal India,Metals & Mining
+53,27,Container Corp,Container Corp,Services
+54,26,Cipla,Cipla,Pharmaceuticals
+55,24,MRF,MRF,Automotive
+56,24,Hind Zinc,Hind Zinc,Metals & Mining
+57,23,Bajaj Auto,Bajaj Auto,Automotive
+58,23,Titan Company,Titan Company,Miscellaneous
+59,22,Wipro,Wipro,Information Technology
+60,22,Castrol,Castrol,Chemicals
+61,22,Bosch,Bosch,Automotive
+62,22,Avenue Supermar,Avenue Supermar,Retail & Real Estate
+63,22,LIC Housing Fin,LIC Housing Fin,Banking & Financial Services
+64,22,ICICI Prudentia,ICICI Prudentia,Banking & Financial Services
+65,21,Colgate,Colgate,Consumer Non-durables
+66,21,Interglobe Avi,Interglobe Avi,Services
+67,20,Whirlpool,Whirlpool,Consumer Durables
+68,20,Bharat Forge,Bharat Forge,Manufacturing
+69,19,ABB India,ABB India,Engineering & Capital Goods
+70,19,Adani Ports,Adani Ports,Engineering & Capital Goods
+71,19,Pidilite Ind,Pidilite Ind,Chemicals
+72,18,Divis Labs,Divis Labs,Pharmaceuticals
+73,18,Marico,Marico,Consumer Non-durables
+74,18,IGL,IGL,Oil & Gas
+75,18,Aditya Birla ,Aditya Birla ,Miscellaneous
+76,18,Dr Reddys Labs,Dr Reddys Labs,Pharmaceuticals
+77,17,Ramco Cements,Ramco Cements,Cement & Construction
+78,17,Arvind,Arvind,Manufacturing
+79,17,CG Consumer,CG Consumer,Manufacturing
+80,16,Cholamandalam,Cholamandalam,Banking & Financial Services
+81,16,Piramal Enter,Piramal Enter,Pharmaceuticals
+82,16,Godrej Consumer,Godrej Consumer,Consumer Non-durables
+83,16,ACC,ACC,Cement & Construction
+84,16,Cadila Health,Cadila Health,Pharmaceuticals
+85,15,RBL Bank,RBL Bank,Banking & Financial Services
+86,15,Coromandel Int,Coromandel Int,Chemicals
+87,15,Dabur India,Dabur India,Consumer Non-durables
+88,14,Indiabulls Hsg,Indiabulls Hsg,Banking & Financial Services
+89,14,Torrent Pharma,Torrent Pharma,Pharmaceuticals
+90,14,Sun TV Network,Sun TV Network,Media & Entertainment
+91,14,Kansai Nerolac,Kansai Nerolac,Chemicals
+92,13,Muthoot Finance,Muthoot Finance,Banking & Financial Services
+93,13,Ambuja Cements,Ambuja Cements,Cement & Construction
+94,13,Siemens,Siemens,Engineering & Capital Goods
+95,13,TVS Motor,TVS Motor,Automotive
+96,12,L&T; Finance,L&T; Finance,Banking & Financial Services
+97,12,United Spirits,United Spirits,Food & Beverages
+98,12,P and G,P and G,Consumer Non-durables
+99,12,IIFL Holdings,IIFL Holdings,Banking & Financial Services
+100,11,AIA Engineering,AIA Engineering,Engineering & Capital Goods
+101,10,Info Edge,Info Edge,Miscellaneous
+102,10,CDSL,CDSL,Banking & Financial Services
+103,10,Emami,Emami,Consumer Non-durables
+104,10,Berger Paints,Berger Paints,Chemicals
+105,10,City Union Bank,City Union Bank,Banking & Financial Services
+106,10,Page Industries,Page Industries,Manufacturing
+107,10,Sanofi India,Sanofi India,Pharmaceuticals
+108,10,Jubilant Food,Jubilant Food,Miscellaneous
+109,10,Astral Poly Tec,Astral Poly Tec,Manufacturing
+110,10,NBCC (India),NBCC (India),Engineering & Capital Goods
+111,10,Shriram City,Shriram City,Banking & Financial Services
+112,10,Havells India,Havells India,Engineering & Capital Goods
+113,10,PI Industries,PI Industries,Chemicals
+114,9,Ashok Leyland,Ashok Leyland,Automotive
+115,9,Sundram,Sundram,Manufacturing
+116,9,Persistent,Persistent,Information Technology
+117,9,Bharti Infratel,Bharti Infratel,Telecommunication
+118,9,Dalmia Bharat,Dalmia Bharat,Cement & Construction
+119,9,Natco Pharma,Natco Pharma,Pharmaceuticals
+120,9,Oberoi Realty,Oberoi Realty,Retail & Real Estate
+121,9,AU Small Financ,AU Small Financ,Banking & Financial Services
+122,8,Idea Cellular,Idea Cellular,Telecommunication
+123,8,Laurus Labs,Laurus Labs,Pharmaceuticals
+124,8,M&M; Financial,M&M; Financial,Banking & Financial Services
+125,8,IDFC,IDFC,Banking & Financial Services
+126,8,Dr Lal PathLab,Dr Lal PathLab,Pharmaceuticals
+127,8,Amara Raja Batt,Amara Raja Batt,Automotive
+128,8,Nestle,Nestle,Food & Beverages
+129,8,Thermax,Thermax,Engineering & Capital Goods
+130,8,Capital First,Capital First,Banking & Financial Services
+131,8,CRISIL,CRISIL,Miscellaneous
+132,8,SKF India,SKF India,Engineering & Capital Goods
+133,8,Solar Ind,Solar Ind,Chemicals
+134,8,Apollo Tyres,Apollo Tyres,Automotive
+135,8,Exide Ind,Exide Ind,Automotive
+136,8,Bata India,Bata India,Consumer Non-durables
+137,8,BEML,BEML,Engineering & Capital Goods
+138,8,Bayer CropScien,Bayer CropScien,Chemicals
+139,8,MRPL,MRPL,Oil & Gas
+140,8,United Brewerie,United Brewerie,Food & Beverages
+141,8,Aarti Ind,Aarti Ind,Chemicals
+142,8,Schaeffler Ind,Schaeffler Ind,Engineering & Capital Goods
+143,8,Tata Power,Tata Power,Utilities
+144,7,JK Lakshmi Cem,JK Lakshmi Cem,Cement & Construction
+145,7,BSE Limited,BSE Limited,Miscellaneous
+146,7,Century,Century,Conglomerates
+147,7,Alkem Lab,Alkem Lab,Pharmaceuticals
+148,7,Tata Elxsi,Tata Elxsi,Information Technology
+149,7,HUDCO,HUDCO,Retail & Real Estate
+150,7,Biocon,Biocon,Pharmaceuticals
+151,7,Guj State Petro,Guj State Petro,Oil & Gas
+152,7,Godrej Ind,Godrej Ind,Consumer Non-durables
+153,6,GRUH Finance,GRUH Finance,Banking & Financial Services
+154,6,Sadbhav Engg,Sadbhav Engg,Engineering & Capital Goods
+155,6,Manpasand Bever,Manpasand Bever,Food & Beverages
+156,6,Sun Pharma Adv,Sun Pharma Adv,Pharmaceuticals
+157,6,Tata Global Bev,Tata Global Bev,Food & Beverages
+158,6,Tata Chemicals,Tata Chemicals,Chemicals
+159,6,Tata Comm,Tata Comm,Telecommunication
+160,6,Raymond,Raymond,Manufacturing
+161,6,Aegis Logistics,Aegis Logistics,Services
+162,6,Dewan Housing,Dewan Housing,Banking & Financial Services
+163,6,Oracle Fin Serv,Oracle Fin Serv,Information Technology
+164,6,Ajanta Pharma,Ajanta Pharma,Pharmaceuticals
+165,6,Akzo Nobel,Akzo Nobel,Chemicals
+166,6,Voltas,Voltas,Conglomerates
+167,6,Yuken India,Yuken India,Engineering & Capital Goods
+168,6,Shankara Buildi,Shankara Buildi,Miscellaneous
+169,6,Mindtree,Mindtree,Information Technology
+170,6,GE T&D; India,GE T&D; India,Engineering & Capital Goods
+171,6,REC,REC,Banking & Financial Services
+172,6,Shriram Trans,Shriram Trans,Banking & Financial Services
+173,6,GlaxoSmith Con,GlaxoSmith Con,Food & Beverages
+174,6,J. K. Cement,J. K. Cement,Cement & Construction
+175,6,Aditya Birla F,Aditya Birla F,Retail & Real Estate
+176,5,Future Retail,Future Retail,Retail & Real Estate
+177,5,INOX Leisure,INOX Leisure,Media & Entertainment
+178,5,Motilal Oswal,Motilal Oswal,Banking & Financial Services
+179,5,Indiabulls,Indiabulls,Banking & Financial Services
+180,5,SAIL,SAIL,Metals & Mining
+181,5,CCL Products,CCL Products,Food & Beverages
+182,5,Rel Capital,Rel Capital,Banking & Financial Services
+183,5,VIP Industries,VIP Industries,Manufacturing
+184,5,Minda Ind,Minda Ind,Automotive
+185,5,SREI Infra,SREI Infra,Banking & Financial Services
+186,5,Dilip Buildcon,Dilip Buildcon,Cement & Construction
+187,5,Sintex Plastics,Sintex Plastics,Manufacturing
+188,4,CG Power ,CG Power ,Engineering & Capital Goods
+189,4,eClerx Services,eClerx Services,Information Technology
+190,4,Relaxo Footwear,Relaxo Footwear,Consumer Non-durables
+191,4,JSW Steel,JSW Steel,Metals & Mining
+192,4,Equitas Holding,Equitas Holding,Banking & Financial Services
+193,4,Va Tech Wabag,Va Tech Wabag,Engineering & Capital Goods
+194,4,Ipca Labs,Ipca Labs,Pharmaceuticals
+195,4,MphasiS,MphasiS,Information Technology
+196,4,TI Financial,TI Financial,Miscellaneous
+197,4,Syngene Intl,Syngene Intl,Miscellaneous
+198,4,Bajaj Electric,Bajaj Electric,Consumer Durables
+199,4,Grindwell Norto,Grindwell Norto,Engineering & Capital Goods
+200,4,Mahindra Holida,Mahindra Holida,Services
+201,4,Skipper,Skipper,Miscellaneous
+202,4,Karur Vysya,Karur Vysya,Banking & Financial Services
+203,4,Torrent Power,Torrent Power,Utilities
+204,4,DB Corp,DB Corp,Media & Entertainment
+205,4,SIS,SIS,Miscellaneous
+206,4,PNB Housing Fin,PNB Housing Fin,Banking & Financial Services
+207,4,Supreme Ind,Supreme Ind,Manufacturing
+208,4,ITD Cementation,ITD Cementation,Cement & Construction
+209,4,Techno Electric,Techno Electric,Engineering & Capital Goods
+210,4,GE Power India,GE Power India,Engineering & Capital Goods
+211,4,Reliance Comm,Reliance Comm,Telecommunication
+212,4,Glenmark,Glenmark,Pharmaceuticals
+213,4,Kajaria Ceramic,Kajaria Ceramic,Cement & Construction
+214,4,Ashoka Buildcon,Ashoka Buildcon,Cement & Construction
+215,4,Repco Home,Repco Home,Banking & Financial Services
+216,4,Symphony,Symphony,Consumer Durables
+217,4,KEC Intl,KEC Intl,Engineering & Capital Goods
+218,4,Eris Life,Eris Life,Pharmaceuticals
+219,4,TeamLease Ser.,TeamLease Ser.,Miscellaneous
+220,4,L&T; Infotech,L&T; Infotech,Information Technology
+221,4,Canara Bank,Canara Bank,Banking & Financial Services
+222,4,NLC India,NLC India,Utilities
+223,4,NHPC,NHPC,Utilities
+224,4,Blue Star,Blue Star,Consumer Durables
+225,4,Rallis India,Rallis India,Chemicals
+226,4,Union Bank,Union Bank,Banking & Financial Services
+227,4,EngineersInd,EngineersInd,Engineering & Capital Goods
+228,4,Dollar Ind,Dollar Ind,Manufacturing
+229,4,NIIT Tech,NIIT Tech,Information Technology
+230,4,MCX India,MCX India,Miscellaneous
+231,4,Cochin Shipyard,Cochin Shipyard,Miscellaneous
+232,4,PNB,PNB,Banking & Financial Services
+233,4,India Cements,India Cements,Cement & Construction
+234,4,Endurance Techn,Endurance Techn,Automotive
+235,4,BHEL,BHEL,Engineering & Capital Goods
+236,4,Strides Shasun,Strides Shasun,Pharmaceuticals
+237,4,NCC,NCC,Cement & Construction
+238,4,Wonderla,Wonderla,Miscellaneous
+239,4,Thomas Cook,Thomas Cook,Miscellaneous
+240,3,Graphite India,Graphite India,Engineering & Capital Goods
+241,3,CenturyPlyboard,CenturyPlyboard,Miscellaneous
+242,3,Vinati Organics,Vinati Organics,Chemicals
+243,3,KEI Industries,KEI Industries,Engineering & Capital Goods
+244,2,Linde India,Linde India,Chemicals
+245,2,Sundaram Fin,Sundaram Fin,Banking & Financial Services
+246,2,Jyothy Labs,Jyothy Labs,Consumer Non-durables
+247,2,Dish TV,Dish TV,Media & Entertainment
+248,2,Bajaj Corp,Bajaj Corp,Consumer Non-durables
+249,2,PVR,PVR,Media & Entertainment
+250,2,Nava Bharat Ven,Nava Bharat Ven,Conglomerates
+251,2,Bharat Fin,Bharat Fin,Banking & Financial Services
+252,2,Rane Holdings,Rane Holdings,Automotive
+253,2,Phoenix Mills,Phoenix Mills,Retail & Real Estate
+254,2,Uniply Ind,Uniply Ind,Miscellaneous
+255,2,Heritage Foods,Heritage Foods,Food & Beverages
+256,2,Coffee Day,Coffee Day,Food & Beverages
+257,2,Taj GVK Hotels,Taj GVK Hotels,Services
+258,2,Cera Sanitary,Cera Sanitary,Cement & Construction
+259,2,KCP,KCP,Cement & Construction
+260,2,Gujarat Gas,Gujarat Gas,Oil & Gas
+261,2,Abbott India,Abbott India,Pharmaceuticals
+262,2,Apollo Hospital,Apollo Hospital,Services
+263,2,Himadri Special,Himadri Special,Chemicals
+264,2,Sheela Foam,Sheela Foam,Miscellaneous
+265,2,Gulf Oil Lubric,Gulf Oil Lubric,Chemicals
+266,2,BLS Internation,BLS Internation,Miscellaneous
+267,2,CESC,CESC,Utilities
+268,2,Indian Bank,Indian Bank,Banking & Financial Services
+269,2,Honeywell Autom,Honeywell Autom,Telecommunication
+270,2,Gateway Distri,Gateway Distri,Miscellaneous
+271,2,Jindal Steel,Jindal Steel,Metals & Mining
+272,2,ISGEC Heavy Eng,ISGEC Heavy Eng,Food & Beverages
+273,2,Finolex Ind,Finolex Ind,Chemicals
+274,2,Kirloskar Bros,Kirloskar Bros,Engineering & Capital Goods
+275,2,Sterlite Techno,Sterlite Techno,Telecommunication
+276,2,WABCO India,WABCO India,Automotive
+277,2,South Ind Bk,South Ind Bk,Banking & Financial Services
+278,2,Amulya Leasing,Amulya Leasing,Banking & Financial Services
+279,2,Trident,Trident,Manufacturing
+280,2,Tata Coffee,Tata Coffee,Food & Beverages
+281,2,PTC India,PTC India,Services
+282,2,CARE,CARE,Miscellaneous
+283,2,INEOS Styro,INEOS Styro,Chemicals
+284,2,Thyrocare Techn,Thyrocare Techn,Services
+285,2,Can Fin Homes,Can Fin Homes,Banking & Financial Services
+286,2,Music Broadcast,Music Broadcast,Media & Entertainment
+287,2,Federal-Mogul,Federal-Mogul,Automotive
+288,2,Gujarat Pipavav,Gujarat Pipavav,Services
+289,2,Kaveri Seed,Kaveri Seed,Miscellaneous
+290,2,Inter Globe Fin,Inter Globe Fin,Banking & Financial Services
+291,2,GIC Housing Fin,GIC Housing Fin,Banking & Financial Services
+292,2,Vardhman Text,Vardhman Text,Manufacturing
+293,2,Phoenix Lamps,Phoenix Lamps,Automotive
+294,2,NALCO,NALCO,Metals & Mining
+295,2,Eimco Elecon,Eimco Elecon,Engineering & Capital Goods
+296,2,Sagar Cement,Sagar Cement,Cement & Construction
+297,2,Igarashi Motors,Igarashi Motors,Engineering & Capital Goods
+298,2,Deccan Cements,Deccan Cements,Cement & Construction
+299,2,DCB Bank,DCB Bank,Banking & Financial Services
+300,2,Ahluwalia,Ahluwalia,Cement & Construction
+301,2,Astra Microwave,Astra Microwave,Telecommunication
+302,2,Mcleod,Mcleod,Food & Beverages
+303,2,Future Life,Future Life,Retail & Real Estate
+304,2,Texmaco Rail,Texmaco Rail,Engineering & Capital Goods
+305,2,Mirza Intl,Mirza Intl,Consumer Non-durables
+306,2,Eveready Ind,Eveready Ind,Consumer Non-durables
+307,2,Sterling Tools,Sterling Tools,Manufacturing
+308,2,Magma Fincorp,Magma Fincorp,Banking & Financial Services
+309,2,Narayana Hruda,Narayana Hruda,Services
+310,2,Greenply Ind,Greenply Ind,Miscellaneous
+311,2,Dalmia Sugar,Dalmia Sugar,Food & Beverages
+312,2,Jaiprakash Pow,Jaiprakash Pow,Utilities
+313,2,S Chand and Co,S Chand and Co,Miscellaneous
+314,2,Navin Fluorine,Navin Fluorine,Chemicals
+315,2,Ratnamani Metal,Ratnamani Metal,Metals & Mining
+316,2,JMC Projects,JMC Projects,Cement & Construction
+317,2,Bank of India,Bank of India,Banking & Financial Services
+318,2,GlaxoSmithKline,GlaxoSmithKline,Pharmaceuticals
+319,2,Indian Hotels,Indian Hotels,Services
+320,2,VRL Logistics,VRL Logistics,Services
+321,2,Action Const,Action Const,Engineering & Capital Goods
+322,2,C & C Construct,C & C Construct,Cement & Construction
+323,2,Alembic Pharma,Alembic Pharma,Pharmaceuticals
+324,2,DLF,DLF,Retail & Real Estate
+325,2,IRB Infra,IRB Infra,Engineering & Capital Goods
+326,2,Sintex Ind,Sintex Ind,Conglomerates
+327,2,GE Shipping,GE Shipping,Services
+328,2,HPL Electric & ,HPL Electric & ,Engineering & Capital Goods
+329,2,Ceat,Ceat,Automotive
+330,2,PSP Projects,PSP Projects,Cement & Construction
+331,2,Finolex Cables,Finolex Cables,Telecommunication
+332,2,Balkrishna Ind,Balkrishna Ind,Automotive
+333,2,GTPL Hathway,GTPL Hathway,Media & Entertainment
+334,2,JK Bank,JK Bank,Banking & Financial Services
+335,2,Chennai Petro,Chennai Petro,Oil & Gas
+336,2,Navneet,Navneet,Miscellaneous
+337,2,L&T; Technology,L&T; Technology,Information Technology
+338,2,Power Finance,Power Finance,Banking & Financial Services
+339,2,Automotive Axle,Automotive Axle,Automotive
+340,2,Godrej Prop,Godrej Prop,Retail & Real Estate
+341,2,Escorts,Escorts,Automotive
+342,2,Polaris Consult,Polaris Consult,Information Technology
+343,2,Kirloskar Ind,Kirloskar Ind,Engineering & Capital Goods
+344,2,Apar Ind,Apar Ind,Miscellaneous
+345,2,Indoco Remedies,Indoco Remedies,Pharmaceuticals
+346,2,Kalpataru Power,Kalpataru Power,Engineering & Capital Goods
+347,2,Navkar Corp,Navkar Corp,Services
+348,2,Pennar Eng,Pennar Eng,Miscellaneous
+349,1,GSFC,GSFC,Chemicals
+350,1,Cosmo Films,Cosmo Films,Manufacturing

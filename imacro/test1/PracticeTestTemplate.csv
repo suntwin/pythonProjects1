@@ -1,0 +1,12 @@
+Question,Question Type (multiple-choice or multi-select),Answer Option 1,Answer Option 2,Answer Option 3,Answer Option 4,Answer Option 5,Answer Option 6,Correct Response,Explanation,Knowledge Area
+Which API call is used to list all resources that belong to a CloudFormation Stack? Choose an answer from the options below,multiple-choice,GetTemplate,DescribeStackResource ,Describe-stacks, ListStackResources,,,4,,
+What throughout would be required to efficiently handle the read throughput of the table?,,,,,,,,,,
+"When a subscriber subscribes to a topic in SNS, what is the time period available for confirmation? Choose one answer from the options below",multiple-choice,1 day,3 Days,5 Days,10 Days               ,,,,,
+How many tables can an AWS account have per region? Choose the correct answer from the options below,,,,,,,,,,
+Can data be saved when a stack is deleted in Cloudformation? Choose the correct answer from the options below,multiple-choice,TRUE,FALSE,,,,,1,,
+What is the maximum number of SWF domains allowed in an AWS account? Choose the correct answer from the options below.,multiple-choice,50,100,200,1000,,,3,,
+What is the limit to the number of characters for a topic name in sns? Choose one answer from the options below,multiple-choice,128,256,512,1024,,,2,,
+You have reached your account limit for the number of CloudFormation stacks in a region. How do you increase your limit? Choose an answer from the option below ?,multiple-choice,Make an API call,Change Limit Settings in AWS CloudFormation Console,Cloudformation limit cannot be increased,Contact AWS,,,4,,
+Is it possible to use IAM to manage access to SWF? Choose the correct answer from the options below.,multiple-choice,TRUE,FALSE,,,,,1,,
+"Company B has a DynamoDB table where the average item size is 10KB. Company B anticipates the application will read 100 items from the table per second using eventually consistent reads. How much read capacity throughput should they provision? Choose the correct answer from the options below
+",multiple-choice,200,300,150,100,,,3,,

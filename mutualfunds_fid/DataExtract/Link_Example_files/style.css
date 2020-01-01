@@ -1,0 +1,391 @@
+body{background-color:#e9e9e9; font:11px Arial; color:#303030; }
+*{padding:0px; margin:0px;}
+a img{border:none;}a{text-decoration:none;}a:hover{text-decoration:underline;}
+ul, li {padding:0; margin:0; list-style:none;}
+.FL{float:left;}.FR{float:right;}.FN{float:none;}.CL{clear:both;}.disN{display:none;}.disB{display:block;} .CTR { text-align:center }  .fwn {font-weight:normal;}
+.no_brd { border:none !important }:focus {outline: 0;}
+.main {width:1000px; margin:0 auto;}
+.main_cnt {width:996px; border:2px solid #e0e0e0; background-color:#fff;}
+.MA5{margin:5px;}.MA10{margin:10px;}
+.MT3{margin-top:3px;}.MT5{margin-top:5px;}.MT7{margin-top:7px;}.MT10{margin-top:10px;}.MT12{margin-top:12px;}.MT15{margin-top:15px;}.MT20{margin-top:20px;} .MT25{margin-top:25px;} .MT35 { margin-top:35px; } .MT45 { margin-top:45px; } .MT70{ margin-top:70px;}
+.MR3{ margin-right:3px;}.MR5{margin-right:5px;}.MR10{margin-right:10px;}.MR15{margin-right:15px;}.MR20{margin-right:20px;}.MR25{ margin-right:25px;}
+.MB3{margin-bottom:3px;}.MB5{margin-bottom:5px;}.MB10{margin-bottom:10px;}.MB15{margin-bottom:15px;}.MB20{ margin-bottom:20px;}
+.ML2{margin-left:2px;}.ML3{margin-left:3px;}.ML5{margin-left:5px;}.ML8{margin-left:8px;}.ML10{margin-left:10px;}.ML15{margin-left:15px;}.ML20{margin-left:20px;} .ML25{margin-left:25px;}.ML40{margin-left:40px;}.ML45{margin-left:45px;}
+
+.PA3{padding:3px;}.PA5{padding:5px;}.PA7{padding:7px;}.PA10{padding:10px;} .PA15 { padding:15px; } .PA20 { padding:20px; }
+.PT2{padding-top:2px;}.PT3{padding-top:3px;}.PT4{ padding-top:4px;}.PT5{padding-top:5px;}.PT7{padding-top:7px;}.PT8{padding-top:8px;}.PT10{padding-top:10px;}.PT12{padding-top:12px;}.PT15{padding-top:15px;}.PT20{padding-top:20px;}.PT25{padding-top:25px;}.PT30{padding-top:30px;} .PT35{padding-top:35px;}
+.PR3{padding-right:3px;}.PR5{padding-right:5px;}.PR7{padding-right:7px;} .PR8{padding-right:8px;} .PR10{padding-right:10px;}.PR15{padding-right:15px;}.PR20{padding-right:20px;}.PR25{padding-right:25px;}.PR30{padding-right:30px;}.PR40{padding-right:40px;} .PR35 { padding-right:35px; }
+.PB3{padding-bottom:3px;}.PB5{padding-bottom:5px;}.PB7{padding-bottom:7px;}.PB10{padding-bottom:10px;}.PB15{padding-bottom:15px;}.PB20{padding-bottom:20px;}.PB25{padding-bottom:25px;}
+.PL3{padding-left:3px;}.PL5{padding-left:5px;}.PL7{padding-left:7px;} .PL8{padding-left:8px;} .PL9{padding-left:9px;}.PL10{padding-left:10px;}.PL15{padding-left:15px;}.PL20{padding-left:20px;}.PL25{ padding-left:25px;}.PL30{padding-left:30px;}.PL40{ padding-left:40px;}
+
+#form_box{margin-left:70px; width:400px; }
+#form_box table tr td{ padding-top:3px; padding-bottom:3px; font:13px arial; color:#000000;text-align:right; }
+#form_box table tr td span{vertical-align:top;}
+.input_txt{ border:solid 1px #fff; background-color:#CCC; padding:3px; width:200px; font:15px arial; color:#303030;}
+.red_s {color: #d90600}
+.v_box{width:780px; border:solid 1px #c9c9c9; margin:0 auto;}
+.v_box_i{width:770px; background-color:#fff; margin:4px; }
+.ply_list{border:solid 1px #111; background:url(http://img1.moneycontrol.com/images/revamp/track_bg.jpg) repeat-x top left; height:54px; margin-top:5px; margin-bottom:0px; width:484px;}
+.txt_are{width:166px; background-color:#363636; border:none; height:54px; font:10px arial; color:#fff;}
+
+.hd_cnbc {background:url(http://img1.moneycontrol.com/images/revamp/div_1.jpg) no-repeat right center; padding:15px 12px 10px 15px; margin-top:15px; float:left;}
+.hd_mycnl {padding-top:17px; padding-left:15px; float:left;  margin-top:15px;}
+.hd_ser {width:490px; padding-right:15px; float:right; padding-top:30px;}
+.hd_ser1 {border:1px solid #0089cf; width:380px; float:left;}
+.hd_ser_br {border:1px solid #d3d3d3;}
+.hd_ser_input {padding:7px 7px 3px 7px; height:20px; width:355px; border:1px solid #fff;}
+.sk_bl {color:#03c4f9; font-family:Arial; font-size:12px; font-style:italic; text-decoration:none;}
+
+h1 {font-family:Arial; font-size:25px; color:#000; font-weight:bold; text-decoration:none;}
+h2 {font-family:Arial; font-size:20px; color:#000; font-weight:bold; text-decoration:none; padding-bottom:5px;}
+.BD{ font-weight:700;}
+
+.b_10{font:10px/15px arial; color:#000; text-decoration:none;}
+.b_11{font:11px/15px arial; color:#000; text-decoration:none;}
+.b_12{font:12px/16px arial; color:#000; text-decoration:none;}
+.b_13{font:13px/18px arial; color:#000; text-decoration:none;}
+.b_14{font:14px/18px arial; color:#000; text-decoration:none;}
+.b_15{font:15px/18px arial; color:#000; text-decoration:none;}
+.b_16{font:bold 16px/20px arial; color:#000; text-decoration:none;}
+.b_17{font:bold 17px/20px arial; color:#000;}
+.b_20{font:bold 20px/24px arial; color:#000; text-decoration:none;}
+
+.b_13{font:13px arial; color:#000;}
+.gD_10{font:10px/15px arial; color:#4d4d4d; text-decoration:none;}
+.gD_12{font:12px/16px arial; color:#333333; text-decoration:none;}
+
+.gM_10{font:10px arial; color:#494949}
+.gL_11{font:11px/15px arial; color:#646464; text-decoration:none;}
+.gM_12{font:12px arial; color:#494949}
+.gM_2_12{font:12px/17px arial; color:#666}
+.gL_12{font:12px/16px arial; color:#646464; text-decoration:none;}
+.gL_13{font:13px/16px arial; color:#646464; text-decoration:none;}
+.gL_14{font:14px/16px arial; color:#646464; text-decoration:none;}
+.gL_15{font:15px/16px arial; color:#646464; text-decoration:none;}
+
+.bl_10{font:10px/15px arial; color:#02536c; text-decoration:none;}
+.bl_11{font:11px/15px arial; color:#02536c; text-decoration:none;}
+.bl_12{font:12px/16px arial; color:#02536c; text-decoration:none;}
+.bl_13{font:13px/18px arial; color:#02536c; text-decoration:none;}
+.bl_14{font:14px/18px arial; color:#02536c; text-decoration:none;}
+.bl_15{font:14px/15px arial; color:#02536c; text-decoration:none;}
+
+.gr_14{font:14px/16px arial; color:#367d25; text-decoration:none;}
+.gr_20{font:20px/20px arial; color:#367d25; text-decoration:none;}
+.gr_11 {color:#367d25; font:11px/15px arial; text-decoration:none;}
+.gr_12{font:12px/16px arial; color:#367d25; text-decoration:none;}
+.gr_15{font:15px/16px arial; color:#367d25; text-decoration:none;}
+
+.r_11{font:11px/16px arial; color:#cc0000; text-decoration:none;}
+.r_12{font:12px/16px arial; color:#cc0000; text-decoration:none;}
+.r_15{font:15px/16px arial; color:#cc0000; text-decoration:none;}
+
+.w_10{font:10px arial; color:#fff}.w_12{font:12px arial; color:#fff}
+.w_21{font:21px/23px arial; color:#fff}
+.we_12{font:12px arial; color:#c3c19e}
+
+.r_12_1 {font:12px/16px arial; color:#c71c44; text-decoration:none;}
+
+.nav ul {height:23px; background-color:#f6f6f6;}
+.nav ul li { list-style:none; float:right; display:block; }
+.nav ul li a{ padding:5px 10px 5px 10px; font:bold 11px Arial; color:#424242; text-decoration:none;  display:block; float:left; height:13px; background:url(http://img1.moneycontrol.com/images/revamp/nav_div.jpg) no-repeat right center;}
+.nav ul li a.last{ padding:5px 10px 5px 10px; font:bold 11px Arial; color:#424242; text-decoration:none; background-image:none;  display:block; float:left; height:13px;}
+.nav ul li a:hover{ text-decoration:underline;}
+.nav ul li a.active{ text-decoration:none;}
+
+.link ul li { list-style:none; float:left; display:block; }
+.link ul li a{ padding:0px 6px; font:12px Arial; color:#02536c; text-decoration:none;  display:block; float:left; border-right:1px double #d3d2b8;}
+.link ul li a.last{ border-right:none;}
+.link ul li a.fst{ padding-left:0px}
+.link ul li a:hover{ text-decoration:underline;}
+
+.link5 ul li { list-style:none; float:left; display:block; }
+.link5 ul li a{ padding:0px 4px; font:bold 11px Arial; color:#02536c; text-decoration:none;  display:block; float:left; border-right:1px solid #fff;}
+.link5 ul li a.last{ border-right:none;}
+.link5 ul li a.fst{ padding-left:0px}
+.link5 ul li a:hover{ text-decoration:underline;}
+
+.link2 ul li { list-style:none; float:left; display:block; }
+.link2 ul li a{ padding:0px 7px; font:12px Arial; color:#000; margin-top:5px;text-decoration:none;  display:block; float:left; border-right:1px double #d3d2b8;}
+.link2 ul li a.last{ border-right:none;}
+.link2 ul li a.fst{ padding-left:0px}
+.link2 ul li a:hover{ text-decoration:underline;}
+
+.ser_nav ul {height:22px;}
+.ser_nav ul li { list-style:none; float:left; display:block; }
+.ser_nav ul li a{ padding:4px 6px; font:11px Arial; color:#000000; text-decoration:none;  display:block; float:left; background:url(http://img1.moneycontrol.com/images/revamp/ser_div_bg.jpg) no-repeat right center;}
+.ser_nav ul li a.last{ background-image:none;  display:block; float:left;}
+.ser_nav ul li a:hover{ text-decoration:none; color:#fff; background-color:#005066; background-image:none;}
+.ser_nav ul li a.active{ text-decoration:none; color:#fff; background-color:#005066; background-image:none;}
+
+.menu_nav {background:url(http://img1.moneycontrol.com/images/revamp/menu_bg.jpg) repeat-x; height:36px;}
+.menu_nav ul li { list-style:none; float:left; display:block; margin-left:3px; }
+.menu_nav ul li a{ padding:8px 8px 5px 8px; font:bold 12px Arial; color:#FFF; text-decoration:none;  display:block; float:left; height:22px;}
+.menu_nav ul li a:hover{ text-decoration:none; background-color:#f8f8f8; color:#000; margin-top:1px;}
+.menu_nav ul li a.active{ text-decoration:none;background-color:#f8f8f8; color:#000; margin-top:1px;}
+.menu_navL {background:url(http://img1.moneycontrol.com/images/revamp/menu_div.jpg) no-repeat right 7px; float:left; width:842px;}
+
+.sub_menu ul li { list-style:none; float:left; display:block; margin-left:3px; }
+.sub_menu ul li a{ float:left; padding-right:10px; font-family:arial;  height:19px; color:#333; font-size:10px; font-weight:normal; text-decoration:none; text-transform:uppercase; cursor:pointer;}
+.sub_menu ul li a:hover {text-decoration:none; background:url(http://img1.moneycontrol.com/images/revamp/sub_menu_bg.jpg) no-repeat right top; color:#000;}
+.sub_menu ul li a span{padding-left:10px; float:left; padding-top:3px; height:16px; }
+.sub_menu ul li a:hover span{background:url(http://img1.moneycontrol.com/images/revamp/sub_menu_bg.jpg) no-repeat left top; color:#000;}
+.sub_menu ul li a.active {text-decoration:none; background:url(http://img1.moneycontrol.com/images/revamp/sub_menu_bg.jpg) no-repeat right top; color:#000;}
+.sub_menu ul li a.active span{background:url(http://img1.moneycontrol.com/images/revamp/sub_menu_bg.jpg) no-repeat left top; color:#000;}
+
+.tab1 ul li { list-style:none; float:left; display:block; margin-right:3px;}
+.tab1 ul li a{background:url(http://img1.moneycontrol.com/images/revamp/tab_d.jpg) no-repeat right top; float:left; padding-right:4px; font-family:arial;  height:17px; color:#646464; font-size:10px; font-weight:normal; text-decoration:none; text-transform:uppercase; cursor:pointer;}
+.tab1 ul li a:hover {text-decoration:none; background:url(http://img1.moneycontrol.com/images/revamp/tab_act.jpg) no-repeat right top; color:#646464;}
+.tab1 ul li a span{background:url(http://img1.moneycontrol.com/images/revamp/tab_d.jpg) no-repeat left top; padding-left:4px; float:left; padding-top:2px; height:15px; }
+.tab1 ul li a:hover span{background:url(http://img1.moneycontrol.com/images/revamp/tab_act.jpg) no-repeat left top; color:#fff;}
+.tab1 ul li a.active {text-decoration:none; background:url(http://img1.moneycontrol.com/images/revamp/tab_act.jpg) no-repeat right top; color:#fff;}
+.tab1 ul li a.active span{background:url(http://img1.moneycontrol.com/images/revamp/tab_act.jpg) no-repeat left top; color:#fff;}
+
+.tab5 ul li { list-style:none; float:left; display:block; margin-right:3px;}
+.tab5 ul li a{background:url(http://img1.moneycontrol.com/images/revamp/tab_d.gif) no-repeat right top; float:left; padding-right:4px; font-family:arial;  height:17px; color:#646464; font-size:10px; font-weight:normal; text-decoration:none; text-transform:uppercase; cursor:pointer;}
+.tab5 ul li a:hover {text-decoration:none; background:url(http://img1.moneycontrol.com/images/revamp/tab_blk.gif) no-repeat right top; color:#646464;}
+.tab5 ul li a span{background:url(http://img1.moneycontrol.com/images/revamp/tab_d.gif) no-repeat left top; padding-left:4px; float:left; padding-top:2px; height:15px; }
+.tab5 ul li a:hover span{background:url(http://img1.moneycontrol.com/images/revamp/tab_blk.gif) no-repeat left top; color:#fff;}
+.tab5 ul li a.active {text-decoration:none; background:url(http://img1.moneycontrol.com/images/revamp/tab_blk.gif) no-repeat right top; color:#fff;}
+.tab5 ul li a.active span{background:url(http://img1.moneycontrol.com/images/revamp/tab_blk.gif) no-repeat left top; color:#fff;}
+
+.list1 { margin:10px 5px 5px 0px; }
+.list1 li { font-family:arial; font-size:12px; line-height:15px; padding:3px 8px 3px 0px; }
+
+.list_a { margin:0px 0px 5px 0px; }
+.list_a li { font-family:arial; font-size:11px; line-height:15px; padding:1px 0px 3px 0px; }
+
+.list7 li { font-family:arial; font-size:12px; line-height:15px; padding:4px 8px 4px 0px; border-bottom:1px solid #e9e9e9; }
+
+.qt_ser_input{background:url(http://img1.moneycontrol.com/images/revamp/qt_ser.jpg) repeat-x; padding:5px; height:18px; border:0;}
+.qt_ser {background:url(http://img1.moneycontrol.com/images/revamp/arw_bg.jpg) repeat-x; text-transform:uppercase; border:1px solid #cbc7c7;  height:22px; padding-top:6px}
+.qt_ser1 {background:url(http://img1.moneycontrol.com/images/revamp/arw.jpg) 5px center no-repeat; padding-left:20px; padding-right:5px;}
+
+.stk_table table {font-size:12px; width:100%}
+.stk_table table tr th {font-family:arial; font-size:12px; color:#000; font-weight:bold; text-align:left; border-bottom:1px solid #e9e9e9; padding-bottom:7px; padding-right:10px;}
+.stk_table table tr td {border-bottom:1px solid #e9e9e9; padding-bottom:7px; padding-top:7px;}
+
+.stock_list li{ width:116px; display:block}
+.stock_list li a span{ width:104px;  border-bottom:1px solid #e9e9e9; display:block; padding:5px 0 5px 5px;}
+.stock_list li a{ width:123px; height:26px;  font:11px Arial; color:#000; text-decoration:none; display:block; text-transform:uppercase; cursor:pointer }
+.stock_list li a:hover{ background:url(http://img1.moneycontrol.com/images/revamp/hover.gif) no-repeat 0 0; color:#000; text-decoration:none;}
+.stock_list li a:hover span{ background:url(http://img1.moneycontrol.com/images/revamp/hover.gif) no-repeat 0 0; color:#000; text-decoration:none; width:123px; border-bottom:0;}
+.stock_list li a.current span{ background:url(http://img1.moneycontrol.com/images/revamp/hover.gif) no-repeat 0 0; color:#000; text-decoration:none; border-bottom:0; width:123px; height:16px;}
+.lblbox{background-color:#f8f8f8; border:1px solid #e9e9e9; padding:10px; width:295px; height:150px; float:right;}
+.tblstock{border-collapse:collapse; border-spacing:0; width:90%;}
+.tblstock th{ padding:5px 0; font-family:arial; font-size:12px; color:#000; font-weight:bold; }
+.tblstock td{ border-top:1px solid #e9e9e9; padding:5px 0;}
+.list li{width:128px; background:url(http://img1.moneycontrol.com/images/revamp/arrow.gif) no-repeat left center; float:left; padding:2px 2px 2px 10px;}
+.list li a{font:12px Arial; color:#02536c; text-decoration:none;}
+.list li a:hover{text-decoration:underline;}
+.brdb{border-bottom:1px solid #e9e9e9;}
+.disc_box{ background:url(http://img1.moneycontrol.com/images/revamp/bg_comm.gif) no-repeat 0 0; height:100px; width:410px; padding:15px 0 0 15px;}
+.disc_box1{ background:url(http://img1.moneycontrol.com/images/revamp/bg_cmt.jpg) no-repeat 0 0; height:140px; width:260px; padding:15px 0 0 15px;}
+.msg_bg {background:url(http://img1.moneycontrol.com/images/revamp/mem_bg.jpg) no-repeat; height:21px; width:118px; padding-left:15px; padding-top:5px;}
+.comment1 {background:transparent url(http://img1.moneycontrol.com/images/revamp/cmt.gif) no-repeat; margin-right:4px; width:14px; display:inline-block;}
+
+.list2 li{background:url(http://img1.moneycontrol.com/images/revamp/arrow.gif) no-repeat left 7px; padding:2px 2px 10px 12px; margin-top:8px; border-bottom:1px solid #e9e9e9;}
+.list2 li a{font:12px Arial; color:#646464; text-decoration:none;}
+.list2 li a:hover{text-decoration:underline;}
+
+.list3 li{background:url(http://img1.moneycontrol.com/images/revamp/arrow.gif) no-repeat left 7px; padding:2px 2px 10px 12px; margin-top:8px; border-bottom:1px solid #e9e9e9;}
+.list3 li a{font:12px Arial; text-decoration:none;}
+.list3 li a:hover{text-decoration:underline;}
+
+.list4 li{background:url(http://img1.moneycontrol.com/images/revamp/arrow.gif) no-repeat left 7px; padding:2px 2px 5px 12px;}
+.list4 li a{font:12px Arial; text-decoration:none;}
+.list4 li a:hover{text-decoration:underline;}
+
+.list5 li{background:url(http://img1.moneycontrol.com/images/revamp/arrow.gif) no-repeat left center; padding-left:10px;}
+.list5 li a{font:12px Arial; color:#02536c; text-decoration:none; line-height:24px}
+.list5 li a:hover{text-decoration:underline;}
+
+.list6 li{background:url(http://img1.moneycontrol.com/images/revamp/arrow.gif) no-repeat left center; padding-left:10px;}
+.list6 li a{font:12px Arial; color:#005066; text-decoration:none; line-height:23px}
+.list6 li a:hover{text-decoration:underline;}
+
+.list8 li{background:url(http://img1.moneycontrol.com/images/revamp/plus_.gif) no-repeat left center; padding-left:20px;}
+.list8 li a{font:12px Arial; color:#02536c; text-decoration:none; line-height:24px}
+.list8 li a:hover{text-decoration:underline;}
+
+.list10 li{background:url(http://img1.moneycontrol.com/images/revamp/arrow.gif) no-repeat left 8px; padding:4px 0px 5px 10px;}
+.list10 li a{font:12px Arial; color:#02536c; text-decoration:none;}
+.list10 li a:hover{text-decoration:underline;}
+
+.rel_links li{background:url(http://img1.moneycontrol.com/images/revamp/arrow.gif) no-repeat left center; padding:7px 0 7px 10px ; border-bottom:1px solid #e9e9e9}
+.rel_links li a{font:12px Arial; color:#02536c; text-decoration:none;}
+.rel_links li a:hover{text-decoration:underline;}
+.rel_links li.bg{background:#e4e3d3; padding:5px 0 5px 10px ; border-bottom:none; margin-top:5px}
+.rel_links li.bg a{ background:url(http://img1.moneycontrol.com/images/revamp/links_arw.gif) no-repeat left center; padding-left:10px}
+.rel_links li.last{border-bottom:none}
+
+#footer { color:#2E2F30; font-family:arial; font-size:12px;  padding:10px; }
+#footer .link { background-color:#e4e3d3; color:#5f5f5a; }
+#footer .link a { color:#5f5f5a; font-family:arial; font-size:12px; text-decoration:none; }
+#footer .link a:hover { text-decoration:underline; }
+#footer .link .mp a { color:#000; font-family:arial; font-size:12px; text-decoration:none; }
+#footer .link a:hover { text-decoration:underline; }
+
+.qt_sgt ul li{border-bottom:1px solid #e9e9e9; list-style:none; display:block; padding:5px 3px; }
+.qt_sgt ul li a{ font:12px Arial; color:#646464; text-decoration:none;}
+.qt_sgt ul li a:hover{text-decoration:underline;}
+.qt_hd {background-color:#eae9dd; text-transform:uppercase; border-right:#e9e9e9;}
+
+.prft_cnr{display:block}
+.prft_cnr *{  display:block;  height:1px;  overflow:hidden;  font-size:.01em;  background:#ffffff}
+.prft_cnr1{  margin-left:3px;  margin-right:3px;  padding-left:1px;  padding-right:1px;  border-left:1px solid #efefe5;  border-right:1px solid #efefe5;  background:#f8f8f4}
+.prft_cnr2{  margin-left:1px;  margin-right:1px;  padding-right:1px;  padding-left:1px;  border-left:1px solid #e6e5d7;  border-right:1px solid #e6e5d7;  background:#f9f9f6}
+.prft_cnr3{  margin-left:1px;  margin-right:1px;  border-left:1px solid #f9f9f6;   border-right:1px solid #f9f9f6;}
+.prft_cnr4{  border-left:1px solid #efefe5;  border-right:1px solid #efefe5}
+.prft_cnr5{  border-left:1px solid #f8f8f4;  border-right:1px solid #f8f8f4}
+.prft_cnrfg{ background:#ffffff; padding-left:9px; padding-right:9px;}
+
+.portfolio table {width:100%;}
+.portfolio table tr th {font-weight:bold; font-size:12px; font-family:Arial; border-bottom:1px solid #e9e9e9; padding-bottom:5px; text-align:center;}
+.portfolio table tr td {font-weight:normal; font-size:12px; font-family:Arial; border-bottom:1px solid #e9e9e9; padding:5px 0px; text-align:right; padding-right:15px;}
+.portfolio table tr td a{font-weight:normal; font-size:12px; font-family:Arial; text-decoration:none; color:#02536c; text-align:left;}
+.portfolio table tr td a:hover { text-decoration:underline;}
+
+.cal table {width:100%; background-color:#edede6; border:1px solid #deddcb;}
+.cal table tr th {background-color:#deddcb; font-weight:bold; font-size:12px; font-family:Arial; border-bottom:1px solid #7b7b79; border-top:1px solid #eaeaea; padding:5px 0px; text-align:center;}
+.cal table tr td {font-weight:normal; font-size:12px; font-family:Arial; margin:5px 0px; color:#02536c; text-align:center; background:url(http://img1.moneycontrol.com/images/revamp/cal_date_bg.jpg) no-repeat center center; height:32px; width:35px;}
+.cal table tr td .active{font-weight:normal; font-size:12px; font-family:Arial;  background:url(http://img1.moneycontrol.com/images/revamp/cal_bg_over.jpg) no-repeat center right; text-align:center; color:#fff; height:21px; width:40px; padding-top:5px;}
+
+
+.equity table {width:100%;}
+.equity table tr th {font-weight:bold; font-size:12px; font-family:Arial; border-bottom:1px solid #e9e9e9; padding-bottom:5px; text-align:center;}
+.equity table tr td {font-weight:normal; font-size:12px; font-family:Arial; border-bottom:1px solid #e9e9e9; padding:5px 0px; text-align:right; padding-right:8px;}
+.equity table tr td a{font-weight:normal; font-size:12px; font-family:Arial; text-decoration:none; color:#02536c; text-align:left;}
+.equity table tr td a:hover { text-decoration:underline;}
+
+.equity1 table {width:100%;}
+.equity1 table tr th {font-weight:bold; font-size:12px; font-family:Arial; border-bottom:1px solid #e9e9e9; padding:5px 0px; text-align:center;}
+.equity1 table tr td {font-weight:normal; font-size:12px; font-family:Arial; border-bottom:1px solid #e9e9e9; padding:5px 0px; text-align:center;}
+.equity1 table tr td a{font-weight:normal; font-size:12px; font-family:Arial; text-decoration:none; color:#02536c; text-align:left;}
+.equity1 table tr td a:hover { text-decoration:underline;}
+
+.tools table {width:100%;}
+.tools table tr td {font-weight:normal; font-size:10px; font-family:Arial; border-bottom:1px solid #e9e9e9; padding:5px 0px; padding-right:5px; width:85px; text-transform:uppercase;}
+.tools table tr td a{font-weight:normal; font-size:10px; font-family:Arial; text-decoration:none; color:#02536c; text-align:left;}
+.tools table tr td a:hover { text-decoration:underline;}
+
+.mf table {width:100%;}
+.mf table tr th {font-weight:bold; font-size:12px; font-family:Arial; border-bottom:1px solid #e9e9e9; padding-bottom:5px; text-align:center;}
+.mf table tr td {font-weight:normal; color:#367d25; font-size:11px; font-family:Arial; border-bottom:1px solid #e9e9e9; padding:5px 0px; text-align:right; padding-right:8px;}
+.mf table tr td a{font-weight:normal; font-size:11px; font-family:Arial; text-decoration:none; color:#02536c; text-align:left;}
+.mf table tr td a:hover { text-decoration:underline;}
+
+.btn2 a{background:url(http://img1.moneycontrol.com/images/revamp/btn_bg.jpg) no-repeat right top; float:left; padding-right:20px; font-family:arial; height:17px; color:#646464; font-size:11px; text-decoration:none; white-space:nowrap; padding-top:1px}
+.btn2 a:hover {text-decoration:none;}
+.btn2 span{background:url(http://img1.moneycontrol.com/images/revamp/btn_bg.jpg) no-repeat left top; padding-left:8px; float:left; height:17px; }
+
+.prev a{background:url(http://img1.moneycontrol.com/images/revamp/prev_bg.jpg) no-repeat left top; float:left; padding-left:20px; font-family:arial; height:17px; color:#646464; font-size:11px; text-decoration:none; white-space:nowrap; padding-top:1px}
+.prev a:hover {text-decoration:none;}
+.prev span{background:url(http://img1.moneycontrol.com/images/revamp/prev_bg.jpg) no-repeat right top;float:left; height:17px; padding-right:5px;}
+
+#mpnav ul{width: 100%;margin-left: 0;padding-left: 0;margin: 0;float: left;font: bold 12px arial; }
+#mpnav ul li{display: inline; float:left; margin-right:5px; background:url(http://img1.moneycontrol.com/images/revamp/mpnavbot.gif) left bottom repeat-x; }
+#mpnav ul li a{float: left;color:#838383;text-decoration: none; padding:4px 4px;}
+#mpnav ul li a:hover{float: left; color:#000; font-weight:bold; text-decoration: none;background:url(http://img1.moneycontrol.com/images/revamp/tab_bg.gif) center bottom no-repeat;}
+#mpnav ul li a.current{ color:#000000; font-weight:bold;background:url(http://img1.moneycontrol.com/images/revamp/tab_bg.gif) center bottom no-repeat;}
+
+.link7 ul li { list-style:none; float:left; display:block; }
+.link7 ul li a{ padding:0px 6px; font:bold 11px Arial; color:#02536c; text-decoration:none;  display:block; float:left; background:url(http://img1.moneycontrol.com/images/revamp/div_bg.jpg) no-repeat right center;}
+.link7 ul li a.last{ border-right:none;}
+.link7 ul li a.fst{ padding-left:0px}
+.link7 ul li a:hover{ text-decoration:underline;}
+
+.btn3 a{background:url(http://img1.moneycontrol.com/images/revamp/btn_bg.gif) no-repeat right top; float:left; padding-right:20px; font:bold 12px Arial; height:23px; color:#000; font-size:11px; text-decoration:none; white-space:nowrap; padding-top:5px; width:110px;}
+.btn3 a:hover {text-decoration:none;}
+.btn3 span{background:url(http://img1.moneycontrol.com/images/revamp/btn_bg.gif) no-repeat left top; padding-left:8px; float:left; height:23px; }
+.MB7 { margin-bottom:7px;}
+.brdt{border-top:1px solid #e9e9e9;}.brdr{border-right:1px solid #e9e9e9;}.brdl{border-left:1px solid #e9e9e9;}.brd{border:1px solid #e9e9e9;}
+.xlbluebg { background:#f6f6f6;}
+
+.scroll_5{position:relative; overflow:hidden; border-bottom:1px solid #e9e9e9; height:243px; width:727px;}
+.scroll_5 .belt{position:absolute; left:0px; top:0px;}
+.scroll_5 .panel{float:left; overflow:hidden; }
+.calpop {position:absolute; background-color:#fff; border:1px solid #ccc; border-right:2px solid #ccc; border-bottom:2px solid #ccc; width:290px; display:none; margin-left:-100px;}
+
+.gD_9 { font:9px arial; color:#323232}
+.bl_9 { font:9px arial; color:#406b90}
+.b_9 { font:9px arial; color:#000;}
+.breakout_tbl td { padding:4px 0px; border-bottom:1px solid #e9e9e9;}
+.breakout_tbl td.last { padding:4px 0px; border-bottom:0px;}
+.tab2 {padding:0; margin:0; list-style:none;  position:relative; z-index:2; width:100%;}
+.tab2 li {float: left; width:auto;}
+.tab2 li a {display:inline-block; float:left; font:normal 15px Arial; text-decoration:none; color:#000; padding:5px 15px;  margin-left:5px;}
+.tab2 li a.current {font:bold 15px Arial;color: #000; border:1px solid #999; border-bottom:none;  padding:5px 15px;background-color:#f6f6f6;}
+.tab2_data {position:relative; z-index:1; margin-top:-1px;border-top:1px solid #999;}
+
+.tab3 {padding:0; margin:0; list-style:none;  position:relative; z-index:2; width:100%;}
+.tab3 li {float: left; width:auto;}
+.tab3 li a {display:inline-block; float:left; font:normal 15px Arial; text-decoration:none; color:#000; padding:5px 5px;  margin-left:5px;}
+.tab3 li a.current {font:bold 15px Arial;color: #000; border:1px solid #999; border-bottom:none;  padding:5px 5px;background-color:#f6f6f6;}
+.tab3_data {position:relative; z-index:1; margin-top:-1px;border-top:1px solid #999;}
+
+.tab4 {padding:0; margin:0; list-style:none;  position:relative; z-index:2; width:100%;}
+.tab4 li {float: left; width:auto;}
+.tab4 li a {display:inline-block; float:left; font:normal 12px Arial; text-decoration:none; color:#000; padding:5px 3px;  margin-left:3px;}
+.tab4 li a.current {font:bold 12px Arial;color: #000; border:1px solid #999; border-bottom:none;  padding:5px 3px;background-color:#f6f6f6;}
+.tab3_data {position:relative; z-index:1; margin-top:-1px;border-top:1px solid #999;}
+
+.tblprize{ border-collapse: collapse; border-spacing: 0; width:100%; font-size:12px;}
+.tblprize th { background-color:#f6f6f6; border-bottom:1px solid #e9e9e9; border-top:1px solid #e9e9e9; padding:5px 0; color:#000; font-weight:700}
+.tblprize td {padding:5px 0; border-bottom:1px solid #e9e9e9;}
+
+/* added date 290310 */
+.vd_tab5 ul li { list-style:none; float:left; display:block; margin-right:5px;}
+.vd_tab5 ul li a{background:url(http://img1.moneycontrol.com/images/revamp/tab_d.gif) no-repeat right top; float:left; padding-right:8px; font-family:arial;  height:22px; color:#646464; font-size:10px; font-weight:normal; text-decoration:none; text-transform:uppercase; cursor:pointer;}
+.vd_tab5 ul li a:hover {text-decoration:none; background-color:#005066; background-image:none; color:#646464;}
+.vd_tab5 ul li a span{background:url(http://img1.moneycontrol.com/images/revamp/tab_d.gif) no-repeat left top; padding-left:8px; float:left; padding-top:2px; height:22px; }
+.vd_tab5 ul li a:hover span{background-color:#005066; background-image:none; color:#fff;}
+.vd_tab5 ul li a.active {text-decoration:none; background-color:#005066; background-image:none; color:#fff;}
+.vd_tab5 ul li a.active span{background-color:#005066; background-image:none; color:#fff;}
+
+
+.vd_rd2{display:block}
+.vd_rd2 *{
+  display:block;
+  height:1px;
+  overflow:hidden;
+  font-size:.01em;
+  background:#ffffff}
+.vd_rd21{
+  margin-left:3px;
+  margin-right:3px;
+  padding-left:1px;
+  padding-right:1px;
+  border-left:1px solid #6d9ba7;
+  border-right:1px solid #6d9ba7;
+  background:#bfd3d8}
+.vd_rd22{
+  margin-left:1px;
+  margin-right:1px;
+  padding-right:1px;
+  padding-left:1px;
+  border-left:1px solid #196175;
+  border-right:1px solid #196175;
+  background:#cedde1}
+.vd_rd23{
+  margin-left:1px;
+  margin-right:1px;
+  border-left:1px solid #cedde1;
+  border-right:1px solid #cedde1;}
+.vd_rd24{
+  border-left:1px solid #6d9ba7;
+  border-right:1px solid #6d9ba7}
+.vd_rd25{
+  border-left:1px solid #bfd3d8;
+  border-right:1px solid #bfd3d8}
+.vd_rd2fg{
+  background:#ffffff}
+
+
+.tab_l ul li { list-style:none; float:left; display:block; margin-right:3px;}
+.tab_l ul li a{background:url(http://img1.moneycontrol.com/images/revamp/tab_actL.jpg) no-repeat right top; float:left; padding-right:10px; font-family:arial;  height:19px; color:#646464; font-size:11px; font-weight:normal; text-decoration:none; text-transform:uppercase; cursor:pointer;}
+.tab_l ul li a:hover {text-decoration:none; background:url(http://img1.moneycontrol.com/images/revamp/tabacL.jpg) no-repeat right top; color:#646464;}
+.tab_l ul li a span{background:url(http://img1.moneycontrol.com/images/revamp/tab_actL.jpg) no-repeat left top; padding-left:10px; float:left; padding-top:3px; height:16px; }
+.tab_l ul li a:hover span{background:url(http://img1.moneycontrol.com/images/revamp/tabacL.jpg) no-repeat left top; color:#fff;}
+.tab_l ul li a.active {text-decoration:none; background:url(http://img1.moneycontrol.com/images/revamp/tabacL.jpg) no-repeat right top; color:#fff;}
+.tab_l ul li a.active span{background:url(http://img1.moneycontrol.com/images/revamp/tabacL.jpg) no-repeat left top; color:#fff;}

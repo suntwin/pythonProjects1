@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'latoblack';
+    src:url('https://www.moneycontrol.com/commonfiles/font/lato-black-webfont.woff2?classic=true') format('woff2'),
+        url('https://www.moneycontrol.com/commonfiles/font/lato-black-webfont.woff?classic=true') format('woff'),
+	    url('https://www.moneycontrol.com/commonfiles/font/lato-black.ttf?classic=true') format('trutype'),
+		url('https://www.moneycontrol.com/commonfiles/font/lato-black.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoblack_italic';
+    src: url('https://www.moneycontrol.com/commonfiles/font/lato-blackitalic-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/lato-blackitalic-webfont.woff?classic=true') format('woff'),
+		   url('https://www.moneycontrol.com/commonfiles/font/lato-blackitalic.ttf?classic=true') format('trutype'),
+		url('https://www.moneycontrol.com/commonfiles/font/lato-blackitalic.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url('https://www.moneycontrol.com/commonfiles/font/lato-bold-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/lato-bold-webfont.woff?classic=true') format('woff'),
+		   url('https://www.moneycontrol.com/commonfiles/font/lato-bold.ttf?classic=true') format('trutype'),
+		url('https://www.moneycontrol.com/commonfiles/font/lato-bold.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latobold_italic';
+    src: url('https://www.moneycontrol.com/commonfiles/font/lato-bolditalic-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/lato-bolditalic-webfont.woff?classic=true') format('woff'),
+		   url('https://www.moneycontrol.com/commonfiles/font/lato-bolditalic.ttf?classic=true') format('trutype'),
+		url('https://www.moneycontrol.com/commonfiles/font/lato-bolditalic.eot?classic=true') format('embedded-opentype');
+		 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latoitalic';
+    src: url('https://www.moneycontrol.com/commonfiles/font/lato-italic-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/lato-italic-webfont.woff?classic=true') format('woff'),
+		  url('https://www.moneycontrol.com/commonfiles/font/lato-italic.ttf?classic=true') format('trutype'),
+		url('https://www.moneycontrol.com/commonfiles/font/lato-italic.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('https://www.moneycontrol.com/commonfiles/font/lato-light-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/lato-light-webfont.woff?classic=true') format('woff'),
+		  url('https://www.moneycontrol.com/commonfiles/font/lato-light.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/lato-light.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latolight_italic';
+    src: url('https://www.moneycontrol.com/commonfiles/font/lato-lightitalic-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/lato-lightitalic-webfont.woff?classic=true') format('woff'),
+		  url('https://www.moneycontrol.com/commonfiles/font/lato-lightitalic.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/lato-lightitalic.eot?classic=true') format('embedded-opentype');;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('https://www.moneycontrol.com/commonfiles/font/lato-regular-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/lato-regular-webfont.woff?classic=true') format('woff'),
+		  url('https://www.moneycontrol.com/commonfiles/font/lato-regular.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/lato-regular.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-black-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-black-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-black.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-black.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-blackitalic-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-blackitalic-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-blackitalic.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-blackitalic.eot?classic=true') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-bold-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-bold-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-bold.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-bold.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-bolditalic-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-bolditalic-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-bolditalic.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-bolditalic.eot?classic=true') format('eot');
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-italic-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-italic-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-italic.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-italic.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-light-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-light-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-light.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-light.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-lightitalic-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-lightitalic-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-lightitalic.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-lightitalic.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-medium-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-medium-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-medium.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-medium.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-mediumitalic-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-mediumitalic-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-mediumitalic.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-mediumitalic.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-regular-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-regular-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-regular.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-regular.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-thin-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-thin-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-thin.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-thin.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('https://www.moneycontrol.com/commonfiles/font/roboto-thinitalic-webfont.woff2?classic=true') format('woff2'),
+         url('https://www.moneycontrol.com/commonfiles/font/roboto-thinitalic-webfont.woff?classic=true') format('woff'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-thinitalic.ttf?classic=true') format('trutype'),
+		 url('https://www.moneycontrol.com/commonfiles/font/roboto-thinitalic.eot?classic=true') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-Bold.eot?classic=true');
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-Bold.eot?#iefix?classic=true') format('embedded-opentype'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Bold.woff2?classic=true') format('woff2'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Bold.woff?classic=true') format('woff'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Bold.svg#Poppins-Bold?classic=true') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-Medium.eot?classic=true');
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-Medium.eot?#iefix?classic=true') format('embedded-opentype'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Medium.woff2?classic=true') format('woff2'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Medium.woff?classic=true') format('woff'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Medium.svg#Poppins-Medium?classic=true') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-Black.eot?classic=true');
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-Black.eot?#iefix?classic=true') format('embedded-opentype'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Black.woff2?classic=true') format('woff2'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Black.woff?classic=true') format('woff'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Black.svg#Poppins-Black?classic=true') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-SemiBold.eot?classic=true');
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-SemiBold.eot?#iefix?classic=true') format('embedded-opentype'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-SemiBold.woff2?classic=true') format('woff2'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-SemiBold.woff?classic=true') format('woff'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-SemiBold.svg#Poppins-SemiBold?classic=true') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-ExtraBold.eot?classic=true');
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-ExtraBold.eot?#iefix?classic=true') format('embedded-opentype'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-ExtraBold.woff2?classic=true') format('woff2'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-ExtraBold.woff?classic=true') format('woff'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-ExtraBold.svg#Poppins-ExtraBold?classic=true') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-Regular.eot?classic=true');
+    src: url('https://www.moneycontrol.com/commonfiles/font/Poppins-Regular.eot?#iefix?classic=true') format('embedded-opentype'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Regular.woff2?classic=true') format('woff2'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Regular.woff?classic=true') format('woff'),
+        url('https://www.moneycontrol.com/commonfiles/font/Poppins-Regular.svg#Poppins-Regular?classic=true') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+.mobile_section {display:none;}
+.budget_midhead { padding:20px 0;}
+.logosec{ width:250px; float:left; margin-top:6px;}
+.logosec img, .logosec a img {border: none;} 
+.logosec .budget2019line a { color:#e56660; font:900 38px/38px 'Poppins',Arial, Helvetica, sans-serif;}
+.logosec .budget2019line a span { color:#0063a3;}
+.headmidright {float:right; width:990px;}
+.sponcer { padding:0 0 0 20px; float:left; box-sizing: initial;}
+.sponcer.bredleft { border-left:1px solid #e5e5e5; padding:0 20px; background:none; width:260px;}
+.sponcer p { font:12px 'latoitalic', sans-serif; color:#000;}
+.sponcer ul li { float:left; margin:8px 20px 0px 0;}
+.sponcer ul li:nth-child(2n) { margin-right:0px;}
+.hspobg { background:url(https://img-d02.moneycontrol.co.in/images/budget_2019/header/budget_head_horzonticle_divider.jpg) right bottom no-repeat; padding-bottom:5px; margin-bottom:5px;}
+
+.countdownClock .countdownHolder {width:142px; margin:0 auto; font: 24px 'Oswald',sans-serif;text-align:center;letter-spacing:-3px; height: 36px; overflow: hidden;}
+.countdownClock .position {display: inline-block;height:31px;	overflow: hidden;	position: relative;	width: 20px;}
+.countdownClock .digit {position:absolute; font:600 24px/31px 'Oswald',Arial, Helvetica, sans-serif;display:block;width:20px; border-radius:3px;text-align:center;color:#fdfdfd;letter-spacing:-1px;}
+.countdownClock .digit.static {background:url(https://img-d01.moneycontrol.co.in/images/budget2016/countbg1.png) top repeat-x;}
+.countdownClock .countDays { /* display:none !important;*/ }
+.countdownClock .countDiv0 { /* display:none !important;*/ }
+.countdownClock .countHours{}
+.countdownClock .countDiv1{}
+.countdownClock .countMinutes{}
+.countdownClock .countDiv2{ display:none !important;}
+.countdownClock .countSeconds{ display:none !important;}
+.countdownClock .countDiv{display:inline-block;	width:5px;	height:1.6em; font:400 14px 'Open Sans',Arial, Helvetica, sans-serif;position:relative;}
+.countdownClock .countDiv:before,
+.countdownClock .countDiv:after{position:absolute; width:3px; height:3px; border-radius:50%;left:50%;margin-left:-3px;
+ top:1px; content:''; display:none;}
+.countdownClock .countDiv:after {top:0.9em;}
+.countdownClock .linemid1 {position:absolute; width:17px; left:3px; height:1px;  display:inline-block; position:absolute; top:35%; z-index:99; display:none;}
+.countdownClock .time_txt {margin-top:-7px;}
+.countdownClock .time_txt .dn_txt{font: 500 10px/20px 'Fira Sans',sans-serif; display:inline-block; width:45px; text-align:center; color: #000;}
+.h83 {height:83px;}
+.h88 {height:88px;}
+.PR30 { padding-right:30px;}
+.headmidright .txt11_fira_9a9a9a {color:#333;}
+.brdright {border-right: 1px solid #e9e9e9}
+.mar20{margin-right:20px;}
+header.responsive_true .headmid > .logo_header_mobile {display: block;}
+.pgWrapper {max-width:1260px; margin:0 auto; transition:width 0.9s ease; position:relative; width:unset;}
+.MT12 {margin-top: 12px;}
+.MT13 {margin-top: 13px;}
+.cosponcer img, .cosponcer a img {border: none;}
+.presented_by {font: 400 10px/16px 'fira_sansregular', sans-serif; color: #9a9a9a; font-style: italic; text-align: center; display: block; margin-top: 10px;}
+.logosec a:hover {text-decoration: none;}
+.presents {font: 400 10px/16px 'fira_sansregular', sans-serif; color: #333333; font-style: italic; display: block;}
+.mobile_logo a:hover {text-decoration: none;}
+
+
+.disb {display: block;}
+.MR2 {margin-right: 2px;}
+
+/*header css for 1024 */
+.bud_header1024{ width:990px; margin:0 auto;}
+.bud_header1024 .logosec { width:200px; margin-top:15px;} .bud_header1024 .logosec img { width:100%; height:auto;}
+.bud_header1024 .logosec .budget2019line a {font: 900 30px/38px 'Poppins',Arial, Helvetica, sans-serif;}
+.bud_header1024 .hide_ad_div{display:none;}
+.bud_header1024 .headmidright{width:770px;}
+.bud_header1024 .sponcer { padding:0 0 0 15px;}
+.bud_header1024 .sponcer.bredleft { width:250px; padding:0 15px;}
+.bud_header1024 .sponcer ul li { margin-right:10px;}
+.bud_header1024 .sponcer ul li:nth-child(2n) { margin-right:0px;}
+
+
+@media all and (max-width: 1279px){
+.headmidright { width:770px;}
+.sponcer, .sponcer.bredleft { padding:0 10px;}
+.logosec { width:200px; margin-top:15px;}
+.logosec img { width:100%; height:auto;}
+.logosec .budget2019line a {font:900 30px/30px 'Poppins',Arial, Helvetica, sans-serif;}
+.sponcer ul li { margin-right:10px;}
+}
+@media all and (max-width:979px){
+.mobile_section { display:block;}
+.sponsors_block { margin:0 10px;}  
+.logo_header_mobile  { padding:10px 10px 0 10px;}
+.presents { color:#000;} 	
+
+.msponlogo { float:left;}
+.prsentbymmc { margin-left:10px; float:left;}	
+.prsentbymmc strong {color:#e56660; text-transform:uppercase; font:900 26px/24px 'Poppins',Arial, Helvetica, sans-serif;}
+.prsentbymmc strong em  { color:#0063a3; font-style:normal;}
+.sponsors_block { margin-top:10px;}
+.cospon_mob { width:165px; float:left; margin-top:12px;}
+.cospon_mob p { float:left; width:70px;}
+.mob_ass_spon {}
+
+.associate_sponsor { margin-top:3px; position:relative;}
+.associate_sponsor li { display:inline-block; margin:0 8px 8px 0;} 
+
+}
+
+@media all and (max-width:359px){ 
+.prsentbymmc {     margin-left: 5px;}
+
+}

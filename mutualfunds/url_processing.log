@@ -1,0 +1,104 @@
+<<<<<<< HEAD
+2019-12-11 13:13:34,250 - logger_mutualFundsLink - ERROR - An error has occoured
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/htmlParser.py", line 16, in __init__
+    f = urlopen(htmlurl)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 1257, in do_open
+    r = h.getresponse()
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/http/client.py", line 1198, in getresponse
+    response.begin()
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/http/client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/socket.py", line 576, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/ssl.py", line 937, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/ssl.py", line 799, in read
+    return self._sslobj.read(len, buffer)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/ssl.py", line 583, in read
+    v = self._sslobj.read(len, buffer)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_split_extractor.py", line 39, in <module>
+    ds_utility=DataStructures_Utility(stock_url, False)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/DataStructures_Utility.py", line 25, in __init__
+    HtmlParser.__init__(self,htmlurl,fileloc)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/htmlParser.py", line 24, in __init__
+    raise MutualFunds_IO_Error("This is a IO Error",'102',e)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/MutualFunds_Error.py", line 22, in __init__
+    message=unicode(message).encode("utf-8")
+NameError: name 'unicode' is not defined
+2019-12-11 13:14:05,038 - logger_mutualFundsLink - ERROR - An error has occoured
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 1254, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/http/client.py", line 1107, in request
+    self._send_request(method, url, body, headers)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/http/client.py", line 1152, in _send_request
+    self.endheaders(body)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/http/client.py", line 1103, in endheaders
+    self._send_output(message_body)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/http/client.py", line 1261, in connect
+    server_hostname=server_hostname)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/ssl.py", line 385, in wrap_socket
+    _context=self)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/ssl.py", line 760, in __init__
+    self.do_handshake()
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/ssl.py", line 996, in do_handshake
+    self._sslobj.do_handshake()
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/ssl.py", line 641, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/htmlParser.py", line 16, in __init__
+    f = urlopen(htmlurl)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 163, in urlopen
+    return opener.open(url, data, timeout)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 466, in open
+    response = self._open(req, data)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 484, in _open
+    '_open', req)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 444, in _call_chain
+    result = func(*args)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 1297, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "/opt/anaconda3/envs/env_zipline/lib/python3.5/urllib/request.py", line 1256, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno 54] Connection reset by peer>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bonus_split_extractor.py", line 39, in <module>
+    ds_utility=DataStructures_Utility(stock_url, False)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/DataStructures_Utility.py", line 25, in __init__
+    HtmlParser.__init__(self,htmlurl,fileloc)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/htmlParser.py", line 21, in __init__
+    raise MutualFunds_URL_Error("Website cannot be reached",'101',e)
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/MutualFunds_Error.py", line 12, in __init__
+    message=unicode(message).encode("utf-8")
+NameError: name 'unicode' is not defined
+=======
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3

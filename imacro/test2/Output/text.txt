@@ -1,0 +1,2575 @@
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:57
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion;9
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+One unit of read capacity is_in size? Choose the correct answer from the options below
+Please select:
+A. 5 KB
+O D. 4 KB
+Prev Next
+Quiz navigation
+123 45 678
+910 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:24:13
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion:5
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+One DynamoDB read capacity unit represents one strongly consistent read per second, for an item up to 4 KB in size
+Choose the correct answer from the options below
+Please select
+A. True
+O B. False
+Prev Next
+Quiz navigation
+123 45678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:13
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice Tests
+FULL TEST(S)
+Practice Test II
+uestion
+2
+Not vet answered
+Marked out of 1
+Mark for Review
+Which of the following bucket names is invalid? Choose 2 correct answer from the options below
+Please select:
+Demo .com
+B. demo-com
+C. demo.com
+|D. .demo.com
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:24:06
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion'7
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Your items are 6KB in size and you want to have 100 strongly consistent reads per second. How many read capacity units
+do you need to provision? Choose the correct answer from the options below
+Please select
+O A. 50
+O B. 100
+D. 200
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:24:09
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 6
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which of the following is not true about SWF? Choose the correct answer from the options below
+Please select:
+A. Decision tasks occur when the state of the workflow changes
+B. EC2 instances can perform a worker task.
+O C. Humans can perform a decision task.
+D. A server residing outside of an AWS datacenter can perform a worker task.
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:20
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 54
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+A DynamoDB item is a collection of name and value attributes. Choose a correct answer from the options below
+Please select:
+A. True
+O B. False
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:54
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 44
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+S3 Bucket ownership is transferable. Choose a correct answer from the options below
+Please select:
+A. True
+O B. False
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:10
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 57
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Multi-part upload API allows you to stop and resume uploads. Choose a correct answer from the options below
+Please select:
+A. True
+O B. False
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+5758 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:42
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 48
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+While working with the S3 API you receive the error message: 404 Not Found. What is the most likely cause for this error?
+Choose a correct answer from the options below
+Please select
+A. AccessDenied
+O B. BucketAlreadyExists
+C. NoSuchService
+O D. NoSuchBucket
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:23
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 53
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which of the following is an incorrect S3 bucket name? Choose 2 correct answer from the options below
+Please select:
+A. 1-demo.com
+B. 10.2.181.2
+C. 1Demo.com
+| D. 1demo.com
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:44
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 30
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Your "forums" table has a primary key of "id". Using DynamoDB, you're able to query the data based on the id primary
+key. You need to be able to query the forums table by userId. What would you add to the table during table creation time?
+Choose a correct answer from the options below
+Please select
+© A. Create a second table that contains all the information by userId.
+O B. Create a hash and range primary key
+O C. Create a secondary index.
+D. None of the above
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 31 32
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:24
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+. AWS CCDA Practice Tests
+uestion
+9
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which of the following are subject to eventual consistency? Choose the correct answer from the options below
+Please select:
+A. S3 objects in the US-East-1 region
+O B. Reads of a DynamoDB table, unless you specify otherwise
+C. All reads of a DynamoDB table
+O D. S3 objects in the US-Standard region
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 1819 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:48
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 46
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which API call would you use to attach an EBS volume to an EC2 instance? Choose a correct answer from the options
+below
+Please select
+© A. Attach!nstanceVolume
+Attachvolumelnstance
+© C. AttachEBSVolume
+O D. AttachVolume
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 46 4748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:02
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 42
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+A DynamoDB table can contain_local secondary indexes on a table. Choose a correct answer from the options below
+Please select:
+O A. 3
+C. 10
+O D. 2
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:37
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice Tests
+FULL TEST(S)
+Practice Test II
+uestion
+32
+Not vet answered
+Marked out of 1
+Mark for Review
+You're using CloudFormation templates to build out staging environments. What section of the CloudFormation would
+you edit in order to allow the user to specify the PEM key-name at start time? Choose a correct answer from the options
+below
+Please select
+A. Parameters Section
+B. Declaration Section
+O C. Mappings Section
+D. Resources Section
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 31 32
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:12
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 39
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+A global secondary index is an index with a hash and range key that can be different from those on the table. Choose a
+correct answer from the options below
+Please select
+A. True
+O B. False
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 37 38 3940
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:08
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 40
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You've enabled website hosting on a bucket named "demo.com" in the US-East-1 (US standard region). Select the URL
+you'l1 receive from AWS as the URL for the bucket. Choose a correct answer from the options below
+Please select
+O A. demo.com.s3-website-us-east-1.amazonaws.com
+O B. demo-com.s3-website-us-east-1.amazonaws.com
+O C. demo.com.s3-website.amazonaws.com
+D, demo.com.us-east-1-s3-website.amazonaws.com
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 37 38 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:44
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 13
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which of the following is a default limit in S3? Choose the correct answer from the options below
+Please select:
+A. Objects have no size limitation
+o B. Objects can have a maximum size of 5 GB
+C. Accounts can have a maximum of 100 buckets
+D, Buckets can have a maximum size of 5 TB
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 13 14 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:57
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 43
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which one of the following S3 error code does not have a corresponding HTTP 404 Status code? Choose a correct answer
+from the options below
+Please select
+(0) A. NoSuchBucket
+O B. NoSuchUpload
+C. NoSuchVersion
+D. MissingSecurity/Header
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 4243 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:35
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 16
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+When using the Ref function in CloudFormation, what do we get back if we pass in the logical ID of an
+AWS::EC2: :Instance object? Choose the correct answer from the options below
+Please select
+A. The obiect's creation status
+O B. The object's InstanceId
+C. Nothing, the AWS ::EC2 :Instance is not a valid resource type
+D. All of the attributes associated with that EC2 instance resource
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:16
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 20
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+What is the default timeout for visibility queue in SQS in seconds? Choose the correct answer from the options below
+Please select:
+O A. 30
+C. 10
+O D. 60
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:47
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 29
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which of the following can be increased by contacting AWS? Choose 2 correct answer from the options below
+Please select:
+□ A. DynamoDB tables per account
+B. DynamoDB secondary indexes per table
+C. S3 buckets per account
+| D. S3 buckets per region
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 31 32
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:41
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 14
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+hash kev? Choose the correct answer from the options
+Which API call would vou use to query an item by it's primary
+below
+Please select
+A. PutItem
+O B. Scan
+C. GetItem
+O D. query
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:24:29
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice Tests
+FULL TEST(S)
+Practice Test II
+uestion
+Not vet answered
+Marked out of 1
+Mark for Review
+You have created a mobile application that relies on reading data from DynamoDB. How could you give each mobile
+device permissions to read from DynamoDB? Choose an answer from the options below
+Please select
+© A. Connect to an EC2 instance which will pull the data from DynamoDB securely
+O B. Create an IAM role that can be assumed by an app that allows federated users
+O C. Add the username and password into the app code
+O D. Create an IAM user
+Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:54
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+* Home
+AWS CCDA Practice TestsOuestion 27
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You have an EC2 instance deployed with an IAM role with write access permissions to an SQS queue. The instance is
+attempting to write a 512 KB message to an SQS queue. What will the result of this attempt be? Choose the correct answer
+from the options below
+Please select
+© A. It will fail because it is greater than the 256 KB limit for SOS messages
+B. I ll fail because SQS requires the EC2 instance to use API keys with permissions to write to the queue
+C. It will succeed as a single message request
+D. It will succeed but be considered as 8 message requests because SOS measures message requests in 64 KB chunks
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 31 32
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:51
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 11
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+The only SNS notification event supported by S3 is S3 ReducedRedundancyLostObject. Choose the correct answer fronm
+the options below
+Please select
+A. True
+O B. False
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:47
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice Tests
+FULL TEST(S)
+Practice Test II
+uestion
+2
+Not vet answered
+Marked out of 1
+Mark for Review
+What is the maximum size of an S3 object? Choose an answer from the options below
+Please select:
+o C. 1TEB
+D. 500MB
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:38
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 15
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You attempt to create a new S3 bucket "Demo-Bucket-1234-US-East-2-Production-Envrionment-12.25.14" in the US-
+EAST-2 region and the bucket creation fails. Why?
+Choose the correct answer from the options below
+Please select
+A. The bucket name uses the dash character (""-")
+B. The bucket name uses capital letters
+C. The length of the bucket name (65 characters) is longer than the limit of 63 characters
+D. The bucket name uses the period character (".")
+O
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:28
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 18
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You run an ad-supported photo sharing website using S3 to serve photos to visitors of vour site. At some point vou find out
+that other sites have been linking to the photos on your site, causing loss to your business. What is an effective method to
+mitigate this? Choose the correct answer from the options below
+Please select
+© A. Use CloudFront distributions for static content
+O B. Store photos on an EBS volume of the web server
+C. Remove public read access and use signed URLs with expiry dates
+© D. Block the IPs of the offending websites in Security Groups
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:54
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 10
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Since S3 object are stored lexicographically, by introducing "randomness" to your S3 names it helps S3 storage distribute
+the I/O load across more than one partition. Given the following examples, how could you add a hashed prefix to the
+naming convention to increase I/O performance? Choose the correct answer from the options below
+Please select
+© A, bucket/8761-20 10-26-05-15-00-00/876 1/myfolder23 4234/photo 1 jpg
+O B. 8761bucket/2010-26-05-15-00-00/myfolder234234/photo1.ipg
+C. bucket/8761-20 10-26-05-15-00-00/myfolder234234/photol jpg
+O D. bucket/2010-26-05-15-00-00/bucket/myfolder234234/photol.ipg
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:41
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 31
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+10.2,181.56 is a valid S3 bucket name, Choose a correct answer from the options below
+Please select:
+A. True
+O B. False
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 31 32
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:24:23
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion:3
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which DynamoDB API call does not consume capacity units? Choose the correct answer from the options below
+Please select:
+A. Delete!tem
+O B. UpdateTable
+C. GetItem
+O D. UpdateItem
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:24:26
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+Home
+AWS CCDA Practice Tests、Question 2
+FULL TEST(S)
+Practice Test II
+Not yet answered
+Marked out of 1
+Mark for Review
+1. You define the following S3 bucket policy to grant users access to your bucket, but the S3 bucket policy editor will
+not allow you to submit it. Why is this policy not working? Choose the correct answer from the options below
+"Id": "Policy1441839160967",
+"Version": "2012-10-17",
+"Statement" [
+"Sid": "Stmt1441839157568",
+"Action":
+"s3:ListBucket"
+"Effect": "Allow",
+"Resource": "arn:AWS:s3:demo.testbucket.2"
+Please select
+O A. This is a NACL
+o B. S3 bucket policies require a Principal be defined
+C. The Resource name is incorrect - S3 bucket names cannot contain periods
+D. This is an IAM policy
+Prev Next
+Quiz navigation
+123 45 6 78
+9 10 11 12 13 14 15 16
+17 18 19 20 21 22 23 24
+25 26 27 28 29 30 31 32
+33 34 35 36 37 38 39 40
+41 42 43 44 45 46 47 48
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:57
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 26
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+What is the default limit for CloudFormation templates per region? Choose the correct answer from the options below
+Please select:
+A. There are no limits to the number of templates
+O B. 200
+O C. 20
+D. 40
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 31 32
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:30
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+* Home
+AWS CCDA Practice TestsOuestion 34
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+A corporate web application is deployed within an Amazon VPC, and is connected to the corporate data center via IPSec
+VPN. The application must authenticate against the on-premise LDAP server. Once authenticated, logged-in users can
+only access an S3 keyspace specific to the user. Choose 2 answer from the options below
+Please select
+A. The application authenticates against LDAP. The application then calls the IAM Security Service to login to IAM
+using the LDAP credentials. The application can use the IAM temporary credentials to access the appropriate S3
+bucket,
+B. Develop an identity broker which authenticates against IAM Security Token Service to assume an IAM Role to get
+temporary AWS security credentials. The application calls the identity broker to get AWS temporary security
+credentials with access to the app
+C. Develop an identity broker which authenticates against LDAP, and then calls IAM Security Token Service to get
+IAM federated user credentials. The application calls the identity broker to get IAM federated user credentials
+D. The application authenticates against LDAP, and retrieves the name of an IAM role associated with the user. The
+application then calls the IAM Security Token Service to assume that IAM Role. The application can use the
+temporary credentials to access the app
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:32
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+* Home
+AWS CCDA Practice TestsOuestion 17
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You have created an Elastic Load Balancer with Duration-Based sticky sessions enabled in front of your six EC2 web
+application instances in US-West-2. For High Availability, there are three web application instances in Availability Zone 1
+and three web application instances in Availability Zone 2. To load test, you set up a software-based load tester in
+Availability Zone 2 to send traffic to the Elastic Load Balancer, as well as letting several hundred users browse to the
+ELB's hostname. After a while, you notice that the users' sessions are spread evenly across the EC2 instances in both
+AZ's, but the software-based load tester's traffic is hitting only the instances in Availability Zone 2. What steps can you
+take to resolve this problem? Choose the 2 correct answer from the options below
+Please select
+A. Create a software-based load tester in US-East-1 and test from there
+B. Force the software-based load tester to re-resolve DNS before every request
+C. Use a third party load-testing service to send requests from globally distributed clients
+D. Switch to Application-Controlled sticky sessions
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:10
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+* Home
+AWS CCDA Practice Tests
+FULL TEST(S)
+Practice Test II
+uestion
+22
+Not vet answered
+Marked out of 1
+Mark for Review
+Your supervisor calls you wanting to know why she has not been receiving email notifications for AWS billing alerts
+What do you suspect the problem might be and how can you find out? Choose 3 correct answer from the options below
+Please select
+A. The SNS queue is not AutoScaling properly. Verify by viewing Performance Statistics in SNS.
+B. The SNS Subscription is not configured for Email notifications. Verify by viewing Subscriptions for the appropriate
+Topic in SNS
+C. Your supervisor has not responded to the confirmation email sent from SNS when you added a subscription for her
+email address. Verify by viewing Subscriptions for the appropriate Topic in SNS
+D. Billing alerts are not configured. Verify by viewing Billing Alerts in Account Preferences
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:50
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+* Home
+AWS CCDA Practice TestsOuestion 28
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You receive a call from a potential client who explains that one of the many services they offer is a website running on a
+t2.micro EC2 instance where users can submit requests for customized e-cards to be sent to their friends and family. The
+e-card website administrator was on a cruise and was shocked when he returned to the office in mid-January to find
+hundreds of angry emails complaining that customers' loved ones had not received their Christmas cards. He also had
+several emails from CloudWatch alerting him that the SOS queue for the e-card application had grown to over 500
+messages on December 25th. You investigate and find that the problem was caused by a crashed EC2 instance which
+serves as an application server. What do you advise your client to do first? Choose the correct answer from the options
+below
+Please select
+O A. Use an autoscaling group to create as many application servers as needed to process all of the Christmas card SQS
+messages
+O B. Reboot the application server immediately so that it begins processing the Christmas card SOS messages
+O C. Redeploy the application server as a larger instance type so that it can process the Christmas card SOS messages
+faster
+D. Send an apology to the customers notifying them that their cards will not be delivered
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 31 32
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:00
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice Tests
+FULL TEST(S)
+Practice Test II
+uestion
+25
+Not vet answered
+Marked out of 1
+Mark for Review
+Which of the following statements is true about DynamoDB? Choose the correct answer from the options belovw
+Please select:
+ⓡ A. Requests are eventually consistent unless otherwise specified.
+B. Requests are strongly consistent.
+O C. Tables do not contain primary keys
+D. None of the above
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 31 32
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:34
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 33
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+By default, what event occurs if your CloudFormation receives an error during creation? Choose a correct answer from the
+options below
+Please select
+A. DELETE IN PROGRESS
+O B. ROLLBACK IN PROGRESS
+C. DELETE COMPLETE
+O D. CREATION IN PROGRESS
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 37 38 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:03
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 24
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which statement about DynamoDB is true? Choose the correct answer from the options below
+Please select:
+o A. DynamoDB uses a pessimistic locking model.
+B. DynamoDB restricts item access during reads
+O C. DynamoDB uses conditional writes for consistency
+D. DynamoDB restricts item access during writes
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 1819 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlab
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:19
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+。AWS CCDA Free Test
+A WS CCD
+actice Tests
+You are logged in as niteshchawla81gmail-com
+Log out)
+. Home
+AWS CCDA Practice Tests
+FULL TEST(S)
+Practice Test II
+Question 37
+Not yet answered
+Marked out of 1
+Mark for Review
+1. Which of the following types of servers would this CloudFormation template be most appropriate for? Choose a
+correct answer from the options below
+"AWSTemplateFormatVersion": "2010-09-09",
+"Description" : "My CloudFormation Template",
+"Resources":
+"MyInstance" : {
+"Type": "AWS: EC2::Instance"
+"Properties": {
+"InstanceType": "t2.micro",
+"Imageld" : "ami-030f4133",
+"NetworkInterfaces":[
+"AssociatePubliclpAddress": "true"
+"DeviceIndex": "O'"
+"DeleteOnTermination": "true"
+"SubnetId" : "subnet-0c2c0855",
+"GroupSet" ["sg-53a4e434"]
+Please select
+o A. Domain Controller
+B. Log collection server
+O C. Database server
+O D. Bastion host
+PrevNext
+Quiz navigation
+1 23 4 5 6 78
+9 10 11 12 13 14 15 16
+17 18 19 20 21 22 23 24
+25 26 27 28 29 30 31 32
+33 34 35 36 37 38 39 40
+41 4243 44 45 46 4748
+49 50 51 52 53 54 55 56
+57 58 59 60
+eview attem
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause OQuiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:17
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+. AWS CCDA Practice Tests ▶
+uestion
+55
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+What would you set in your CloudFormation template to fire up different instance sizes based off of environment type? i.e
+(If this is for prod, use m1.large instead of tl.micro) Choose a correct answer from the options below
+Please select
+o A. Outputs
+© B. Resources
+C. Mappings
+D. conditions
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:27
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 35
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which statement about DynamoDB is true? Choose a correct answer from the options below
+Please select:
+A. DynamoDB does not support conditional writes
+O B. DynamoDB uses optimistic concurrency control
+C. DynamoDB is a relational database service.
+D. None of the above
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:23:07
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice Tests
+FULL TEST(S)
+Practice Test II
+uestion
+23
+Not vet answered
+Marked out of 1
+Mark for Review
+You want to find out what AMIs are available for you to use in a given region. Which API call is most appropriate? Choose
+an answer from the options below
+Please select
+© A. List!nstances
+B. ListAMIs
+C. Describe!mages
+O D. DescribeAMIs
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 23 24
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:24
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 36
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which of the following will not make a CloudFormation stack deployment to 'rollback'? Choose a correct answer from the
+options below.
+Please select
+© A. The template contains invalid JSON syntax
+B. A subnet specified in the template does not exist
+C. An AMI specified in the template exists in a different region than the one in which the stack is being deployed
+O D. The template specifies an instance-store backed AMI and an incompatible EC2 instance type
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:07
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+* Home
+AWS CCDA Practice TestsOuestion 58
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You need to announce an emergency downtime for a production AWS web application. This downtime notification will
+require different sets of instructions for different devices. All of the application users signed up to receive SNS
+notifications from the "mywebapp" topic when they began using the application and they are currently subscribed to this
+topic. What are appropriate ways for you to provide timely, device-specific instructions to end users when announcing this
+downtime? Choose an answer from the options below
+Please select:
+© A. Create a different topic for each subscription type and send a message to SMS endpoints to one topic and a message
+to email endpoints to another topic
+O B. Send multiple messages to the topic and ask users to ignore the messages that do not pertain to their device
+C. SNs is for automated notifications and you cannot send messages manually via SNS. The best option is to export the
+endpoints to a csv and send notifications to customers via vour email client or SMS device
+© D. Send a single message, but customize the text in the SNS message field so that each device gets only the information
+that is appropriate for them
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:51
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+* Home
+AWS CCDA Practice TestsOuestion 45
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You created three S3 buckets - "mydomain.com", "downloads.mydomain.com", and "www.mydomain.com". You
+uploaded your files, enabled static website hosting, specified both of the default documents under the "enable static website
+hosting" header, and set the "Make Public" permission for the objects in each of the three buckets. All that's left for you to
+do is to create the Route 53 Aliases for the three buckets
+You are going to have your end users test your websites by browsing to http://mydomain.com/error.html
+http://downloads.mydomain.com/index.html, and
+http://www.mydomain.com
+What problems will your testers encounter? Choose an answer from the options below
+Please select
+A·http://mydomain.com/error.html will not work because you did not set a value for the error.html file
+o B. http://www.mydomain.com will not work because the URL does not include a file name at the end of it.
+C. There will be no problems, all three sites should work.
+O D. http://downloads.mydomain.com/index.html will not work because the "downloads" prefix is not a supported prefix
+for S3 websites using Route 53 aliases
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:38
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 49
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You have items in your table that are 12KB in size and you want to have 10 strongly consistent reads per second. How
+many read capacity units would you need to provision? Choose a correct answer from the options below
+Please select
+A. 300
+O B. 10
+O C. 30
+o D. 1
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:26
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice Tests
+FULL TEST(S)
+Practice Test II
+uestion
+52
+Not vet answered
+Marked out of 1
+Mark for Review
+Which of the following cannot be used inside a CloudFormation template? Choose a correct answer from the options
+below
+Please select
+O A. Ruby statements
+B. Parameters
+O C. Intrinsic function
+o D.
+Regular expression
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:16
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+* Home
+AWS CCDA Practice TestsOuestion 38
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You are creating several DynamoDB tables for a new project. While doing so, you receive the error message,
+"LimitExceededException." You are well below the maximum number of tables per account and there is no read or write
+activity on the tables yet. Why have you received this error? Choose a correct answer from the options below
+Please select
+© A. You attempted to create global indexes at the same time you created the tables
+o B. You attempted to create local indexes at the same time you created the tables
+C. You failed to pre-warm the tables
+D. You attempted to create more than one table with a secondary index at a time
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:45
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+* Home
+AWS CCDA Practice TestsOuestion 47
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You are creating a CloudFormation template in the Singapore region which will create an S3 website bucket. You have
+created a parameter "demo" which is used to store the name of your S3 bucket, and you are hoping to create output from
+your template which will list the URL of the S3 website. Which of the following Join statements will provide the URL of
+your S3 website? Choose a correct answer from the options below
+Please select
+© A. "Fn: :Join'' : ["". ["http://",{"Ref":"demo"},,,.s3,,,,,.amazonaws.com"]]
+O B. "Fn::Join" : ["", ["http://",("GetAtt"."demo"?,".s3-bucket-"."Singapore-1",".amazon.com11
+", ["http://",{"GetAtt"."demo''),,,.s3 website-,,,,ap southeast-1,,,,,.amazonaws.com"]]
+" "http:// {"Ref" demo'') ".s3 website ("Ref". AWS: :Region') "amazonaws .com"
+C.
+Fn: :Join' .
+© D.
+F : :Jo " .
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 46 47 48
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:24:03
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion:8
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+S3 does not generally handle error codes with HTTP responses. Choose the correct answer from the options below
+Please select:
+A. True
+O B. False
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:29
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+·AWS CCDA Practice Tests
+uestion
+5
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Your app is using SQS to create distributed applications. Your messages need to contain more information than the 256KB
+SQS limit size allowed. How could you solve this problem? Choose a correct answer from the options below
+Please select
+A. Contact Amazon and request an increase to the message size for your account
+B. Store the information in S3 and attach retrieval information to the message for the application to process
+C. Compress the information inside of SOS messages
+o D. Use DynamoDB instead of SQS
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:24:16
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+* Home
+AWS CCDA Practice TestsOuestion.4
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+As you retrieve information from DynamoDB, you receive this error: "ProvisionedThroughputExceededException", but
+upon investigation you notice that you're not exceeding your table read capacity throughput. What is causing this error?
+Choose the correct answer from the options below
+Please select
+O A. DynamoDB needs a short amount of time to pre-warm before being able to handle a spike in demand, even if a table
+has enough throughput capacity configured
+O B. Metrics reported by AWS are not always real-time and could take a minute or so to appear
+C. This happens when using sort keys because they consume an extra read capacity for each call which doubles
+throughput
+D. We are exceeding a partition's throughput capacity, even if we're not exceeding the table throughput capacity
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 5152 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:34
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 50
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+A taxi company uses a mobile GPS application to track the location of each of their 60 cabs. The application records the
+taxi's location to a DynamoDB table every 6 seconds. Each transmission is just under 1 KB, and throughput is spread
+evenly within that minute. How many units of write capacity should you specify for this table? Choose a correct answer
+from the options below
+Please select
+O B. 60
+O C. 600
+o D. 10
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:00
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 60
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Your supervisor is upset about the fact that SNS topics that he subscribed to are now cluttering up his email inbox. How
+can he stop receiving email from SNS without disrupting other users' ability to receive email from SNS? Choose 2 answers
+from the options below
+Please select
+A. You can delete the subscription from the SNS topic responsible for the emails
+| B. You can delete the endpoint from the SNS subscription responsible for the emails
+C. You can delete the SNS topic responsible for the emails
+|D. He can use the unsubscribe information provided in the emails
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:22:05
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 41
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+While working with the S3 API you receive the error: 403 forbidden. What is the most likely cause of this? Choose a
+correct answer from the options below
+Please select
+© A. BucketAlreadyExists
+O B. AccessDenied
+o C. BadDigest
+O D. NoSuchBucket
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 4445 46 4748
+49 50 51 52 5354 5556
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:13
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 56
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+You're creating a forum DynamoDB database for hosting web forums. Your "thread" table contains the forum name and
+each "forum name" can have one or more "subjects". What primary key type would you give the thread table in order to
+allow more than one subject to be tied to the forum primary key name? Choose an answer from the options below
+Please select
+A. Primary and range
+O B. Hash and Range
+C. Hash
+D. Range and Hash
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:20:57
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 60
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Your supervisor is upset about the fact that SNS topics that he subscribed to are now cluttering up his email inbox. How
+can he stop receiving email from SNS without disrupting other users' ability to receive email from SNS? Choose 2 answers
+from the options below
+Please select
+A. You can delete the subscription from the SNS topic responsible for the emails
+| B. You can delete the endpoint from the SNS subscription responsible for the emails
+C. You can delete the SNS topic responsible for the emails
+|D. He can use the unsubscribe information provided in the emails
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   
+9.pngWhizlabs
+Success, certified
+2 Millions+ Users, 14+ Years, 100+ Countries
+Time left 1:21:03
+Visit our Website
+Whizlabs Learning Center
+My Learning Material
+AWS CCDA Free Test
+AWS CCDA Practice Tests
+. You are logged in as niteshchawla81gmail-com_Log out)
+AWS CCDA Practice TestsOuestion 59
+FULL TEST(S)
+Practice Test II
+Not vet answered
+Marked out of 1
+Mark for Review
+Which of these CloudFormation snippets of code will return an address that can be used to access our application from our
+browser if we're using a resource type of AWS::ElasticLoadBalancing::LoadBalancer with Logical ID
+"ElasticLoadBalancer"? Choose an answer from the options below
+Please select
+O A. "Fn::Join"[". "http://".
+"Fn::GetAtt" [ "ElasticLoadBalancer". "DNSName" 11
+B. "Fn::Join" : ["". [ "http://". f "Ref" : ["ElasticLoadBalancer"11
+C. "Fn: :Jom" . [ "http://''. [ ".'', { "Fn: :Get
+t " . [ "ElasticLoadBalancer". "DNSName" ]}]]
+O D. "Fn::Join"[". "http://".
+"Fn::GetAtt" [ "ElasticLoadBalancer". "URL" 111
+Prev Next
+Quiz navigation
+123 45 678
+9 10 11 12 1314 15 16
+17 18 19 20 21 22 2324
+25 26 27 28 29 30 3132
+33 34 35 36 3738 39 40
+41 42 43 44 45 464748
+49 50 51 52 53 54 55 56
+57 58 59 60
+Review attempt
+© 2017 Whizlabs Software Pvt. Ltd. | All Rights Reserved
+Pause Quiz
+
+                   9.png
+                   
+
+                   

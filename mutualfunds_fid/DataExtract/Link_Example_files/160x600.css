@@ -1,0 +1,24 @@
+.slides{
+position:relative;
+}
+.slide {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+display:block;
+background-color:none;
+}
+
+.slide.active {
+    z-index:10;
+    opacity:1.0;
+}
+.slide.last-active {
+    z-index:9;
+opacity:0.0;
+}
+body {
+  margin: 0px;
+}

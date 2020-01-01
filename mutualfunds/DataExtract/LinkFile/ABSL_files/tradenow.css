@@ -1,0 +1,408 @@
+/* Trade Now css */
+.FL{float:left;}.FR{float:right;}.PR{position:relative;}.TAC{text-align:center;}.MT15{margin-top:15px;}
+/*     Float containers fix 
+=============================== */
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden}
+.clearfix{display: inline-block}
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%}
+.clearfix{display: block}
+.btn_tradesp{display:inline-block; width:92px; height:17px; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png) 0 0 no-repeat; vertical-align:middle; border:0px;}
+.btn_tradesp:hover{ background-position:-101px 0;}
+.tradekeycont{display:none;}
+.popup_block_trade, .popup_block_forum {position: fixed;z-index: 99999; display: none; background:rgba(0,0,0,0.7); top: 0px; left: 0px; width: 100%;  height: 100%;    overflow: auto;}
+
+.mytv_popup_trade{}
+.mytv_popup_wrapper_trade{position:absolute; left:0; right:0; z-index:99999; top:5%; width:320px; margin:0 auto; background:#eaeff2;}
+.mytv_popup_header_trade{background:#eaeff2; padding:20px 10px 0 20px; box-shadow:0 0 3px 0px #d7dfe5 inset;}
+.mytv_popup_title_trade{color: #e9610c; font: 600 18px/41px 'Open Sans', sans-serif; padding-left:15px;}
+.mytv_popup_content_trade{padding:10px; background:#fff;}
+.mytv_popup_content_tradelog{padding:35px 20px 35px 35px; background:#fff;}
+.mytv_popup .btn{color: #fff; height: 40px; display: inline-block; background: #0f4d6b; padding:0px 15px; margin:0 5px; font: 700 14px/40px 'Open Sans', sans-serif;  text-align: center;   text-transform: uppercase; text-decoration: none !important; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -ms-border-radius: 3px; border:none;}
+.mytv_popup_trade .btn.cancel{background:#f4f7f9; color:#333333; font: 400 14px/41px 'Open Sans', sans-serif;}
+.mytv_popup_trade .bdrbtm{border-bottom:#e5e5e5 solid 1px;}
+.closetrd { position:absolute; top:5px; right:5px;}
+.mytv_popup_trade .closetrd .btn_close{background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png) -198px 0 no-repeat; display:block; width:24px; height:24px; text-indent:9999px; padding:0;}
+.mytv_popup_trade .wd320{width:320px;}
+.mytv_popup_trade .wd250{width:250px;}
+.mytv_popup_trade .brdal_gb_box{padding:15px; background:#fff; border:8px solid #f7f6fa; box-sizing:border-box; height:350px;}
+.mytv_popup_trade .tradetabs li{float:left;}
+.mytv_popup_trade .tradetabs li a{ display:inline-block; padding:8px 25px; background:#d4dfe6; border:1px solid transparent; margin-top:7px; color:#333333; font:600 14px 'Open Sans',Arial, Helvetica, sans-serif; text-decoration:none !important; position: relative;}
+.mytv_popup_trade .tradetabs li .active{background:#fff; padding-top:16px; margin-top:0px; border:1px solid #d7dfe5; border-bottom:0px; box-shadow:-4px -3px 4px -5px #c9cacb;}
+.trdlist_frm { margin:25px 0 0 0 ; padding:0px;}
+.trdlist_frm li{ padding-bottom:20px; height:40px; color:#333333; position:relative;}
+.input_fieldtrd{ width:215px; box-sizing:border-box; border:1px solid #e1e1e1; padding:0 8px; border-radius:3px; color:#000; font:600 13px/38px 'Open Sans',Arial, Helvetica, sans-serif; background:#fff; float:right;}
+.trdlist_frm li label { width:75px; float:left;  font:12px/40px Arial, Helvetica, sans-serif; }
+.refresh_selectbox_trade { float:right; width:215px; -moz-appearance: none; -webkit-appearance: none; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/arw_trd.png) no-repeat scroll 96% center; border:1px solid #e1e1e1; border-radius: 3px; padding:8px; height: 38px; line-height: 25px;  font:600 13px 'Open Sans',Arial, Helvetica, sans-serif; text-transform:capitalize;}
+.brd_dotted_trd{min-height:340px; width:1px; border-left:1px dotted #d7d7d7; margin:0 35px; float:left;}
+.trd_gd14{color:#333; font:400 14px Arial, Helvetica, sans-serif;}
+.brd_green_trd{ border:1px solid #00a453;}
+.brd_red_trd{ border:1px solid #eb212e;}
+.alert_mesg_trd{position:absolute; right:0; top:-15px; color:#d9231a; font:400 11px Arial, Helvetica, sans-serif;}
+.foter{padding:15px;}
+.txt11_trdnw { font:11px 'Open Sans',Arial, Helvetica, sans-serif;}
+.txt11_trdnw a { color:#144861;}
+.select_brokco { cursor:pointer; border:1px solid #ebebeb; z-index:100; height:20px; padding: 10px; border-radius:4px; -webkit-border-radius:4px; float:right; width:168px; position:relative;}
+.select_brokco:after  { content:""; width:10px; height:6px; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png) -165px -28px no-repeat; display:block; right:10px; top:15px; position:absolute;}
+.checkedBrk1 img { width:100px; height:30px;}
+.checkedBrk2 img { width:100px; height:30px;}
+.trd_radilist { display:none; width:190px; position:absolute; border:1px solid #ebebeb; border-top:none; right:-1px; top:99%; background:#fff; box-sizing:border-box;}
+.trd_radilist li { padding: 15px 10px; color:#0b0b0b; border-bottom:1px solid #ebebeb; cursor:pointer;}
+input[type="checkbox"] + label.trd_radio { display:inline-block; width:16px; height:16px; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png) -114px -27px no-repeat; margin-right:10px; vertical-align:middle; cursor: pointer;}
+input[type="checkbox"]:checked + label.trd_radio {background-position:-134px -27px;}
+.filtercheckbox {display: none; cursor: pointer;}
+.trd_radilist .img_block {margin-left: 20px; font: 700 14px Arial, Helvetica, sans-serif; margin-top: -5px; margin-left: 24px; width: 126px; display: inline-block;}
+
+
+
+.vmiddle{vertical-align:middle;}
+.trd_conftxt{ color:#999999; font:400 14px 'Open Sans',Arial, Helvetica, sans-serif;}
+.trd_conftxt .col_or{color:#fb8720;}
+.gdu_link{color:#333; font-weight:700; text-decoration:underline;}
+.btn_regsternow_trd{display:inline-block; font:800 18px 'Open Sans',Arial, Helvetica, sans-serif; color:#fff; padding:15px 50px; border-radius:3px; text-transform:uppercase; text-decoration:none !important; background:#144861; color: #ffffff !important;}
+.btn_regsternow_trd.signin{padding:15px 30px; width: 80%;}
+a.btn_regsternow_trd:hover {color: #ffffff;}
+.trd_radilist_login li { padding:0 0 20px 25px; float:left; color:#0b0b0b; font:700 14px 'Open Sans',Arial, Helvetica, sans-serif; cursor:pointer;}
+.trd_radilist_login li .trd_radio{ display:inline-block; width:24px; height:24px; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png) -347px 0 no-repeat; margin-right:10px; vertical-align:middle;}
+.trd_radilist_login li.checked .trd_radio{ background-position:-375px 0;}
+.trd_radilist_login li .trd_radio input { visibility: hidden; width: 20px;}
+.reg_thankbxtrd{padding:40px; color:#666666; font:400 18px 'Open Sans',Arial, Helvetica, sans-serif; background:#fff; display:none;}
+.reg_thankbxtrd .col_or{color:#fb8720;}
+.reg_thankbxtrd .gdsmbold{font-weight:600; color:#333;}
+.reg_thankbxtrd .blulink{color:#144861; text-decoration:underline;}
+.ic_tradenwbtn{ width:15px; height:15px; display:inline-block; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png) 0 -27px no-repeat; vertical-align:middle;}
+.ic_trademmb{ width:15px; height:15px; display:inline-block; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png) -28px -27px no-repeat; vertical-align:middle;}
+.addPrWhs a.mIcon{vertical-align:middle !important; display:inline-block !important;}
+.dnone{display:none;}
+.bsr_table tbody tr:hover .ic_plusor{display:inline-block; margin-left:5px; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png) -50px -27px no-repeat; width:15px; height:15px; vertical-align:middle;}
+.gld13{color:#333333; font:700 13px 'Open Sans',Arial, Helvetica, sans-serif;}	
+.bsr_table .stagetool	{ box-shadow: 0 0 5px #ececec; -webkit-box-shadow: 0 0 10px #c7cccf; bottom:22px; border-radius:2px; width:350px; background:#ffffff; border:1px solid #c7cccf; position:absolute;}
+.bsr_table .stagetool h1	{ padding:10px; background:#eaeff2; font-size:11px; color:#333333;}
+.bsr_table .stagetool h1 span	{ color:#35708a;}
+.bsr_table .stagetool li	{ display:list-item; list-style:inside square; color:#e9610c; padding:5px 0; border-bottom:1px solid #e5e5e5;}
+.bsr_table .stagetool li span	{ width:310px; display:inline-block; vertical-align:top; color:#333333;}
+.bsr_table .stagetool li em	{ font-style:normal; color:#959595; display:inline-block;} 
+.bsr_table .stagetool .arrwodn { background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/dwnarrow.png) no-repeat; width:17px; height:11px; position:absolute; bottom:-11px; left:15px;}
+.bsr_table .add_bubg{background:#f4f7f9; padding:5px; color:#999999; font:400 13px 'Open Sans',Arial, Helvetica, sans-serif;}
+.bsr_table .stagetool.wd190{width:190px;}
+.bsr_table .ic_watchlist{display:inline-block; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/ic_watchlist.png) 0 0 no-repeat; width:16px; height:9px; vertical-align:middle; margin-right:3px;}
+.bsr_table .ic_portfolio{display:inline-block; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/ic_portfolio.png) 0 0 no-repeat; width:15px; height:11px; vertical-align:middle; margin-right:3px;}
+.bsr_table .bl13{color:#007896; font:400 13px 'Open Sans',Arial, Helvetica, sans-serif;}
+.bsr_table tbody tr:hover .ic_tradenwicn{ display:inline-block; width:15px; height:15px; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v1.png) -71px -27px no-repeat; vertical-align:middle; cursor:pointer;}
+.bsr_table tbody tr:hover .ic_forummsg{display:inline-block; width:15px; height:15px; background:url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png) -92px -27px no-repeat; vertical-align:middle; cursor:pointer;}
+.frmhedtxt{padding-bottom:20px;}
+.ic_tradenwicn {display: inline-block; width: 15px; height: 15px; background: url(https://img-d02.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png) -71px -27px no-repeat; vertical-align: middle; cursor: pointer;}
+.trd_radilist.trd_radilist2 img {width: 110px; height: 31px;}
+
+
+/*buy popup css start*/
+.popup_block_forum{ font-family:Arial,Helvetica,sans-serif;}
+.popup_block_forum .pop_hdtxt{font:600 18px 'Open Sans',Arial, Helvetica, sans-serif;}
+.popup_block_forum .post_cnt { background: #fff none repeat scroll 0 0;border: 1px solid #dcdcdc; border-radius: 3px;}
+.popup_block_forum .postpin{ width:190px; resize:none; height:40px; padding:8px 10px; border:none;}
+.popup_block_forum .btnBlue{background:#0f4d6b; color:#FFF; font:600 14px/36px 'Open Sans',arial; text-align:center; border:0px; border-radius: 5px; display: inline-block; line-height: 36px; width: 86px; text-decoration:none !important; cursor:pointer;}
+.popup_block_forum .stk_nslist li{float:left; width:45%; color:#666666; font:600 13px 'Open Sans',Arial, Helvetica, sans-serif;}
+.popup_block_forum .top-div {display: inline-block;/* border-bottom: 1px solid #e7edf0; */padding-bottom: 20px;}
+.popup_block_forum .popupbuy-heading {color: #e9610c; font-size: 15px;}
+.popup_block_forum .col-left {float: left;}
+.popup_block_forum .col-left .textarea1 {width: 394px; height: 90px; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 15px;}
+.popup_block_forum .col-right {float: right; border-left: 1px solid #e7edf0; margin-left: 17px;}
+.popup_block_forum .bottom-div {display: inline-block; margin-top: 10px;}
+.popup_block_forum .bottom-div .col {display: inline-block;}
+.popup_block_forum .bottom-div .txtfield_drp {padding-left: 10px; width: 187px;}
+.popup_block_forum ul.three-list {margin: 0px; padding: 0px;}
+.popup_block_forum ul.three-list li {float: left; margin-right: 20px;}
+.popup_block_forum ul.three-list li p {display: block; color: #666; margin-bottom: 10px;}
+.popup_block_forum .mmbdrop {width: 130px;}
+.popup_block_forum .button {width: 100%; text-align: center; margin: 20px 0px 10px; display: inline-block;}
+.popup_block_forum .bgdvrp {padding: 9px 40px 12px 10px; border: none;}
+.popup_block_forum .col-right .top_gain_table {padding: 0px 0px 0px 20px; width: 180px;}
+.popup_block_forum ul.three-list li ul li {float: none; margin-right: 0px;}
+.popup_block_forum ul.stk_nslist li {width: 100%; border-bottom: 1px solid #e7edf0; padding: 8px 0px;}
+.popup_block_forum ul.stk_nslist li.last {border: none;}
+.popup_block_forum .PL15 {padding-left: 0px;}
+.popup_block_forum .three-list .dropp_sele {width: 181px;}
+.popup_block_forum .buyscroller-pane {overflow-y: auto; height: 120px;}
+.popup_block_forum .arw_snup{width: 0; height: 0; border-bottom: 7px solid #1ca501;	border-right: 7px solid transparent; 	border-left: 7px solid transparent; display:inline-block;}
+.popup_block_forum .arw_sndwn{ width: 0; height: 0; border-top: 7px solid #e15555;	border-right: 7px solid transparent; 	border-left: 7px solid transparent;  display:inline-block;}
+.popup_block_forum .mk_txt{ color:#1ca501; font:400 15px 'Open Sans',Arial, Helvetica, sans-serif;}
+.popup_block_forum .mk_txt.down{ color:#e15555;}
+.popup_block_forum .op_smgd20{color:#333; font:600 20px 'Open Sans',Arial, Helvetica, sans-serif;}
+.MB15 {margin-bottom: 15px;}
+/*buy popup css end*/
+
+
+/*== app loginbox ==*/
+.app_loginbox {display: inline-block; width: 320px; text-align: left; padding: 20px; margin: 20px; box-shadow: 0 0 8px #ccc; border-radius: 2px;}
+.app_loginbox .tradetabs li{float:left;}
+.app_loginbox .tradetabs li a{ display:inline-block; padding:8px 25px; background:#d4dfe6; border:1px solid transparent; margin-top:7px; color:#333333; font:600 14px 'Open Sans',Arial, Helvetica, sans-serif; text-decoration:none !important; position: relative;}
+.app_loginbox .tradetabs li .active{background:#fff; padding-top:16px; margin-top:0px; border:1px solid #d7dfe5; border-bottom:0px; box-shadow:-4px -3px 4px -5px #c9cacb;}
+.app_loginbox .tradetabs li .active {background:#fff; padding-top:16px; margin-top:0px; border:1px solid #d7dfe5; border-bottom:0px; box-shadow:-4px -3px 4px -5px #c9cacb;}
+.app_loginbox .mytv_popup_content_tradelog {padding: 35px 20px 35px 0px;}
+.app_loginbox .app_loginbox_content {border-top: 1px solid #e1e1e1;}
+.app_loginbox .tradetabs {margin-bottom: 0px; padding-top: 10px; margin-left: 10px;}
+.app_loginbox #tradetnwtab2 .select_brokco { width: 100%; float: left;}
+.app_loginbox #tradetnwtab2 .mytv_popup_content_tradelog {padding: 10px 20px 35px 0px;}
+.app_loginbox #tradetnwtab2 .trd_radilist {width: 100%; left: 0;}
+.tradenow #tradetnwtab2 .mytv_popup_content_tradelog {padding: 10px 20px 35px 20px;}
+.tradenow #tradetnwtab2 .select_brokco {width: 92%;}
+.tradenow #tradetnwtab2 .trd_radilist {width: 100%; left: 0;}
+.trd_radilist li:first-child {border-top: 1px solid #ebebeb;}
+.checkedBrk1 .content_block {font: 700 14px Arial, Helvetica, sans-serif; color: #000; margin-left: 25px; display: inline-block; width: 126px;}
+.select_brokco.select_brokco1 {height: unset; width: 188px; padding: 10px;}
+.checkedBrk1 {padding: 10px;}
+.select_brokco.select_brokco2 {height: unset;}
+.wap_tradenow .popup_scroll_pane {width: 100%; height: 410px; overflow-y: auto; overflow-x: hidden;}
+/*.popup_scroll_pane .jspDrag {background: #bbd; position: relative; top: 0; left: 0; cursor: pointer; height: 100px !important;}*/
+.multiple_scroll_pane {width: 100%; height: 150px; overflow: auto;}
+.filter_multiple_scroll_pane {width: 210px !important; display: inline-block; overflow: auto; max-height: 150px; margin-bottom: 0px;}
+.addbrd{border: 1px solid #ebebeb;}
+.multiple_scroll_pane .jspDrag {background: #bbd; position: relative; top: 0; left: 0; cursor: pointer;}
+.filter_multiple_scroll_pane .jspDrag {background: #bbd; position: relative; top: 0; left: 0; cursor: pointer;}
+.jspVerticalBar {position: absolute; top: 0; right: 0; width: 5px; height: 100%;}
+.selectedfilterbox {margin-top: 20px; float: right; width: 210px;}
+.selectedfilterbox ul li {min-height: 42px; height: auto;  border-bottom: 1px solid #ebebeb; padding-top: 10px; padding-left: 10px;}
+.selectedfilterbox ul li:last-child {border-bottom: none;}
+.multiple_scroll_pane .jspPane, .filter_multiple_scroll_pane .jspPane {width: 210px !important;}
+.filter_multiple_scroll_pane .jspContainer {max-height: 150px;}
+.content_block.alltext {margin-left: 28px; font: 700 14px Arial, Helvetica, sans-serif; color: #000;}
+#tradetnwtab2 {height: 315px;}
+/*== app loginbox ==*/
+
+
+
+/*== compare ==*/
+.stock_tbalestick tr#mf_scheme{width:915px;}
+.comparepage .compare_tbl {width: 100%;}
+.comparepage .compare_tbl th { background:#e9eff2; color:#333333; font:400 15px 'Open Sans',Arial, Helvetica, sans-serif; padding:10px; border:1px solid #eaeaea;}
+.comparepage .compare_tbl td.lightbg {background:#e9eff2;}
+.comparepage .pos_tabledividen {position: static !important; width: 1081px; background:#fff; box-sizing:border-box; overflow:visible; left: unset;}
+.comparepage ul.compare_listrept {margin: 0px; padding: 0px; list-style: none;}
+.comparepage .compare_listrept li {border:1px solid #f1f1f1; padding: 6px; color:#333333; font:400 15px Arial, Helvetica, sans-serif; text-align:center;}
+.comparepage .compare_listrept li.zeropadding {padding: 0px;}
+.comparepage .compare_listrept li:first-child {background:#e9eff2;}
+.comparepage ul.compare_renslider li {width: 360px !important;}
+.comparepage .pos_tabledividen .bx-controls .bx-controls-direction a{ background: url(https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png) -99px -101px; font-size: 0px; display: block; width: 51px; height: 100px; position:absolute;}
+.comparepage .pos_tabledividen .bx-controls .bx-controls-direction a.bx-prev{left:0; top: 65px; background-position:-134px -226px;}
+.comparepage .pos_tabledividen .bx-controls .bx-controls-direction a.bx-next{right: 0; top: 65px;  background-position:-196px -224px;}
+.comparepage .pos_tabledividen .bx-controls .bx-controls-direction a.bx-prev.disabled {background-position: -8px -225px;}
+.comparepage .pos_tabledividen .bx-controls .bx-controls-direction a.bx-next.disabled {background-position: -65px -226px;}
+.comparepage .pos_tabledividen .bx-controls .bx-controls-direction a.bx-prev:hover {left:0; top: 65px; background-position:-282px -226px; cursor: pointer;}
+.comparepage .pos_tabledividen .bx-controls .bx-controls-direction a.bx-next:hover {right:0; top: 65px;  background-position:-334px -225px; cursor: pointer;}
+.comparepage .pos_tabledividen .bx-controls-direction {position: relative; width: 1081px; display: none;}
+.comparepage .pos_tabledividen .bx-controls {position: fixed; top: 160px;}
+.compare_close_btn {background: rgba(0, 0, 0, 0) url("https://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite_v2.png") no-repeat scroll -185px -29px; display: block; font-size: 0; height: 12px; position: absolute; right: 5px; top: 5px; width: 12px;}
+.comparepage .compare-tbl .column-left {width: 15%; float: left;}
+.comparepage .compare-tbl .column-right {width: 85%; float: left; position: relative;}
+.comparepage .compare-tbl tr td {font: 600 13px 'Open Sans',Arial, Helvetica, sans-serif; border: 1px solid #eaeaea; text-align: center; height: 21px;}
+.comparepage .compare-tbl td {padding: 10px 7px;}
+.comparepage .compare-tbl tr td:first-child {text-align: left;}
+.comparepage .compare-tbl tr td.heading, .compare_table_br tr:nth-child(even) td.heading {background: #35708b; font: 700 13px 'Open Sans',sans-serif; color: #fff; text-transform: uppercase; padding: 10px 7px; position: relative; height: 24px;}
+.comparepage .compare-tbl tr td.heading_td, .compare_table_br tr:nth-child(even) td.heading {background: #e9eff2; font: 700 13px 'Open Sans',sans-serif; color: #fff; text-transform: uppercase; padding: 10px 7px; position: relative;}
+.compare-tbl tr:nth-child(even) td {background-color: #f7f7fa;}
+.comparepage .compare-tbl .heading span.arrow {text-align: center; border-top: 5px solid #35708b; border-left: 5px solid transparent; border-right: 5px solid transparent; display: inline-block; height: 0; width: 0; position: absolute; bottom: -5px; left: 0; right: 0; margin: 0 auto;}
+.comparepage .compare-tbl .column-right tr td {text-align: center; height: 22px;}
+.comparepage .compare-tbl tr.highlightedrow {background-color: #f0f1f3;}
+.comparepage .compare-tbl tr.headblock td {text-align: center; height: 45px;}
+.comparepage .compare-tbl td span {font: 700 15px 'Open Sans',Arial, Helvetica, sans-serif; text-transform: uppercase;}
+.comparepage .compare-tbl tr td span.subtxt {color: #666666; font-size: 12px; font-weight: normal; text-transform: none;}
+.comparepage .compare-tbl tr td.blueborder {border-right: 1px solid #c6d5dc; border-bottom: 1px solid #c6d5dc;}
+.comparepage .compare-tbl tr td.grayborder {border-right: 1px solid #eaeaea; border-bottom: 1px solid #eaeaea;}
+.comparepage .compare-tbl tr.borderbtm {border-bottom: 1px solid #eaeaea;}
+.comparepage .lightblue {background-color: #f9fafc;}
+.comparepage .headblock img {height: 30px;}
+.comparepage .compare-tbl .column-left .select_brokco.select_brokco1 {text-align: left; width: 155px;}
+.comparepage .compare-tbl .content_block.alltext {color: #0b5c93; width: 110px;}
+
+.comparepage .compare-tbl .column-right tr:nth-child(7) td, .compare-tbl .column-right tr:nth-child(21) td, .compare-tbl .column-right tr:nth-child(36) td, .compare-tbl .column-right tr:nth-child(70) td, .compare-tbl .column-right tr:nth-child(80) td {height: 75px;}
+
+.comparepage .compare-tbl .column-right tr:nth-child(15) td, .comparepage .compare-tbl .column-right tr:nth-child(16) td, .comparepage .compare-tbl .column-right tr:nth-child(17) td, .comparepage .compare-tbl .column-right tr:nth-child(18) td, .comparepage .compare-tbl .column-right tr:nth-child(19) td, .comparepage .compare-tbl .column-right tr:nth-child(20) td, .comparepage .compare-tbl .column-right tr:nth-child(10) td, .comparepage .compare-tbl .column-right tr:nth-child(12) td, .compare-tbl .column-right tr:nth-child(40) td, .compare-tbl .column-right tr:nth-child(81) td, .compare-tbl .column-left tr:nth-child(40) td {height: 36px;}
+
+.compare-tbl .column-right tr:nth-child(32) td {height: 50px;}
+.compare-tbl .column-right tr:nth-child(39) td, .compare-tbl .column-right tr:nth-child(47), .compare-tbl .column-right tr:nth-child(46) td, .compare-tbl .column-right tr:nth-child(52) td, .compare-tbl .column-right tr:nth-child(55) td, .compare-tbl .column-right tr:nth-child(57) td, .compare-tbl .column-right tr:nth-child(78) td {height: 57px;}
+
+.compare-tbl .column-right tr:nth-child(82) td {height: 414px;}
+
+
+.comparepage .compare-tbl .column-left tr:nth-child(9) td, .compare-tbl .column-left tr:nth-child(26) td, .compare-tbl .column-left tr:nth-child(34) td, .compare-tbl .column-left tr:nth-child(42) td, .compare-tbl .column-left tr:nth-child(53) td, .compare-tbl .column-left tr:nth-child(56) td, .compare-tbl .column-left tr:nth-child(62) td, .compare-tbl .column-left tr:nth-child(71) td, .compare-tbl .column-left tr:nth-child(73) td {height: 23px;}
+.comparepage .compare-tbl .column-left tr:nth-child(7) td, .compare-tbl .column-left tr:nth-child(21) td, .compare-tbl .column-left tr:nth-child(36) td, .compare-tbl .column-left tr:nth-child(70) td, .compare-tbl .column-left tr:nth-child(80) td {height: 75px;}
+
+.comparepage .compare-tbl .column-left tr:nth-child(15) td, .comparepage .compare-tbl .column-left tr:nth-child(16) td, .comparepage .compare-tbl .column-left tr:nth-child(17) td, .comparepage .compare-tbl .column-left tr:nth-child(18) td, .comparepage .compare-tbl .column-left tr:nth-child(19) td, .comparepage .compare-tbl .column-left tr:nth-child(20) td, .comparepage .compare-tbl .column-left tr:nth-child(10) td, .comparepage .compare-tbl .column-left tr:nth-child(12) td {height: 36px;}
+
+
+.compare-tbl .column-left tr:nth-child(32) td {height: 51px;}
+.compare-tbl .column-left tr:nth-child(39) td, .compare-tbl .column-left tr:nth-child(47), .compare-tbl .column-left tr:nth-child(46) td, .compare-tbl .column-left tr:nth-child(52) td, .compare-tbl .column-left tr:nth-child(55) td, .compare-tbl .column-left tr:nth-child(57) td, .compare-tbl .column-left tr:nth-child(78) td {height: 57px;}
+
+.compare-tbl .column-left tr:nth-child(82) td {height: 414px;}
+.comparepage .pos_tabledividen .bx-wrapper {max-width: 1856px !important;}
+/*== compare ==*/
+
+
+
+@media all and (max-width:1279px){
+.comparepage .pos_tabledividen .bx-controls-direction {width: 994px;}
+.comparepage .compare-tbl .column-right tr:nth-child(7) td, .compare-tbl .column-right tr:nth-child(21) td, .compare-tbl .column-right tr:nth-child(36) td, .compare-tbl .column-right tr:nth-child(70) td, .compare-tbl .column-right tr:nth-child(80) td {height: 91px;}
+
+.comparepage .compare-tbl .column-right tr:nth-child(15) td, .comparepage .compare-tbl .column-right tr:nth-child(16) td, .comparepage .compare-tbl .column-right tr:nth-child(17) td, .comparepage .compare-tbl .column-right tr:nth-child(18) td, .comparepage .compare-tbl .column-right tr:nth-child(19) td, .comparepage .compare-tbl .column-right tr:nth-child(20) td, .comparepage .compare-tbl .column-right tr:nth-child(10) td {height: 73px;}
+
+.compare-tbl .column-right tr:nth-child(32) td, .comparepage .compare-tbl .column-right tr:nth-child(12) td {height: 51px;}
+.compare-tbl .column-right tr:nth-child(39) td, .compare-tbl .column-right tr:nth-child(47), .compare-tbl .column-right tr:nth-child(46) td, .compare-tbl .column-right tr:nth-child(52) td, .compare-tbl .column-right tr:nth-child(53) td, .compare-tbl .column-right tr:nth-child(55) td, .compare-tbl .column-right tr:nth-child(56) td, .compare-tbl .column-right tr:nth-child(57) td, .compare-tbl .column-right tr:nth-child(78) td {height: 57px;}
+
+.compare-tbl .column-right tr:nth-child(49) td, .compare-tbl .column-right tr:nth-child(50) td 	{height: 36px;}
+	
+.compare-tbl .column-right tr:nth-child(82) td {height: 414px;}
+
+
+.comparepage .compare-tbl .column-left tr:nth-child(9) td, .compare-tbl .column-left tr:nth-child(26) td, .compare-tbl .column-left tr:nth-child(34) td, .compare-tbl .column-left tr:nth-child(42) td, .compare-tbl .column-left tr:nth-child(62) td, .compare-tbl .column-left tr:nth-child(71) td, .compare-tbl .column-left tr:nth-child(73) td {height: 23px;}
+	
+	
+.compare-tbl .column-left tr:nth-child(49) td, .compare-tbl .column-left tr:nth-child(50) td {height: 36px;}
+	
+.comparepage .compare-tbl .column-left tr:nth-child(7) td, .compare-tbl .column-left tr:nth-child(21) td, .compare-tbl .column-left tr:nth-child(70) td, .compare-tbl .column-left tr:nth-child(80) td {height: 91px;}
+
+	.compare-tbl .column-left tr:nth-child(36) td {height: 97px;}	
+	
+.comparepage .compare-tbl .column-left tr:nth-child(15) td, .comparepage .compare-tbl .column-left tr:nth-child(16) td, .comparepage .compare-tbl .column-left tr:nth-child(17) td, .comparepage .compare-tbl .column-left tr:nth-child(18) td, .comparepage .compare-tbl .column-left tr:nth-child(19) td, .comparepage .compare-tbl .column-left tr:nth-child(20) td, .comparepage .compare-tbl .column-left tr:nth-child(10) td, .comparepage .compare-tbl .column-left tr:nth-child(12) td {height: 73px;}
+
+	
+.compare-tbl .column-left tr:nth-child(39) td, .compare-tbl .column-left tr:nth-child(47), .compare-tbl .column-left tr:nth-child(46) td, .compare-tbl .column-left tr:nth-child(52) td, .compare-tbl .column-left tr:nth-child(55) td, .compare-tbl .column-left tr:nth-child(57) td, .compare-tbl .column-left tr:nth-child(78) td, .compare-tbl .column-left tr:nth-child(53) td, .compare-tbl .column-left tr:nth-child(56) td {height: 57px;}
+
+.compare-tbl .column-left tr:nth-child(82) td {height: 414px;}
+}
+
+
+
+@media all and (max-width:1024px){
+.comparepage .compare-tbl .column-left {width: 18.8%;}
+.comparepage .compare-tbl .column-right {width: 81%;}
+.comparepage ul.compare_renslider li {width: 293px !important;}
+.comparepage ul.compare_renslider table {width: 100% !important; overflow: hidden;}
+.comparepage .pos_tabledividen {width: 830px;}
+.comparepage .pos_tabledividen .bx-controls-direction {width: 831px;}
+}
+
+
+@media all and (max-width:980px){
+.comparepage .compare-tbl .column-left {width: 23.5%;}
+.comparepage .compare-tbl .column-right {width: 76%;}
+.comparepage ul.compare_renslider li {width: 293px !important;}
+.comparepage ul.compare_renslider table {width: 100% !important; overflow: hidden;}
+.comparepage .pos_tabledividen {width: 621px;}
+.comparepage .pos_tabledividen .bx-controls-direction {width: 621px;}
+.comparepage .compare-tbl .column-right tr:nth-child(7) td, .compare-tbl .column-right tr:nth-child(21) td, .compare-tbl .column-right tr:nth-child(80) td {height: 175px;}
+	
+.compare-tbl .column-right tr:nth-child(70) td, .compare-tbl .column-left tr:nth-child(70) td {height: 105px;}
+	
+.compare-tbl .column-right tr:nth-child(36) td {height: 91px;}
+
+.comparepage .compare-tbl .column-right tr:nth-child(15) td, .comparepage .compare-tbl .column-right tr:nth-child(16) td, .comparepage .compare-tbl .column-right tr:nth-child(17) td, .comparepage .compare-tbl .column-right tr:nth-child(18) td, .comparepage .compare-tbl .column-right tr:nth-child(19) td, .comparepage .compare-tbl .column-right tr:nth-child(20) td {height: 73px;}
+
+.compare-tbl .column-right tr:nth-child(32) td, .comparepage .compare-tbl .column-right tr:nth-child(10) td, .compare-tbl .column-right tr:nth-child(23) td {height: 51px;}
+	
+.compare-tbl .column-right tr:nth-child(47), .compare-tbl .column-right tr:nth-child(46) td, .compare-tbl .column-right tr:nth-child(52) td, .compare-tbl .column-right tr:nth-child(53) td, .compare-tbl .column-right tr:nth-child(55) td, .compare-tbl .column-right tr:nth-child(56) td, .compare-tbl .column-right tr:nth-child(57) td, .compare-tbl .column-right tr:nth-child(78) td {height: 57px;}
+
+.compare-tbl .column-right tr:nth-child(29) td {height: 25px;}
+.compare-tbl .column-right tr:nth-child(39) td, .compare-tbl .column-left tr:nth-child(39) td {height: 81px;}
+	
+.comparepage .compare-tbl .column-right tr:nth-child(3) td, .comparepage .compare-tbl .column-right tr:nth-child(4) td, .comparepage .compare-tbl .column-right tr:nth-child(5) td, .comparepage .compare-tbl .column-right tr:nth-child(6) td, .comparepage .compare-tbl .column-right tr:nth-child(8) td, .comparepage .compare-tbl .column-right tr:nth-child(42) td, .comparepage .compare-tbl .column-right tr:nth-child(44) td {height: 35px;}
+
+.compare-tbl .column-right tr:nth-child(22) td, .compare-tbl .column-right tr:nth-child(25) td, .compare-tbl .column-right tr:nth-child(30) td {height: 33px;}
+	
+	
+.compare-tbl .column-right tr:nth-child(82) td {height: 414px;}
+
+
+.comparepage .compare-tbl .column-left tr:nth-child(9) td, .compare-tbl .column-left tr:nth-child(26) td, .compare-tbl .column-left tr:nth-child(34) td, .compare-tbl .column-left tr:nth-child(42) td, .compare-tbl .column-left tr:nth-child(62) td, .compare-tbl .column-left tr:nth-child(71) td, .compare-tbl .column-left tr:nth-child(73) td {height: 23px;}
+
+.compare-tbl .column-right tr:nth-child(42) td, .comparepage .compare-tbl .column-right tr:nth-child(43) td {height: 32px;}
+
+.comparepage .compare-tbl .column-left tr:nth-child(8) td, .compare-tbl .column-right tr:nth-child(37) td, .compare-tbl .column-left tr:nth-child(37) td {height: 35px;}	
+	
+.compare-tbl .column-left tr:nth-child(49) td, .compare-tbl .column-left tr:nth-child(50) td, .compare-tbl .column-right tr:nth-child(49) td, .compare-tbl .column-right tr:nth-child(50) td, .compare-tbl .column-right tr:nth-child(47) td {height: 36px;}
+	
+.compare-tbl .column-left tr:nth-child(23) td {height: 51px;}
+
+.compare-tbl .column-left tr:nth-child(28) td {height: 25px;}
+	
+.comparepage .compare-tbl .column-left tr:nth-child(7) td, .compare-tbl .column-left tr:nth-child(21) td, .compare-tbl .column-left tr:nth-child(80) td {height: 175px;}
+
+.comparepage .compare-tbl .column-left tr:nth-child(15) td, .comparepage .compare-tbl .column-left tr:nth-child(16) td, .comparepage .compare-tbl .column-left tr:nth-child(17) td, .comparepage .compare-tbl .column-left tr:nth-child(18) td, .comparepage .compare-tbl .column-left tr:nth-child(19) td, .comparepage .compare-tbl .column-left tr:nth-child(20) td {height: 74px;}
+
+
+.comparepage .compare-tbl .column-left tr:nth-child(10) td, .comparepage .compare-tbl .column-left tr:nth-child(12) td {height: 51px;}
+.comparepage .compare-tbl .column-left tr:nth-child(32) td {height: 54px;}
+	
+	
+.compare-tbl .column-left tr:nth-child(47), .compare-tbl .column-left tr:nth-child(46) td, .compare-tbl .column-left tr:nth-child(52) td, .compare-tbl .column-left tr:nth-child(55) td, .compare-tbl .column-left tr:nth-child(57) td, .compare-tbl .column-left tr:nth-child(78) td, .compare-tbl .column-left tr:nth-child(53) td, .compare-tbl .column-left tr:nth-child(56) td {height: 57px;}
+	
+.compare-tbl .column-left tr:nth-child(82) td {height: 414px;}
+.comparepage .pgWrapper {width: unset;}
+}
+
+
+
+@media all and (max-width:767px){
+.mytv_popup_wrapper_trade {left: 50%; margin-left: -150px; position:absolute; top:20px; width:300px; z-index:99999; }
+.mytv_popup_header_trade { padding:10px 20px 0 20px;}
+.mytv_popup_header_trade.foter  { padding:15px 20px;}
+.mytv_popup_content_trade {background: #fff none repeat scroll 0 0; padding:10px 20px;}
+.mytv_popup_trade .wd250 { width:auto; float:none;}
+.brd_dotted_trd {border-bottom: 1px dotted #d7d7d7; float:none; height: 1px; margin: 0 0 10px; min-height: auto; width: auto;}
+.mytv_popup_trade .wd320 { width:auto; float:none;}
+.mytv_popup_trade .tradetabs li a { padding:8px 20px; font:600 14px 'Open Sans',Arial, Helvetica, sans-serif; }
+.trdmn_ht340 { min-height:inherit;}
+.trdlist_frm li {padding-bottom: 10px;}
+.input_fieldtrd {padding: 5px;}
+.trd_radilist li { padding:10px 0 0;}
+.trd_conftxt { position:static; margin-top:10px;}
+.btn_regsternow_trd { padding: 10px 30px;}
+.app_loginbox {margin: 0px; padding: 0px; width: 300px;}
+.app_loginbox .trdlist_frm li label {width: 70px;}
+.app_loginbox .input_fieldtrd, .app_loginbox .refresh_selectbox_trade {width: 205px;}
+.wap_tradenow .mytv_popup_wrapper_trade {top: 60px; overflow-y: auto; height: 415px; overflow-x: hidden;}
+.wap_tradenow .refresh_selectbox_trade {width: 185px;}
+.wap_tradenow .input_fieldtrd {padding: 0; width: 185px;}
+.wap_tradenow .select_brokco {width: 153px;}
+.wap_tradenow .trd_radilist {width: 175px; overflow-y: auto; overflow-x: hidden;}
+.wap_tradenow .trd_radilist li {padding: 15px 10px;}
+.wap_tradenow .filter_multiple_scroll_pane {overflow-y: scroll !important; overflow-x: hidden !important; max-height: 150px;}
+.wap_tradenow #tradetnwtab2 .select_brokco:after {top: 23px;}
+.wap_tradenow .selectedfilterbox, .wap_tradenow .filter_multiple_scroll_pane {width: 175px !important;}
+.comparepage .compare-tbl .column-left {width: 133px;}
+.comparepage .compare-tbl .column-left .left_table {width: 100px;}
+.comparepage .compare-tbl .column-right {width: 63%;}
+.comparepage .pos_tabledividen {width: 100%;}
+.comparepage ul.compare_renslider li {width: 175px !important;}
+.comparepage ul.compare_renslider table {width: 100% !important; overflow: hidden;}
+.comparepage .compare-tbl .column-left .select_brokco.select_brokco1 {width: 85px; float: left;}
+.comparepage .compare-tbl .content_block.alltext {margin-left: 0px; font-size: 12px;}
+.comparepage .compare-tbl .column-right tr td {text-align: center; width: 160px; overflow: hidden; float: left;}
+.headblock img {width: 90px;}
+.para_col {float: none; width: 100%; display: inline-block;}
+.comparepage .pos_tabledividen .bx-controls-direction {width: 275px;}
+.wap_tradenow .trdlist_frm li {padding-bottom: 20px;}
+.comparepage .ad_block {float: left;}
+}
+
+
+@media all and (max-width: 479px){
+.compare_table_br td {word-break: normal;}
+.comparepage .pos_tabledividen .bx-controls-direction {width: 273px;}
+}
+
+
+@media all and (max-width: 375px){
+.comparepage .pos_tabledividen .bx-controls-direction {width: 238px;}
+}
+
+
+@media all and (max-width: 360px){
+.comparepage .pos_tabledividen .bx-controls-direction {width: 247px;}
+}
+
+
+@media all and (max-width:320px){
+.comparepage .compare-tbl .column-left {width: 42%;}
+.comparepage .compare-tbl .column-right {width: 55%;}
+.comparepage .pos_tabledividen .bx-controls-direction {width: 178px;}
+}

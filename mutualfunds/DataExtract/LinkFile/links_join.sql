@@ -1,0 +1,2 @@
+SELECT Stocks.links.fundname, Stocks.links.code, Stocks.links.link,Stocks.links.do_not_use,Stocks.links.fund_category FROM Stocks.links
+inner join Stocks.Link_Category on Stocks.links.fund_category = Stocks.Link_Category.category where Stocks.Link_Category.type = 'Equity'

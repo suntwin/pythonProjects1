@@ -1,0 +1,5 @@
+2019-08-01 18:11:09,285 - logger_bhav - ERROR - name 'd1' is not defined
+Traceback (most recent call last):
+  File "/Users/niteshchawla/Ownstuff/pythonProjects/mutualfunds/bhavcopy_downloader.py", line 86, in <module>
+    print("date in question",d1)
+NameError: name 'd1' is not defined

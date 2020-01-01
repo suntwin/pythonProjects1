@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a149d2c-edf6-4158-aa28-d061739e7208" name="Default Changelist" comment="">
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/../btTraderNew/.idea/btTraderNew.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btTraderNew/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btTraderNew/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btTraderNew/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btTraderNew/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btTraderNew/createDataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../btTraderNew/test_plt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mutualfunds/bhav_processing.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mutualfunds/bhav_processing.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nifty_500_indicators/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../nifty_500_indicators/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nifty_500_indicators/testindicator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nifty_500_indicators/testindicator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nifty_500_indicators/venv/lib/python3.7/site-packages/stockstats.py" beforeDir="false" afterPath="$PROJECT_DIR$/../nifty_500_indicators/venv/lib/python3.7/site-packages/stockstats.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/crypto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoinMarket_Error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SIYONAH" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coinmarket_daily_extract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumextractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jira/.idea/jira.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jira/jira_issue_creator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nifty_500_indicators/testindicator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mutualfunds/.spyproject/workspace.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../mutualfunds/.spyproject/workspace.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mutualfunds/bhav_processing.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mutualfunds/bhav_processing.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mutualfunds/bonus_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mutualfunds/bonus_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mutualfunds/bonus_processing.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mutualfunds/bonus_processing.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mutualfunds/split_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mutualfunds/split_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mutualfunds/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../mutualfunds/test.py" afterDir="false" />
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coinmarket_daily_extract.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="2055">
+=======
+            <state relative-caret-position="1733">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+              <caret line="137" selection-start-line="137" selection-end-line="137" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SIYONAH">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="435">
+=======
+            <state relative-caret-position="407">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+              <caret line="29" selection-start-line="12" selection-end-line="29" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binance.csv">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="2730">
+=======
+            <state relative-caret-position="161">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+              <caret line="182" column="9" selection-start-line="182" selection-start-column="9" selection-end-line="182" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coinmarketcap_processing.log">
+<<<<<<< HEAD
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-36982">
+              <caret line="3041" selection-start-line="3041" selection-end-line="3041" />
+            </state>
+          </provider>
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binance_usdt.csv">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="375">
+=======
+            <state relative-caret-position="193">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="315">
+=======
+            <state relative-caret-position="360">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="e#1#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CoinMarket_Error.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="435">
+=======
+            <state relative-caret-position="346">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csvReader.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="120">
+=======
+            <state relative-caret-position="135">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+              <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>urllib</find>
+      <find>MutualFunds</find>
+      <find>csvreader</find>
+      <find>df</find>
+      <find>CURRENCY</find>
+      <find>print</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>CoinMarket_Error</replace>
+      <replace>CoinMarket</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CoinMarket_Error.py" />
+        <option value="$PROJECT_DIR$/htmlParser.py" />
+        <option value="$PROJECT_DIR$/csvWriter.py" />
+        <option value="$PROJECT_DIR$/selenium_error.py" />
+        <option value="$PROJECT_DIR$/logging.conf" />
+        <option value="$PROJECT_DIR$/seleniumextractor.py" />
+        <option value="$PROJECT_DIR$/venv/db_functions.py" />
+        <option value="$PROJECT_DIR$/mysql_python.py" />
+        <option value="$PROJECT_DIR$/coinmarketcap_processing.log" />
+        <option value="$PROJECT_DIR$/db_functions.py" />
+        <option value="$PROJECT_DIR$/venv/binance.csv" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/SIYONAH" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/csvReader.py" />
+        <option value="$PROJECT_DIR$/binance.csv" />
+        <option value="$PROJECT_DIR$/coinmarket_daily_extract.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="23" />
+    <option name="width" value="1420" />
+    <option name="height" value="834" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="crypto" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
+=======
+              <item name="crypto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crypto" type="b2602c69:ProjectViewProjectNode" />
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="crypto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 (crypto) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.coinmarket_daily_extract">
+    <configuration name="coinmarket_daily_extract" type="PythonConfigurationType" factoryName="Python">
+      <module name="crypto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coinmarket_daily_extract.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <module name="crypto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.coinmarket_daily_extract" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a149d2c-edf6-4158-aa28-d061739e7208" name="Default Changelist" comment="" />
+      <created>1561786274136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561786274136</updated>
+      <workItem from="1561786279439" duration="13541000" />
+      <workItem from="1561887612290" duration="51117000" />
+<<<<<<< HEAD
+      <workItem from="1564748727195" duration="631000" />
+=======
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="65289000" />
+=======
+    <option name="totallyTimeSpent" value="64658000" />
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="23" width="1420" height="834" extended-state="0" />
+    <editor active="true" />
+    <layout>
+<<<<<<< HEAD
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532656" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963716" />
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49854863" weight="0.32884097" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4992743" weight="0.32884097" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4992743" weight="0.32884097" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014514" side_tool="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4992743" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4992743" weight="0.32884097" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24606581" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32884097" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892185" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32884097" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32884097" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/seleniumextractor.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="tbl_data" language="Python" />
+        <watch expression="type(tbl_data)" language="Python" />
+        <watch expression="coinmarket_list_btc_filtered" language="Python" />
+        <watch expression="curr_pairs" />
+        <watch expression="curr_pair" />
+        <watch expression="coinmarket_list_item[2]" />
+        <watch expression="curr_pair['CURRENCY']" />
+        <watch expression="coinmarket_list_btc_filtered" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/crypto$coinmarket_daily_extract.coverage" NAME="coinmarket_daily_extract Coverage Results" MODIFIED="1562692421553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/crypto$test.coverage" NAME="test Coverage Results" MODIFIED="1562510754842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>coinmarket_list_btc_filtered</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(tbl_data)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>tbl_data</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///usr/local/Cellar/python/3.7.1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmlParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selenium_error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5655">
+          <caret line="393" selection-start-line="393" selection-end-line="393" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csvWriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/mysql_python.py" />
+=======
+    <entry file="file://$PROJECT_DIR$/mysql_python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2062">
+          <caret line="154" column="12" selection-start-line="154" selection-start-column="12" selection-end-line="154" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seleniumextractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/MySQLdb/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/MySQLdb/converters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="243" selection-start-line="243" selection-end-line="243" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/venv/binance.csv" />
+=======
+    <entry file="file://$PROJECT_DIR$/venv/binance.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SIYONAH">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="435">
+=======
+        <state relative-caret-position="407">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+          <caret line="29" selection-start-line="12" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/binance.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2730">
+          <caret line="182" column="9" selection-start-line="182" selection-start-column="9" selection-end-line="182" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coinmarketcap_processing.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-36982">
+          <caret line="3041" selection-start-line="3041" selection-end-line="3041" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binance_usdt.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+=======
+    <entry file="file://$PROJECT_DIR$/binance_usdt.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="315">
+=======
+        <state relative-caret-position="360">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/csvReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+    <entry file="file://$PROJECT_DIR$/CoinMarket_Error.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="435">
+=======
+        <state relative-caret-position="346">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/csvReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/binance.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="182" column="9" selection-start-line="182" selection-start-column="9" selection-end-line="182" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coinmarketcap_processing.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36982">
+          <caret line="3041" selection-start-line="3041" selection-end-line="3041" />
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coinmarket_daily_extract.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="2055">
+=======
+        <state relative-caret-position="1733">
+>>>>>>> 539e6d12b122dfe6a90ecb33cc5ffe197fef6dc3
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

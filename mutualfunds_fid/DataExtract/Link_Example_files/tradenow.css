@@ -1,0 +1,132 @@
+/* Trade Now css */
+.FL{float:left;}.FR{float:right;}.PR{position:relative;}.TAC{text-align:center;}.MT15{margin-top:15px;}
+/*     Float containers fix 
+=============================== */
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden}
+.clearfix{display: inline-block}
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%}
+.clearfix{display: block}
+.btn_tradesp{display:inline-block; width:92px; height:17px; background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite.png) 0 0 no-repeat; vertical-align:middle; border:0px;}
+.btn_tradesp:hover{ background-position:-101px 0;}
+.tradekeycont{display:none;}
+.popup_block_trade{position:relative; z-index:99999; display:none;}
+.popup_block_forum{position:relative; z-index:99999; display:none;}
+.mytv_popup_trade{background:rgba(0,0,0,0.7);width:100%; height:100%; position:fixed; z-index:9999; top:0; left:0;}
+.mytv_popup_wrapper_trade{position:fixed; left:0; right:0; z-index:99999; top:5%; width:700px; margin:0 auto; background:#eaeff2;}
+.mytv_popup_header_trade{background:#eaeff2; padding:15px 10px 0px 35px; box-shadow:0 0 3px 0px #d7dfe5 inset;}
+.mytv_popup_title_trade{color: #e9610c; font: 600 18px/41px 'Open Sans', sans-serif; padding-left:15px;}
+.mytv_popup_content_trade{padding:25px 20px 30px 35px; background:#fff;}
+.mytv_popup_content_tradelog{padding:35px 20px 35px 35px; background:#fff;}
+.mytv_popup .btn{color: #fff; height: 40px; display: inline-block; background: #0f4d6b; padding:0px 15px; margin:0 5px; font: 700 14px/40px 'Open Sans', sans-serif;  text-align: center;   text-transform: uppercase; text-decoration: none !important; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -ms-border-radius: 3px; border:none;}
+.mytv_popup_trade .btn.cancel{background:#f4f7f9; color:#333333; font: 400 14px/41px 'Open Sans', sans-serif;}
+.mytv_popup_trade .bdrbtm{border-bottom:#e5e5e5 solid 1px;}
+.mytv_popup_trade .close .btn_close{background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite.png) -198px 0 no-repeat; display:block; width:24px; height:24px; text-indent:9999px; padding:0;}
+.mytv_popup_trade .wd320{width:320px;}
+.mytv_popup_trade .wd250{width:250px;}
+.mytv_popup_trade .brdal_gb_box{padding:15px; background:#fff; border:8px solid #f7f6fa; box-sizing:border-box; height:350px;}
+.mytv_popup_trade .tradetabs li{float:left;}
+.mytv_popup_trade .tradetabs li a{ display:inline-block; padding:8px 30px; background:#d4dfe6; border:1px solid transparent; margin-top:7px; color:#333333; font:600 14px 'Open Sans',Arial, Helvetica, sans-serif; text-decoration:none !important; position: relative;}
+.mytv_popup_trade .tradetabs li .active{background:#fff; padding-top:16px; margin-top:0px; border:1px solid #d7dfe5; border-bottom:0px; box-shadow:-4px -3px 4px -5px #c9cacb;}
+.trdlist_frm li{ padding-bottom:20px; color:#333333; font:400 14px Arial, Helvetica, sans-serif;}
+.input_fieldtrd{ width:100%; box-sizing:border-box; border:1px solid #e1e1e1; padding:8px; border-radius:3px; color:#000; font:600 14px 'Open Sans',Arial, Helvetica, sans-serif; background:#fff;}
+.refresh_selectbox_trade { width: 100%; -moz-appearance: none; -webkit-appearance: none; background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/arw_trd.png) no-repeat scroll 96% center; border: 1px solid #e1e1e1; border-radius: 3px; padding:8px; height: 38px; line-height: 25px; }
+.brd_dotted_trd{min-height:340px; width:1px; border-left:1px dotted #d7d7d7; margin:0 35px; float:left;}
+.trd_gd14{color:#333; font:400 14px Arial, Helvetica, sans-serif;}
+.brd_green_trd{ border:1px solid #00a453;}
+.brd_red_trd{ border:1px solid #eb212e;}
+.alert_mesg_trd{position:absolute; right:0; top:-19px; color:#d9231a; font:400 11px Arial, Helvetica, sans-serif;}
+.foter{padding:15px;}
+.trd_radilist li { padding:20px 0 0; color:#0b0b0b; font:700 14px 'Open Sans',Arial, Helvetica, sans-serif; cursor:pointer;}
+.trd_radilist li .trd_radio{ display:inline-block; width:44px; height:25px; background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite.png) -240px 0 no-repeat; margin-right:20px; vertical-align:middle;}
+.trd_radilist li.checked .trd_radio{ background-position:-301px 0;}
+.trd_radilist li .trd_radio input { visibility: hidden; width: 20px;}
+.vmiddle{vertical-align:middle;}
+.trdmn_ht340{min-height:340px; position:relative;}
+.trd_conftxt{position:absolute; left:0; bottom:10px; color:#999999; font:400 14px 'Open Sans',Arial, Helvetica, sans-serif;}
+.trd_conftxt .col_or{color:#fb8720;}
+.gdu_link{color:#333; font-weight:700; text-decoration:underline;}
+.btn_regsternow_trd{display:inline-block; font:800 18px 'Open Sans',Arial, Helvetica, sans-serif; color:#fff; padding:15px 50px; border-radius:3px; text-transform:uppercase; text-decoration:none !important; background:#144861;}
+.btn_regsternow_trd.signin{padding:15px 30px;}
+.trd_radilist_login li { padding:0 0 20px 25px; float:left; color:#0b0b0b; font:700 14px 'Open Sans',Arial, Helvetica, sans-serif; cursor:pointer;}
+.trd_radilist_login li .trd_radio{ display:inline-block; width:24px; height:24px; background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite.png) -347px 0 no-repeat; margin-right:10px; vertical-align:middle;}
+.trd_radilist_login li.checked .trd_radio{ background-position:-375px 0;}
+.trd_radilist_login li .trd_radio input { visibility: hidden; width: 20px;}
+.reg_thankbxtrd{padding:40px; color:#666666; font:400 18px 'Open Sans',Arial, Helvetica, sans-serif; background:#fff; display:none;}
+.reg_thankbxtrd .col_or{color:#fb8720;}
+.reg_thankbxtrd .gdsmbold{font-weight:600; color:#333;}
+.reg_thankbxtrd .blulink{color:#144861; text-decoration:underline;}
+.ic_tradenwbtn{ width:15px; height:15px; display:inline-block; background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite.png) 0 -27px no-repeat; vertical-align:middle;}
+.ic_trademmb{ width:15px; height:15px; display:inline-block; background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite.png) -28px -27px no-repeat; vertical-align:middle;}
+.addPrWhs a.mIcon{vertical-align:middle !important; display:inline-block !important;}
+.dnone{display:none;}
+.bsr_table tbody tr:hover .ic_plusor{display:inline-block; margin-left:5px; background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite.png) -50px -27px no-repeat; width:15px; height:15px; vertical-align:middle;}
+.gld13{color:#333333; font:700 13px 'Open Sans',Arial, Helvetica, sans-serif;}	
+.bsr_table .stagetool	{ box-shadow: 0 0 5px #ececec; -webkit-box-shadow: 0 0 10px #c7cccf; bottom:22px; border-radius:2px; width:350px; background:#ffffff; border:1px solid #c7cccf; position:absolute;}
+.bsr_table .stagetool h1	{ padding:10px; background:#eaeff2; font-size:11px; color:#333333;}
+.bsr_table .stagetool h1 span	{ color:#35708a;}
+.bsr_table .stagetool li	{ display:list-item; list-style:inside square; color:#e9610c; padding:5px 0; border-bottom:1px solid #e5e5e5;}
+.bsr_table .stagetool li span	{ width:310px; display:inline-block; vertical-align:top; color:#333333;}
+.bsr_table .stagetool li em	{ font-style:normal; color:#959595; display:inline-block;} 
+.bsr_table .stagetool .arrwodn { background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/dwnarrow.png) no-repeat; width:17px; height:11px; position:absolute; bottom:-11px; left:15px;}
+.bsr_table .add_bubg{background:#f4f7f9; padding:5px; color:#999999; font:400 13px 'Open Sans',Arial, Helvetica, sans-serif;}
+.bsr_table .stagetool.wd190{width:190px;}
+.bsr_table .ic_watchlist{display:inline-block; background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/ic_watchlist.png) 0 0 no-repeat; width:16px; height:9px; vertical-align:middle; margin-right:3px;}
+.bsr_table .ic_portfolio{display:inline-block; background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/ic_portfolio.png) 0 0 no-repeat; width:15px; height:11px; vertical-align:middle; margin-right:3px;}
+.bsr_table .bl13{color:#007896; font:400 13px 'Open Sans',Arial, Helvetica, sans-serif;}
+.bsr_table tbody tr:hover .ic_tradenwicn{ display:inline-block; width:15px; height:15px; background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite.png) -71px -27px no-repeat; vertical-align:middle; cursor:pointer;}
+.bsr_table tbody tr:hover .ic_forummsg{display:inline-block; width:15px; height:15px; background:url(http://img-d01.moneycontrol.co.in/images/2016/tradenow/tradebtn_sprite.png) -92px -27px no-repeat; vertical-align:middle; cursor:pointer;}
+.frmhedtxt{padding-bottom:20px;}
+
+/*buy popup css start*/
+.popup_block_forum{ font-family:Arial,Helvetica,sans-serif;}
+.popup_block_forum .pop_hdtxt{font:600 18px 'Open Sans',Arial, Helvetica, sans-serif;}
+.popup_block_forum .post_cnt { background: #fff none repeat scroll 0 0;border: 1px solid #dcdcdc; border-radius: 3px;}
+.popup_block_forum .postpin{ width:190px; resize:none; height:40px; padding:8px 10px; border:none;}
+.popup_block_forum .btnBlue{background:#0f4d6b; color:#FFF; font:600 14px/36px 'Open Sans',arial; text-align:center; border:0px; border-radius: 5px; display: inline-block; line-height: 36px; width: 86px; text-decoration:none !important; cursor:pointer;}
+.popup_block_forum .stk_nslist li{float:left; width:45%; color:#666666; font:600 13px 'Open Sans',Arial, Helvetica, sans-serif;}
+.popup_block_forum .top-div {display: inline-block;/* border-bottom: 1px solid #e7edf0; */padding-bottom: 20px;}
+.popup_block_forum .popupbuy-heading {color: #e9610c; font-size: 15px;}
+.popup_block_forum .col-left {float: left;}
+.popup_block_forum .col-left .textarea1 {width: 394px; height: 90px; font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 15px;}
+.popup_block_forum .col-right {float: right; border-left: 1px solid #e7edf0; margin-left: 17px;}
+.popup_block_forum .bottom-div {display: inline-block; margin-top: 10px;}
+.popup_block_forum .bottom-div .col {display: inline-block;}
+.popup_block_forum .bottom-div .txtfield_drp {padding-left: 10px; width: 187px;}
+.popup_block_forum ul.three-list {margin: 0px; padding: 0px;}
+.popup_block_forum ul.three-list li {float: left; margin-right: 20px;}
+.popup_block_forum ul.three-list li p {display: block; color: #666; margin-bottom: 10px;}
+.popup_block_forum .mmbdrop {width: 130px;}
+.popup_block_forum .button {width: 100%; text-align: center; margin: 20px 0px 10px; display: inline-block;}
+.popup_block_forum .bgdvrp {padding: 9px 40px 12px 10px; border: none;}
+.popup_block_forum .col-right .top_gain_table {padding: 0px 0px 0px 20px; width: 180px;}
+.popup_block_forum ul.three-list li ul li {float: none; margin-right: 0px;}
+.popup_block_forum ul.stk_nslist li {width: 100%; border-bottom: 1px solid #e7edf0; padding: 8px 0px;}
+.popup_block_forum ul.stk_nslist li.last {border: none;}
+.popup_block_forum .PL15 {padding-left: 0px;}
+.popup_block_forum .three-list .dropp_sele {width: 181px;}
+.popup_block_forum .buyscroller-pane {overflow-y: auto; height: 120px;}
+.popup_block_forum .arw_snup{width: 0; height: 0; border-bottom: 7px solid #1ca501;	border-right: 7px solid transparent; 	border-left: 7px solid transparent; display:inline-block;}
+.popup_block_forum .arw_sndwn{ width: 0; height: 0; border-top: 7px solid #e15555;	border-right: 7px solid transparent; 	border-left: 7px solid transparent;  display:inline-block;}
+.popup_block_forum .mk_txt{ color:#1ca501; font:400 15px 'Open Sans',Arial, Helvetica, sans-serif;}
+.popup_block_forum .mk_txt.down{ color:#e15555;}
+.popup_block_forum .op_smgd20{color:#333; font:600 20px 'Open Sans',Arial, Helvetica, sans-serif;}
+/*buy popup css end*/
+
+
+@media all and (max-width:767px){
+.mytv_popup_wrapper_trade {left: 50%; margin-left: -150px; position:absolute; top:20px; width:300px; z-index:99999; }
+.mytv_popup_header_trade { padding:10px 20px 0 20px;}
+.mytv_popup_header_trade.foter  { padding:15px 20px;}
+.mytv_popup_content_trade {background: #fff none repeat scroll 0 0; padding:10px 20px;}
+.mytv_popup_trade .wd250 { width:auto; float:none;}
+.brd_dotted_trd {border-bottom: 1px dotted #d7d7d7; float:none; height: 1px; margin: 0 0 10px; min-height: auto; width: auto;}
+.mytv_popup_trade .wd320 { width:auto; float:none;}
+.mytv_popup_trade .tradetabs li a { padding:8px 20px; font:600 14px 'Open Sans',Arial, Helvetica, sans-serif; }
+.trdmn_ht340 { min-height:inherit;}
+.trdlist_frm li {    padding-bottom: 10px;}
+.input_fieldtrd {    padding: 5px;}
+.trd_radilist li { padding:10px 0 0;}
+.trd_conftxt { position:static; margin-top:10px;}
+.btn_regsternow_trd {    padding: 10px 30px;;}
+}

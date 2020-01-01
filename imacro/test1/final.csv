@@ -1,0 +1,322 @@
+Question,Question Type (multiple-choice or multi-select),Answer Option 1,Answer Option 2,Answer Option 3,Answer Option 4,Answer Option 5,Answer Option 6,Correct Response,Explanation,Knowledge Area
+Which API call is used to list all resources that belong to a CloudFormation Stack? Choose an answer from the options below,multiple-choice,GetTemplate,DescribeStackResource ,Describe-stacks, ListStackResources,,,4,"Returns descriptions of all resources of the specified stack.
+For deleted stacks, list-stack-resources returns resource information for up to 90 days after the stack has been deleted.
+For more information on ListStackResources, please visit the link:
+http://docs.aws.amazon.com/AWSCloudFormation/latest/APIReference/API_ListStackResources.html
+The correct answer is: ListStackResources",
+"Company B is using strongly consistent reads to request 50 items per second from their customer table. Each item is 20kb in size
+What throughout would be required to efficiently handle the read throughput of the table?",multiple-choice,150,50,250,125,,,3,"
+For read capacity, the rule is to divide the item size by 4KB. Hence we need to divide 20 by 4 which gives us 5 to the nearest 4KB. Since we are writing 50 items per second, we need to multiply 50*5 = 250.
+ For more information on working with tables in dynamoDB , please visit the link:
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithTables.html
+The correct answer is: 250",
+"When a subscriber subscribes to a topic in SNS, what is the time period available for confirmation? Choose one answer from the options below",multiple-choice,1 day,3 Days,5 Days,10 Days               ,,,2," For more information on SNS please refer to the below link:
+https://aws.amazon.com/sns/faqs/
+The correct answer is: 3 Days
+Feedback about this question and answer",
+How many tables can an AWS account have per region? Choose the correct answer from the options below,multiple-choice,126,256,282,255,,,2,"For more information on dynamoDB , please visit the link:
+https://aws.amazon.com/dynamodb/faqs/
+The correct answer is: 256",
+Can data be saved when a stack is deleted in Cloudformation? Choose the correct answer from the options below,multiple-choice,TRUE,FALSE,,,,,1,"AWS CloudFormation allows you to define deletion policies for resources in the template. You can specify that snapshots be created for Amazon EBS volumes or Amazon RDS database instances before they are deleted. You can also specify that a resource should be preserved and not deleted when the stack is deleted. This is useful for preserving Amazon S3 buckets when the stack is deleted.
+The correct answer is: True",
+What is the maximum number of SWF domains allowed in an AWS account? Choose the correct answer from the options below.,multiple-choice,50,100,200,1000,,,2,"You can have a maximum of 10,000 workflow and activity types (in total) that are either registered or deprecated in each domain. You can have a maximum of 100 Amazon SWF domains (including registered and deprecated domains) in your AWS account.
+ For more information on SWF , please visit the link:
+https://aws.amazon.com/swf/faqs/
+The correct answer is: 100",
+What is the limit to the number of characters for a topic name in sns? Choose one answer from the options below,multiple-choice,128,256,512,1024,,,2,"Topic names are limited to 256 characters. Alphanumeric characters plus hyphens and underscores are allowed. Topic names must be unique within an AWS account. 
+For more information on SNS please refer to the below link:
+https://aws.amazon.com/sns/faqs/
+The correct answer is: 256",
+You have reached your account limit for the number of CloudFormation stacks in a region. How do you increase your limit? Choose an answer from the option below ?,multiple-choice,Make an API call,Change Limit Settings in AWS CloudFormation Console,Cloudformation limit cannot be increased,Contact AWS,,,4,"For more information on cloudformation  please refer to the below link:
+https://aws.amazon.com/cloudformation/faqs/
+The correct answer is: Contact AWS",
+Is it possible to use IAM to manage access to SWF? Choose the correct answer from the options below.,multiple-choice,TRUE,FALSE,,,,,1,"For more information on SWF , please visit the link:
+https://aws.amazon.com/swf/faqs/
+The correct answer is: True",
+"Company B has a DynamoDB table where the average item size is 10KB. Company B anticipates the application will read 100 items from the table per second using eventually consistent reads. How much read capacity throughput should they provision? Choose the correct answer from the options below
+",multiple-choice,200,300,150,100,,,3,"For read capacity, the rule is to divide the item size by 4KB. Hence we need to divide 10 by 4 which gives us 3 to the nearest 4KB. Since we are writing 100 items per second, we need to multiply 100*3 =300. Since it is eventual consistency , we need to divide by 2 which gives us 150.
+For more information on working with tables in dynamoDB , please visit the link:
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithTables.html
+The correct answer is: 150",
+What are the API's available for DynamoDB? Choose 3 answers from the options below,multi-select,CreateTable, UpdateTable,ListAllTables,UpdateItem,,,"1,2,4","For Listing tables , the correct API call is ListTables. Hence option C is the wrong one out.
+For more information on DynamoDB please refer to the below link:
+https://aws.amazon.com/dynamodb/faqs/
+The correct answer is: CreateTable, UpdateTable, UpdateItem",
+What are the consistency models available for Local Secondary Indexes in DynamoDB? Choose 2 answers from the options given below,multi-select,Strong consistent reads,Primary reads,Secondary reads,Eventual consistent reads,,,"1,4","For more information on DynamoDB please refer to the below link:
+https://aws.amazon.com/dynamodb/faqs/
+The correct answer is: Strong consistent reads, Eventual consistent reads",
+"Once a message has been published to SNS, can it be recalled? Choose one answer from the options below",multiple-choice,TRUE,FALSE,,,,,2,"For more information on SNS please refer to the below link:
+https://aws.amazon.com/sns/faqs/
+The correct answer is: False",
+What is the key feature of SWF ? Choose the correct answer from the options below.,multiple-choice,attempts to deliver tasks/messages in order but does not gaurantee delivery order,does not guarantee delivery order of messages/tasks,guarantees delivery order of messages/tasks,can deliver tasks in order only if the developer programmatically instructs the application to do so,,,3,"One of the main differences between SWF and SQS is the guarantee of delivery of messages and tasks. Amazon SWF keeps track of all tasks and events in an application. Amazon SQS requires you to implement your own application-level tracking, especially if your application uses multiple queues.
+For more information on SWF , please visit the link:
+https://aws.amazon.com/swf/faqs/
+The correct answer is: guarantees delivery order of messages/tasks",
+For how long can a SWF workflow task or task execution can live up to? Choose the correct answer from the options below.,multiple-choice,14 days,24 hours,1 year,3 days,,,3,"For more information on SWF , please visit the link:
+https://aws.amazon.com/swf/faqs/
+The correct answer is: 1 year",
+What is the primary difference between a global secondary index and a local secondary index? Choose the correct answer from the options below.,multiple-choice,A global secondary index has the same partition key as the primary key and the local secondary index has a different partition and sort key,The global secondary index is not region specific,There are no differences, A local secondary index has the same partition key as the primary key and the global secondary index has a different partition and sort key,,,4,"Global secondary index- an index with a partition key and a sort key that can be different from those on the base table. A global secondary index is considered ""global"" because queries on the index can span all of the data in the base table, across all partitions.
+Local secondary index- an index that has the same partition key as the base table, but a different sort key. A local secondary index is ""local"" in the sense that every partition of a local secondary index is scoped to a base table partition that has the same partition key value.
+ For more information on DynamoDB Indexes, please visit the link:
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html
+The correct answer is: A local secondary index has the same partition key as the primary key and the global secondary index has a different partition and sort key",
+"When can you add a secondary index to a table? Choose the correct answer from the options below
+Please select:
+",multiple-choice,Anytime but a request to AWS is required so they do it for you,Anytime as long as it is done with the AWS console,Anytime if it is a global index,Only at table creation time,,,3,"For more information on DynamoDB Indexes, please visit the link:
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html
+The correct answer is: Anytime if it is a global index",
+"For best performance when retrieving data from a table, what ""type"" of API call should you perform? Choose the correct answer from the options below
+Please select
+",multiple-choice,Filtered,Scan,Query,Query then Scan,,,3,"A Query operation uses the primary key of a table or a secondary index to directly access items from that table or index.
+Use the KeyConditionExpression parameter to provide a specific value for the partition key. The Queryoperation will return all of the items from the table or index with that partition key value. You can optionally narrow the scope of the Query operation by specifying a sort key value and a comparison operator in KeyConditionExpression. You can use the ScanIndexForward parameter to get results in forward or reverse order, by sort key.
+For more information on DynamoDB Query, please visit the link:
+http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_Query.html
+The correct answer is: Query",
+"How many secondary indexes are allowed per table? Choose the correct answer from the options below
+Please select:",multiple-choice,There is no limit,10,5,1,,,2,"5 local and 5 global security indexes are allowed , which gives a maximum of 10 per table.
+For more information on DynamoDB Indexes, please visit the link:
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/SecondaryIndexes.html
+The correct answer is: 10",
+How many global secondary indexes are allowed per table? Choose the correct answer from the options below,multiple-choice,5,1,10,15,,,1,,
+"You are writing an AWS CloudFormation template and you want to assign values to properties that will not be available until runtime. You know that you can use intrinsic functions to do this but are unsure as to which part of the template they can be used in. Which of the following is correct in describing how you can currently use intrinsic functions in an AWS CloudFormation template? Choose an answer from the options below
+",multiple-choice,You can use intrinsic functions in any part of a template,"You can only use intrinsic functions in specific parts of a template. You can use intrinsic functions in resource properties, metadata attributes,
+and update policy attributes
+",You can use intrinsic functions only in the resource properties part of a template,"You can use intrinsic functions in any part of a template, except AWSTemplateFormat Version and Description",,,2,"For more information on intrinsic function please refer to the below link:
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference.html
+The correct answer is: You can only use intrinsic functions in specific parts of a template. You can use intrinsic functions in resource properties, metadata attributes, and update policy attributes.",
+"You can define up to 5 local secondary indexes and 5 global secondary indexes per table. How can you increase your DynamoDB secondary indexes limit in a region?
+",multiple-choice,DynamoDB does not allow secondary index limit increase, By contacting AWS and requesting a limit increase,By calling the UpdateLimit API call,"DynamoDB can't increase secondary index limit, so you increase it by writing code that uses multiple regions",,,1,"You can define a maximum of 5 local secondary indexes and 5 global secondary indexes per table.
+For more information on DynamoDB secondary indexes limit refer URL:
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html#limits-secondary-indexes
+The correct answer is: DynamoDB does not allow secondary index limit increase",
+"Can any local secondary index in a DynamoDB table be updated once it is created?
+Please select:
+",multiple-choice,TRUE,FALSE ,,,,,1,"For more information on DynamoDB please refer to the below link:
+https://aws.amazon.com/dynamodb/faqs/
+The correct answer is: False",
+Which of the following datatypes can be indexed in DynamoDB. Choose 3 answers from the options given below,multi-select,String,Number,List,Boolean,,,"1,2,4","For more information on DynamoDB please refer to the below link:
+https://aws.amazon.com/dynamodb/faqs/
+The correct answer is: String, Number, Boolean",
+"Explain what the following resource in a CloudFormation template does. Choose the best possible answer
+""SNSTopic"": {
+""Type"" : ""AWS:SNS::Topic""
+""Properties"": {
+""Subscription"" : [S
+""Protocol"": ""sqs"",
+""Endpoint"" : {""Fn::GetAtt"" [ ""SQSQueue"", ""Arn"" ]}
+}]
+}
+",multiple-choice,Creates an SNS topic which allows SQS subscription endpoints to be added as a parameter on the template,Creates an SNS topic that allow SQS subscription endpoints,Creates an SNS topic and then invokes the call to create an SQS queue with a logical resource name of SQSQueue,Creates an SNS topic and adds a subscription ARN endpoint for the SQS resource created under the logical name SQSQueue,,,4,"The intrinsic function Fn::GetAtt returns the value of an attribute from a resource in the template. This has nothing to do with adding parameters (Option A is wrong) or allowing endpoints (Option B is wrong) or invoking relevant calls (Option C is wrong)
+For more information on Fn:: GetAtt function please refer to the below link:
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-getatt.html
+The correct answer is: Creates an SNS topic and adds a subscription ARN endpoint for the SQS resource created under the logical name SQSQueue",
+What is the limit on the number of attributes an item can have in DynamoDB? Choose an answer from the options below,multiple-choice,100,200,1000,No Limit,,,4,"For more information on DynamoDB please refer to the below link:
+https://aws.amazon.com/dynamodb/faqs/
+The correct answer is: No limit",
+"What result would you expect from the Fn::Join function in the following line in a CloudFormation template? Choose an answer from the options below
+""Fn::Join"" : [""/"", [ ""list-a"",""list-b"",""list-c""] ]
+",multiple-choice,lista-listb-listo,list-c/list-b/list-a,list-a:list-b:list-c,list-a/list-b/list-c,,,4,"The intrinsic function Fn::Join appends a set of values into a single value, separated by the specified delimiter. If a delimiter is the empty string, the set of values are concatenated with no delimiter.
+For more information on Fn:: Join function please refer to the below link:
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-join.html
+The correct answer is: list-a/list-b/list-c",
+"What is the maximum size of an item in DynamoDB? Choose an answer from the options below
+Please select:
+",multiple-choice,400KB,100KB,1 MB,5 MB,,,1,"For more information on DynamoDB please refer to the below link:
+https://aws.amazon.com/dynamodb/faqs/
+The correct answer is: 400KB",
+"What is maximum limit for the size of an item collection in DynamoDB? Choose an answer from the options below
+Please select:",multiple-choice,1 GB,10MB,10 GB,100 MB,,,3,"For more information on DynamoDB please refer to the below link:
+https://aws.amazon.com/dynamodb/faqs/
+The correct answer is: 10 GB",
+"What is the smallest amount of reserved capacity that can be purchased for DynamoDB? Choose an answer from the options below
+Please select:
+",multiple-choice,100,10,1000,10000,,,1,"For more information on DynamoDB please refer to the below link:
+https://aws.amazon.com/dynamodb/faqs/
+The correct answer is: 100",
+"When computing the read capacity for a scan operations, to what KB is the number of bytes rounded off to?",multiple-choice,1 KB,4 KB,2 KB,8 KB,,,2,"The read units required is the number of bytes fetched by the scan operation, rounded to the nearest 4KB, divided by 4KB. Scanning a table with consistent reads consumes twice the read capacity as a scan with eventually consistent reads.
+ For more information on DynamoDB please refer to the below link:
+https://aws.amazon.com/dynamodb/faqs/
+The correct answer is: 4 KB",
+"Company B has created an e-commerce site using DynamoDB and is designing a products table that includes items purchased and the users who purchased the item. When creating a primary key on a table which of the following would be the best attribute for the primary key? Select the BEST possible answer.
+Please select
+",multiple-choice,user id where there are many users to few products,product id where there are few products to many users,category id where there are few categories to many products,None of the above,,,1,"When defining primary keys , you should always use a many to few principle and only Option A follows that principle.
+For more information on dynamoDB , please visit the link:
+https://aws.amazon.com/dynamodb/faqs/
+When designing tables it is important for the data to be distributed evenly across the entire table. It is best practice for performance to set your primary key where there are many primary keys to few rows. Example would be many users to few products. An example of bad design would be a primary key of product_id where there are few products but many users
+The correct answer is: user_id where there are many users to few products",
+"How is the coordination between worker processes done in SWF? Choose the correct answer from the options below
+Please select:
+",multiple-choice,By writing a program called the decider,By using SQS,By using a master worker process,This is not possible,,,1,"For more information on SWF , please visit the link:
+https://aws.amazon.com/swf/faqs/
+The correct answer is: By writing a program called the decider",
+"Can expressions be used as part of the Query API call in DynamoDB? Choose an answer from the options below
+Please select:
+",multiple-choice,TRUE,FALSE ,,,,,1,"For more information on DynamoDB please refer to the below link:
+https://aws.amazon.com/dynamodb/faqs/
+The correct answer is: True",
+"Can Cloudformation be used with Chef and Puppet? Choose the correct answer from the options below
+Please select:
+",multiple-choice,TRUE,FALSE ,,,,,1,,
+"AWSTemplateFormatVersion declaration is required for the template to work inside CloudFormation. Choose an answer from the options below
+Please select:
+",multiple-choice,TRUE,FALSE ,,,,,2,,
+"Does SNS guarantee message delivery to SQS? Choose one answer from the options below
+Please select:
+",multiple-choice,TRUE,FALSE ,,,,,1,,
+"What is the Amazon SNS endpoint for The US East (Northern Virginia)? Choose one answer from the options below
+Please select
+",multiple-choice,http://sns.us-east-1.amazonaws.com,http://sns.us-east-1a.amazonaws.com,http://sns.us-east-1b.amazonaws.com,http://sns.ap-southeast-1amazonaws.com,,,1,,
+"What are some of the benefits of using AWS SWF? Choose the correct answer from the options below
+Please select
+",multiple-choice,Centralize the coordination of steps in the application,Automate workflows that include human tasks,Manage the flow of work between application components,All of the above,,,4,,
+Does AWS CloudFormation assume default template version if one is not explicitly mentioned in a CloudFormation template?,multiple-choice,TRUE,FALSE ,,,,,1,,
+"What is the default behavior of a CloudFormation stack if creation fails? Choose the correct answers from the options below
+Please select:
+",multiple-choice,Rollback,Delete,Undo,None of the above; the stack continues creating and the failed resource is ignored,,,1,,
+"In addition to CloudFormation Syntax and Functions, you need to be familiar with the available CLI commands (they start with cfn-) and API calls
+Choose an answer from the options below
+Please select
+",multiple-choice,TRUE,FALSE ,,,,,1,,
+"fn:GetAtt is used on a CloudFormation template to: Choose an answer from the options below
+Please select:
+",multiple-choice,Conditionally create stack resources,Return the value of an attribute from a resource on the template, Appends a set of values into a single value which can include resources on the template,Returns the value corresponding to keys into a two-level map declared in the mappings section,,,2,,
+"The following code snippet is the resources section of a CloudFormation template that you have written.
+""Resources"": {
+""EC2Instance"": {
+  ""Type"": ""AWS:EC2:Instance,
+  ""Properties"": {
+   ""InstanceType"": {
+    ""Ref"": ""InstanceType""
+   },
+   ""SecurityGroups"": [{
+    ""Ref"": ""InstanceSecurityGroup""
+   }],
+   ""KeyName"": {
+    ""Ref"": ""KeyName""
+   },
+   ""Imageld"": {
+    ""Fn::FindInMap"": [""AWSRegionArch2AMI"", {
+      ""Ref"": ""AWS::Region""
+     },
+     {
+      ""Fn::FindInMap"": [""AWSInstanceType2Arch"", {
+       ""Ref"": ""InstanceType""
+      }, ""Arch""]
+     }
+
+    ]
+   }
+  }
+},
+You have used the reference function to define your instance type as follows.
+""InstanceType"": {""Ref"" : ""InstanceType""},
+The referencing function is referencing the instance type. Where is this value most likely coming from?
+Please select
+",multiple-choice,From the parameters section of your CloudFormation template,From the parameters section of your CloudFormation template,From the mappings section of your CloudFormation template,From the second line of this resources section.,From the conditions section of your CloudFormation template,,1,"The Instance type is mostly coming from the parameters section.
+Within the same template, you can use the Ref intrinsic function to specify the parameter value in other parts of the template. The following snippet uses the InstanceTypeParameter parameter to specify the instance type for an EC2 instance resource
+For more information on the Instrinsic reference function URL:
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html
+The correct answer is: From the parameters section of your CloudFormation template.",
+"Can software's be installed at stack creation process in Cloudformation? Choose the correct answers from the options below
+Please select:
+",multiple-choice,TRUE,FALSE ,,,,,1,"AWS CloudFormation provides a set of application bootstrapping scripts that enable you to install packages, files, and services on your EC2 instances by simply describing them in your CloudFormation template
+The correct answer is: True",
+"Which API call can be used to retrieve up to 100 items at a time or 1MB of data from a DynamoDB table? Choose the correct answer from the options below.
+",multiple-choice,BatchGetItem,GetItem, Batchltem,ChunkGetItem,,,1,"The BatchGetItem operation returns the attributes of one or more items from one or more tables. You identify requested items by primary key.
+A single operation can retrieve up to 16 MB of data, which can contain as many as 100 items. BatchGetItem will return a partial result if the response size limit is exceeded, the table's provisioned throughput is exceeded, or an internal processing failure occurs. If a partial result is returned, the operation returns a value for UnprocessedKeys
+For more information on the command, please visit the link:
+http://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_BatchGetItem.html
+The correct answer is: BatchGetItem",
+"In AWS CloudFormation, the intrinsic function Fn::Join appends a set of values into a single value, separated by the specified delimiter. If a delimiter is the empty string, the set of values are concatenated with no delimiter.
+Keeping the above in mind what value will the following example return?
+""Fn:.Join"":[""-"" ""the"", ""demo"", ""app"" ]]
+Please select
+
+",multiple-choice,the-demo-app,the-demo-app,#NAME?,-the-demo-app-,,,1,"The intrinsic function Fn::Join appends a set of values into a single value, separated by the specified delimiter. If a delimiter is the empty string, the set of values are concatenated with no delimiter.
+For more information on Fn:: Join function please refer to the below link:
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/intrinsic-function-reference-join.html
+The correct answer is: the-demo-app",
+"The following code snippet is the parameters section of a CloudFormation template that you have written.
+""Parameters"" : {
+""KeyName"": {
+""Description"" : ""answer to the question"",
+Type"": ""AWS::EC2::KeyPair::KeyName"",
+.....
+}
+}
+Which of the the following is the best description of what this section will do once you run your CloudFormation template?
+Please select
+",multiple-choice,It will ask you if you want to create a new key pair to use,It will ask you to input any name and that name will then be the name of the new key pair it will generate,It will ask you to provide the name of an existing EC2 KeyPair to use,It will create a new key pair automatically for you named KeyName,,,3,"When you use AWS-specific parameter types, anyone who uses your template to create or update a stack must specify existing AWS values that are in his account and in the region for the current stack. AWS-specific parameter types help ensure that input values for these types exist and are correct before AWS CloudFormation creates or updates any resources. For example, if you use the AWS::EC2::KeyPair::KeyName parameter type, AWS CloudFormation validates the input value against users' existing key pair names before it creates any resources, such as Amazon EC2 instances.
+For more information on cloudformation parameters, please refer to the below link:
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/parameters-section-structure.html
+The correct answer is: It will ask you to provide the name of an existing EC2 KeyPair to use.",
+"You are writing an AWS CloudFormation Template to create a static S3 website configuration. The resources section of this template will be used for access control of the bucket and is defined in the 5th line of the below code snippet. What should the value of""AccessControl"" be so that the owner of the bucket gets full control and all users get READ access only
+""Resources"":{
+""S3Bucket"": {
+Type"": ""AWS::S3:Bucket""
+""Properties"": {
+""AccessControl"" : ""ANSWER TO THE QUESTION"",
+""BucketName"": { ""Ref"" : ""BucketName"" },
+""WebsiteConfiguration"":{
+""IndexDocument"": ""index.html"".
+""ErrorDocument"": ""error.html""
+}
+}
+}",multiple-choice,BucketOwnerRead,BucketOwnerFullControl,AuthenticatedRead,PublicRead,,,4,"Since the question states that all users need read access, then by default we need to assign the public read permission
+For static website, it needs to be publicly readable only permissions for all users to access the site.
+For more information refer to AWS documentation @ URL:
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/quickref-s3.html#scenario-s3-bucket-website
+The AccessControl property is set to the canned ACL PublicRead (public read permissions are required for buckets set up for website hosting)
+The correct answer is: PublicRead",
+"In SWF what are the containers called for segregating application resources. Choose the correct answer from the options below.
+Please select:
+",multiple-choice,Dockers,Domains,Namespaces,Metrics,,,2,"For more information on SWF , please visit the link:
+https://aws.amazon.com/swf/faqs/
+The correct answer is: Domains",
+"What is one of the major use cases for using SWF? Choose the correct answer from the options below.
+Please select
+",multiple-choice,Storing files In S3,Video encoding,Storing files in database,Provisioning servers,,,2,"For more information on SWF , please visit the link:
+https://aws.amazon.com/swf/faqs/
+The correct answer is: Video encoding.",
+Which command line commands list all current stacks in your CloudFormation service? Choose the 2 correct answers from the options below,multi-select,AWS cloudformation create-stack,AWS cloudformation list-stacks,AWS cloudformation describe-stack-resources,AWS cloudformation describe-stacks,,,"2,4","The AWS cloudformation list-stacks command enables you to get a list of any of the stacks you have created (even those which have been deleted up to 90 days). You can use an option to filter results by stack status, such as CREATE_COMPLETE and DELETE_COMPLETE. The AWS cloudformation list-stackscommand returns summary information about any of your running or deleted stacks, including the name, stack identifier, template, and status.
+The AWS cloudformation describe-stacks command provides information on your running stacks. You can use an option to filter results on a stack name. This command returns information about the stack, including the name, stack identifier, and status.
+For more information on describing stacks, please refer to the below link:
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-describing-stacks.html
+The correct answer is: AWS cloudformation list-stacks, AWS cloudformation describe-stacks",
+"How much Cloudformation cost per hour? Choose the correct answer from the options below
+Please select:
+",multiple-choice,0.05$,0.10$,0.15$,There is no cost,,,4,,
+"Is it possible to use IAM to manage access to SWF? Choose the correct answer from the options below.
+Please select:
+",multiple-choice,TRUE,FALSE ,,,,,1,"For more information on SWF , please visit the link:
+https://aws.amazon.com/swf/faqs/
+The correct answer is: True",
+"What are the different programming language SDK's available for SWF. Choose 3 correct answer from the options below
+Please select
+",multi-select,.NET,PHP,Erlang,Java,,,"1,2,4","For more information on SWF , please visit the link:
+https://aws.amazon.com/swf/faqs/
+The correct answer is: .Net, PHP, Java",
+"Which of the following is not a benefit of a query over a scan? Choose the correct answer from the options below.
+Please select:
+",multiple-choice,Returns all attributes on an item,It does not do consistent reads,Much more efficient because it searches indexes only,Returns the items matching the primary key search,,,2,,
+Company B is writing 10 items to the products table every second. Each item is 15.5Kb in size. What would be the required provisioned write throughput for best performance? Choose the correct answer from the options below,multiple-choice,10,160,155,16,,,2,"For write capacity , the rule is to divide the item size by 1KB. Hence we need to divide 15.5 by 1 which gives us 16 to the nearest 1KB. Since we are writing 10 items per second , we need to multiply 10*16 = 160.
+For more information on working with tables in dynamoDB , please visit the link:
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithTables.html
+The correct answer is: 160",
+"In DynamoDB, an atomic counter allows all write requests to be applied in the order they are received by incrementing or decrementing the attribute value.",multiple-choice,TRUE,FALSE ,,,,,1,"DynamoDB supports atomic counters, where you use the UpdateItem operation to increment or decrement the value of an existing attribute without interfering with other write requests. (All write requests are applied in the order in which they were received.) For example, a web application might want to maintain a counter per visitor to their site. In this case, the application would need to increment this counter regardless of its current value.
+For more information on working with items in dynamoDB , please visit the link:
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html
+The correct answer is: True",
+"Of the 6 available sections on a CloudFormation template (Template Description Declaration, Template Format Version Declaration, Parameters, Resources, Mappings, Outputs), which is the only one required for a CloudFormation template to be accepted? Choose an answer from the options below
+Please select
+",multiple-choice,Parameters,Template Declaration,Mappings,Resources,,,4,"If you refer to the documentation, you will see that Resources is the only mandatory field
+Specifies the stack resources and their properties, such as an Amazon Elastic Compute Cloud instance or an Amazon Simple Storage Service bucket. 
+For more information on cloudformation templates, please refer to the below link:
+http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-anatomy.html
+The correct answer is: Resources",
+" Company B has many users updating the same table. At times it is not uncommon for multiple users to update the same item and attribute of an item at the same time. If user A calls an item in a table to update an attribute at the same time as user B and user B updates the table first, what can we deploy in DynamoDB to ensure User A is not updating an item that was updated since User A's table read? Choose the correct answer from the options below
+Please select
+",multiple-choice,Conditional Writes,Eventual Consistency,Extra API read calls to determine if the data was updated before the update call is made,Atomic Counters,,,1,"To help clients coordinate writes to data items, DynamoDB supports conditional writes for PutItem, DeleteItem, and UpdateItem operations. With a conditional write, an operation succeeds only if the item attributes meet one or more expected conditions; otherwise it returns an error
+For more information on working with items , please visit the link:
+http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/WorkingWithItems.html
+The correct answer is: Conditional Writes",

@@ -1,0 +1,299 @@
+/**, *:before, *:after{box-sizing:inherit;}*/
+*{margin: 0; padding: 0;}
+h1,h2,h3,h4,h5,h6{font-size: 100%; font-weight: normal; line-height: normal; margin: 0; padding: 0;}
+.login_signup_popup .top-block {padding: 10px 20px;}
+.login_signup_popup .middle-block {display: block;}
+.social_signbtn{padding:0 20px;}
+.login_signup_popup .signheading {font:800 17px/30px 'Open Sans',sans-serif; color: #616161; text-transform: uppercase; text-align: center;}
+.login_signup_popup .signheading_sub {font:800 15px 'Open Sans',sans-serif; color: #999999; text-transform: uppercase; text-align: center;}
+
+
+.login_signup_popup a.fbblock {background-color: #4267b2; color: #fff; font:400 14px/29px 'Fira Sans',sans-serif; text-transform: uppercase; padding: 10px 0px; display: block; border-radius: 3px; text-decoration: none; text-align: center;}
+.login_signup_popup a.fbblock span {background: url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) -1px -4px no-repeat; width: 15px; height: 29px; display: inline-block; margin-right: 20px; vertical-align: bottom;}
+.login_signup_popup a.gblock {background-color: #db3c23; color: #fff; font:400 14px/26px 'Fira Sans',sans-serif; text-transform: uppercase; padding: 10px 0px; display: block; border-radius: 3px; text-decoration: none; text-align: center; margin-top:10px;}
+.login_signup_popup a.gblock span {background: url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) -25px -7px no-repeat; width: 25px; height: 26px; margin-right: 14px; margin-left: -16px; display: inline-block; margin-right: 20px; vertical-align: bottom;}
+
+
+
+.login_signup_popup a.fbblock.active {background-color: #4267b2; color: #fff; font:600 11px 'Open Sans',sans-serif; text-transform: uppercase; padding: 12px; height:50px; display: inline-block; border-radius: 3px; text-decoration: none; width:130px; text-align:left; box-sizing:border-box; float:left;}
+.login_signup_popup a.fbblock.active span {background: url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) -1px -4px no-repeat; width: 15px; height: 29px; display: inline-block; margin-right: 10px; vertical-align: middle; float:left;}
+.login_signup_popup a.gblock.active {background-color: #db3c23; color: #fff; font:600 11px 'Open Sans',sans-serif; text-transform: uppercase; padding: 12px 12px;  height:50px; display: inline-block; border-radius: 3px; text-decoration: none;  width:130px; text-align: left; box-sizing:border-box; float:right; margin-top:0px;}
+.login_signup_popup a.gblock.active span {background: url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) -25px -7px no-repeat; width: 25px; height: 26px; margin-right: 10px; display: inline-block; vertical-align: middle; float:left;  margin-left: 0; }
+.login_signup_popup ul.socialicons {margin: 0 auto; padding: 0px; list-style: none; width: 75%;}
+.login_signup_popup .socialicons_block {padding: 5px 0; margin: 0 30px;}
+.login_signup_popup ul.socialicons li {float: left; width: 95px; text-align: center; position:relative;}
+.login_signup_popup ul.socialicons li:first-child:after { content:''; width:1px; height:17px; position:absolute; right:0; top:23%; display:inline-block; background:#ebebeb;}
+.login_signup_popup ul.socialicons li a {font:600 13px/30px 'Open Sans',sans-serif; color: #757575; text-decoration: none; transition:0.5s all;}
+.login_signup_popup ul.socialicons li .link_ic {background: url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) no-repeat; width: 13px; height: 15px; display: inline-block; margin-right: 6px; background-position: -59px -2px;}
+.login_signup_popup ul.socialicons li a:hover .link_ic {background-position: -59px -21px;}
+.login_signup_popup ul.socialicons li a:hover {color: #0077b5;}
+.login_signup_popup ul.socialicons li .tt_ic {background: url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) no-repeat; width: 12px; height: 12px; display: inline-block; margin-right: 6px; background-position: -79px -5px;}
+.login_signup_popup ul.socialicons li a:hover .tt_ic {background-position: -79px -24px;}
+.login_signup_popup .brddashed {border: 1px dashed #e0e0e0; position: relative; margin: 0 25px;}
+.login_signup_popup .circleblock {border-radius: 50%; text-align: center; border: 1px solid #e0e0e0; color: #999999; font:400 12px/15px 'Open Sans',sans-serif; text-transform: uppercase; position: absolute; left: 50%; margin-left:-15px; background-color: #fff; top: -15px; padding:5px;}
+.login_signup_popup .textfieldbox {display: inline-block; position:relative;}
+.login_signup_popup .textfield {color: #999999; font:400 13px/30px 'Open Sans',sans-serif; height:30px; box-sizing: border-box; border-bottom: 1px solid #d4d4d4; border-left: 0; border-right: 0; border-top: 0; width: 273px;}
+.login_signup_popup .captchafield {color: #999999; font:400 13px/30px 'Open Sans',sans-serif; height:30px; box-sizing: border-box; border-bottom: 1px solid #d4d4d4; border-left: 0; border-right: 0; border-top: 0; width:115px }
+.clearfix::after {clear: both; content: "."; display: block; height: 0; visibility: hidden;}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.login_signup_popup .MT20 {margin-top: 20px;}
+.login_signup_popup .MT15 {margin-top: 15px;}
+.login_signup_popup .formbox {margin-top:10px;}
+.login_signup_popup .eye_show_ic {background: url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) no-repeat; width: 21px; height: 15px; display: inline-block; position: absolute; right: 0; bottom: 10px; border:0px; background-position: -27px -43px; cursor: pointer;}
+.login_signup_popup .eye_show_ic.act{ background-position:-53px -43px;}
+/*
+.eye_hide_ic {background: url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) no-repeat; width: 21px; height: 15px; display: inline-block; position: absolute; right: 15px; top: 10px; background-position: -53px -43px; cursor: pointer;}*/
+.login_signup_popup .PR {position: relative;}
+.login_signup_popup .forgottxt a {color: #638ef5; font:400 13px/30px 'Open Sans',sans-serif; text-decoration: none; float: right;}
+.login_signup_popup .signingreenbg {background-color: #54a831; font:400 18px/30px 'Open Sans',sans-serif; text-align: center; padding: 18px; text-transform: uppercase; color: #fff; display: block; text-decoration: none;}
+.login_signup_popup .signingraybg {background-color: #999999; font:400 18px/30px 'Open Sans',sans-serif; text-align: center; padding:10px; text-transform: uppercase; color: #fff; display: block; text-decoration: none; width: 99.5%; border: none; cursor: pointer; margin-top: 10px;}
+.login_signup_popup .signingraybg.active{ background:#4caf50;}
+.login_signup_popup .footertxt {color: #a4a4a4; font:400 11px/18px 'Open Sans',sans-serif; text-align: center; text-align: center; margin-top: 10px; margin-bottom: 20px;}
+.login_signup_popup .footertxt span a {color: #638ef5; text-decoration: none;}
+.login_signup_popup .textfieldsignup {width: 100%; float: left;}
+.login_signup_popup .ML20 {margin-left: 20px;}
+.login_signup_popup .flag {display: inline-block; position: absolute; top: -1px; padding-top: 5px; background-color: #f1f1f1; border: 1px solid #eaeaea; width: 48px; height: 26px; text-align: center;}
+.login_signup_popup .textfield:focus {border-bottom: 2px solid #6695d7; border-top: 0px; border-left: 0px; border-right: 0px;}
+.login_signup_popup .validinput {border-bottom: 2px solid #54a831; border-top: 0px; border-left: 0px; border-right: 0px;}
+.login_signup_popup .errorinput {border-bottom: 2px solid #ff0000; border-top: 0px; border-left: 0px; border-right: 0px;}
+.login_signup_popup .error_txt {color: #db3c23; font:400 11px/18px 'Open Sans',sans-serif; text-align: left; display: none;}
+.login_signup_popup .namebox {width:46%; float: left; margin-right: 0;}
+.login_signup_popup .formbox .namebox + .namebox {margin-left: 30px;}
+.login_signup_popup .closebtn {background: url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) no-repeat; width: 17px; height: 15px; display: inline-block; top: 9px; right: 10px; position: absolute; background-position: -3px -43px;}/*
+.login_signup_popup .signauthbox {background-color: #2196f3; width: 320px; height: 599px; font:400 24px/599px 'Open Sans',sans-serif; color: #fff; text-align: center; display: none; position: absolute; top: 0;}
+.login_signup_popup .spinner {-moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none;-moz-border-top-colors: none; animation: 0.6s linear 0s normal none infinite running spinner; border-color: rgba(255, 255, 255, 0.3) #ffffff #ffffff; border-image: none; border-radius: 100%; border-style: solid; border-width: 4px; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2); display: block; height: 40px; left: 50%; margin-left: -20px; margin-top: -20px; opacity: 0; position: absolute; top: 0; transition: top 0.3s ease 0.3s, opacity 0.3s ease 0.3s, border-radius 0.3s ease 0s; width: 40px;}
+.login_signup_popup button .spinner {opacity: 1; top: 40%;}
+.login_signup_popup .spinner {animation: 0s ease 0s normal none 1 running none; border-radius: 0; border-right-color: transparent; border-top-color: transparent; height: 20px; transform: rotateZ(-45deg);}*/
+.loginPP .welcomebox {background-color: #8bc34a; width: 375px; height: 707px; font:400 24px/707px 'Open Sans',sans-serif; color: #fff; text-align: center; display: none; position: absolute; top: 0;}
+.loginPP.popup .signin_block {display: block; float: none; margin: 0 auto; padding-left: 0; padding-right: 0;}
+.sign_txt{ color:#638ef5; font:700 13px 'Open Sans',Arial, Helvetica, sans-serif;}
+
+/*.login_signup_popup .modal-dialog{width:320px; box-sizing:border-box;}
+.login_signup_popup .close{opacity:1; text-indent:-9999px; width:25px; height:25px; cursor:pointer; position:absolute; right:0; top:0; z-index:1; background:url(../images/signup_sprite.png?v=0.1) no-repeat scroll 1px -36px; transition:0.5s all; border-radius:0px 3px 0 0;}
+.login_signup_popup .close:hover{ background:#ebebeb url(../images/signup_sprite.png?v=0.1) no-repeat scroll 1px -36px;}
+.login_signup_popup.modal {text-align: center; padding: 0!important; z-index:99999;}
+.login_signup_popup.modal:before {content: '';display: inline-block; height: 100%; vertical-align: middle; margin-right: -4px;}
+.login_signup_popup .modal-dialog {display: inline-block;text-align: left;vertical-align: middle;}
+.login_signup_popup .modal-content{border-radius:3px;}*/
+
+.logmodal .modal-dialog{width:320px; box-sizing:border-box;}
+.logmodal .close{opacity:1; text-indent:-9999px; width:25px; height:25px; cursor:pointer; position:absolute; right:0; top:0; z-index:1; background:url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) no-repeat scroll 1px -36px; transition:0.5s all; border-radius:0px 3px 0 0;}
+.logmodal .close:hover{ background:#ebebeb url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) no-repeat scroll 1px -36px;}
+.logmodal.modal {text-align: center; padding: 0!important; z-index:99999;}
+.logmodal.modal:before {content: '';display: inline-block; height: 100%; vertical-align: middle; margin-right: -4px;}
+.logmodal .modal-dialog {display: inline-block;text-align: left;vertical-align: middle;}
+.logmodal .modal-content{border-radius:3px;}
+
+.login_signup_popup .sign_up_email{margin:25px 25px 0;}
+.login_signup_popup .btn-lrg-green{display:block; background:#4caf50; padding:15px 0; text-align:center; font:400 14px 'Open Sans',Arial, Helvetica, sans-serif; color:#fff; border-radius:3px; text-decoration:none !important;}
+.login_signup_popup .ic_signupmail{display:inline-block; width:23px; height:18px; vertical-align:middle; background:url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) no-repeat -77px -42px; margin-right:12px;}
+.login_signup_popup .PB20{padding-bottom:20px;}
+.login_signup_popup .textfield.c_code{ width:25px; position:absolute; left:0; top:17px; border-bottom:0px;}
+.login_signup_popup .textfield.c_code:focus{ border:0px;}
+.login_signup_popup .textfield.countryfield{padding-left:25px; width:248px;}
+.login_signup_popup .signup_verificationbx{ color:#333333; font:400 15px/24px 'Open Sans',Arial, Helvetica, sans-serif; text-align:center;}
+.login_signup_popup .signup_verificationbx p{margin-top:15px;}
+.login_signup_popup .btn-lrg-green.btn-resend{font-size:18px; text-transform:uppercase; border-radius:0px 0px 3px 3px; margin:0 -20px -13px; padding:10px;}
+.radius_brd_blu{border-radius:50%; border:5px solid #abcbff;}
+.op_blu18{color:#0065a1; font:500 18px 'Open Sans',Arial, Helvetica, sans-serif;}
+.login_signup_popup .float-label{padding:0 20px;}
+.login_signup_popup .float-label .textfieldbox{padding-top:17px;}
+.login_signup_popup .float-label input + label {position: absolute; top: 10px; left:0; transition: top 0.7s ease, opacity 0.7s ease; opacity: 0; font:600 12px 'Open Sans',Arial, Helvetica, sans-serif; color: #3f51b5;}
+.login_signup_popup .float-label input:valid + label { opacity: 1; top:6px; outline:none;}
+.login_signup_popup .float-label input:focus + label { color: #3f51b5;}
+
+
+.login_signup_popup .float-label input:focus + label { color: #3f51b5;opacity: 1; top:6px; outline:none;}
+
+.login_signup_popup .float-label input:required {box-shadow:none; outline:none;}
+.login_signup_popup .MT5{margin-top:5px;}
+
+.forgt_pwdtxt{color:#333333; font:400 14px/24px 'Open Sans',Arial, Helvetica, sans-serif; padding:0 20px;}
+.PA15{padding:15px;}
+.sign_right{display:inline-block; width:13px; height:10px; background:url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) -23px -70px no-repeat; vertical-align:middle;}
+
+
+
+
+.sign_welcome button {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  background: #026ca4;
+  color: #fff;
+  display: block;
+  border: none;
+  margin-top: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-height: 60px;
+  border: 0px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 2px 2px;
+  transform: rotateZ(0deg);
+  transition: all 0.1s ease-out;
+  border-bottom-width: 7px;
+  font:600 18px/30px "Open Sans",sans-serif;
+}
+.sign_welcome button .spinner {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border: 4px solid #ffffff;
+  border-top-color: rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  left: 50%;
+  top: 0;
+  opacity: 0;
+  margin-left: -20px;
+  margin-top: -20px;
+  animation: spinner 0.6s infinite linear;
+  transition: top 0.3s 0.3s ease, opacity 0.3s 0.3s ease, border-radius 0.3s ease;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.sign_welcome:not(.loading) button:hover {
+  box-shadow: 0px 1px 3px #2196F3;
+}
+.sign_welcome:not(.loading) button:focus {
+  border-bottom-width: 4px;
+}
+
+
+@keyframes spinner {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(359deg);
+  }
+}
+.sign_welcome.loading button {
+  max-height: 100%;
+  padding-top: 50px;
+}
+.sign_welcome.loading button .spinner {
+  opacity: 1;
+  top: 40%;
+}
+.sign_welcome.ok button {
+  background-color: #55af47;
+}
+.sign_welcome.ok button .spinner {
+  border-radius: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  height: 20px;
+  animation: none;
+  transform: rotateZ(-45deg);
+}
+/*edit textbox*/
+.edit_txtfield{ width: 215px; border: 1px solid #ccc; height: 35px; box-sizing:border-box; font: 500 16px "Open Sans",Arial,Helvetica,sans-serif; color:#0065a1; padding: 3px 5px 5px 5px;}
+.edit_link{color:#144d69; font:400 12px 'Open Sans',Arial, Helvetica, sans-serif; text-decoration: underline;}
+/*inner pages css sign sign up responsive*/
+.col_fr{ float:right; width:320px;}
+.col_fr_signbx{ background:#fff; box-shadow:0px 2px 2px 2px #ccc; border-radius:2px; position:relative;}
+.wrapper_responsive{ width:1000px; margin:0 auto;}
+.insidePg .wrapper_responsive{width:1260px;}
+.ic_resend{display:inline-block; width:12px; height:12px; background:url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) no-repeat 0 -68px;}
+.resend_link{color:#144d69; font:400 14px 'Open Sans',Arial, Helvetica, sans-serif;}
+.green_verify{color:#4caf50; font:600 14px 'Open Sans',Arial, Helvetica, sans-serif;}
+.log_deskbx{ width:320px; margin:0 auto;}
+.acct_title{ color:#616161; font:700 17px 'Open Sans',Arial, Helvetica, sans-serif; text-transform:uppercase; padding-bottom:15px; border-bottom:1px solid #e1e1e1; text-align:center; margin:15px 0 0 0;}
+.ic_rightsn{position:absolute; right:0; bottom:0; display:inline-block; width:32px; height:29px; background:url(https://accounts.moneycontrol.com/assets/images/signup_sprite.png?v=0.1) -38px -67px no-repeat;}
+.disin{display:inline-block;}
+.auteh_info{ color:#333333; font:400 15px/26px 'Open Sans',Arial, Helvetica, sans-serif; text-align:center; padding:15px 0;}
+.m_link14{color:#144d69; font:400 14px 'Open Sans',Arial, Helvetica, sans-serif;}
+.green_17{color:#4caf50; font:800 17px 'Open Sans',Arial, Helvetica, sans-serif;}
+.UC{text-transform:uppercase;}
+.ic_rightsn.reset{bottom:-5px; right:-5px;}
+.vbtm{vertical-align:bottom;}
+.wd300{width:300px;}
+.reset_pwdbx{width:370px; margin:0 auto;}
+.tip_txt{ color:#999999; font:400 12px 'Open Sans',Arial, Helvetica, sans-serif;}
+.col_333{ color:#333333;}
+.float-label.resetpwdbx{padding:0px;}
+.float-label.resetpwdbx .textfieldbox{ display:block;}
+.float-label.resetpwdbx .textfieldbox .textfield{ width:100%;}
+.sm600{font-weight:600;}
+.pwdlist li{box-sizing:border-box; padding:2px 0; color:#333; font:400 11px 'Open Sans',Arial, Helvetica, sans-serif; transition:all .25s ease-in-out 0s;}
+.pwdlist li::before{content:"";display:inline-block;width:7px;height:7px;margin-right:8px;border-radius:50%;background:#638ef5}
+.pwdlist li.completed{opacity:.5}
+.pwdlist li.completed::before{background:#d0d0d0}
+.btn_otp{ color:#fff !important; font:400 14px 'Open Sans',Arial, Helvetica, sans-serif; display:inline-block; padding:5px 20px; border-radius:3px; background:#00a453; text-decoration:none !important;}
+#Mobileverification .modal-dialog{width:330px;}
+.opt_fieldbx{ width:150px; margin:0 auto; box-sizing:border-box;}
+.opt_fieldbx .float-label{ padding:0;}
+.opt_fieldbx .textfield{ width:100%;}
+.info_wapbx .float-label{ padding:0;}
+@media screen and (max-width: 980px) {
+.wrapper_responsive{ width:96%;}
+}
+@media screen and (max-width: 767px) {
+.reset_pwdbx{width:100%;}	
+}
+
+@media screen and (max-width: 321px) {
+.logmodal.modal:before {content: '';display: inline-block; height: auto !important; vertical-align: middle; margin-right: -4px;}
+.logmodal .modal-dialog, .logmodal .modal-dialog{width:300px; margin-top:50px;}
+	
+}
+ul, li {
+    list-style: outside none none;
+}
+.log_deskbx{
+    margin: 0 auto;
+    width: 320px;
+}
+.TAC{text-align: center;}
+.MR10{margin-right: 10px}
+/* don't show the x for text inputs */
+::-ms-clear {
+    width : 0;
+    height: 0;
+}
+
+/* don't show the eye for password inputs */
+::-ms-reveal {
+    width : 0;
+    height: 0;
+}
+
+
+/*login common css start*/
+.log_portbx{padding:20px 0 40px; text-align:center;}
+.log_weltxt{ color:#333333; font:600 15px 'Open Sans',Arial, Helvetica, sans-serif;}
+.login_btnacom{ display:block; font:600 18px 'Open Sans',Arial, Helvetica, sans-serif; background:#006fa8; padding:15px; text-align:center; border-radius:3px; color:#fff !important; text-decoration:none !important;}
+.TAC{text-align:center;}
+.newto{color:#666666; font:600 13px 'Open Sans',Arial, Helvetica, sans-serif;}
+.signup_linkop{color:#006fa8; font:700 13px 'Open Sans',Arial, Helvetica, sans-serif;}
+
+.log_myspacebx{ background:#f6f6f6; padding:15px; text-align:left; border-top:1px solid #e5eaec;}
+.log_myspacebx .log_weltxt{ font-size:14px;}
+.log_myspacebx .login_btnacom{ font-size:13px; padding:7px;}
+.log_myspacebx .newto{font-size:12px; text-align:center;}
+.log_myspacebx .signup_linkop{font-size:12px;}
+.fbblock.error, .gblock.error{opacity:0.3; cursor:default;}
+.social_errortxt{ color:#000; color:#bb0303; font:400 13px 'Open Sans',Arial, Helvetica, sans-serif; padding:5px 0 10px;}
+.soc_error_ic{display:inline-block; width:15px; height:14px; background:url(../images/social_error.png) 0 0 no-repeat; vertical-align:middle; float:left; margin-right:3px;}
+.ohidden{overflow:hidden;}
+.social_errortxt.active{ box-sizing:border-box; position:relative; padding-top:57px; width:140px; margin-left:-130px; display:inline-block;}
+.social_errortxt.active .soc_error_ic{margin-top:5px;}
+.social_errortxt1{ color:#000; color:#bb0303; font:400 13px 'Open Sans',Arial, Helvetica, sans-serif; padding:5px 0 10px;}
+.social_errortxt1.active_gplus{ /*margin-left:37px; padding-left:110px; width:250px; position:relative; box-sizing:border-box; display:inline-block;*/   box-sizing: border-box; display: inline-block;  left: 20px; margin-left: 37px;  margin-top: 54px; padding-left: 110px;  position: absolute; width: 250px;}
+.social_errortxt1.active_gplus .soc_error_ic{margin-top:5px;}
+/*login common css end*/
+@media screen and (max-width: 980px) {
+.wrapper_responsive{ width:96%;}
+}
+@media screen and (max-width: 767px) {
+.reset_pwdbx{width:100%;} 
+}
+
+@media screen and (max-width: 321px) {
+.logmodal.modal:before {content: '';display: inline-block; height: auto !important; vertical-align: middle; margin-right: -4px;}
+.logmodal .modal-dialog, .logmodal .modal-dialog{width:300px; margin-top:50px;}
+  
+}
+.auteh_info p{margin:0px;}

@@ -1,0 +1,90 @@
+
+<!-- saved from url=(0069)https://s0.2mdn.net/8161364/1505109845342/PTAX%20160x600/160x600.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>160x600</title>
+<meta name="”ad.size”" content="”width=160,height=600”">
+
+<script src="./jquery.min.js.download"></script>
+
+<script type="text/javascript">
+var clickTag = "https://www.vic.gov.au/openingdoors"; </script>
+
+
+<script src="./slidetransition.js.download" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="./160x600.css">
+
+<script type="text/javascript">
+    
+      (function() {
+        var relegateNavigation = '';
+        var handleClickTagMessage = function(e) {
+          try {
+            var eventData = JSON.parse(e.data);
+          } catch (err) {
+            return;
+          }
+          if (eventData.isInitClickTag) {
+            if (eventData.clickTags) {
+              for (var i = 0; i < eventData.clickTags.length; i++) {
+                var clkTag = eventData.clickTags[i];
+                window[clkTag.name] = clkTag.url;
+              }
+            } else if (eventData.clickTag) {
+              window.clickTag = eventData.clickTag;
+            }
+            relegateNavigation = eventData.relegateNavigation;
+          }
+        };
+
+        if (open.call) {
+          window.open = function(open) {
+            return function(url, name, features) {
+              if (relegateNavigation === 'parent') {
+                var message = {'clickTag': url, 'isPostClickTag': true};
+                parent.postMessage(JSON.stringify(message), '*');
+              } else {
+                var args = [url, name];
+                if (features) {
+                  args.push(features);
+                }
+                open.apply(window, args);
+              }
+            };
+          }(window.open);
+        }
+
+        if (window.addEventListener) {
+          window.addEventListener(
+              'message', handleClickTagMessage, false);
+        } else {
+          window.attachEvent('onmessage', handleClickTagMessage);
+        }
+      })();
+    
+  </script></head>
+
+<body><div class="slides">
+
+<a href="javascript:window.open(window.clickTag)">
+
+  <div class="slide active last-active" style="opacity: 8.0566e-05;">
+  <img src="./1342A_DTF_PTAX_v1.0_160x600.jpg">
+  </div>
+
+  <div class="slide active last-active" style="opacity: 0;">
+  <img src="./1342C_DTF_PTAX_v1.0_160x600.jpg">
+  </div>
+
+  <div class="slide last-active active" style="opacity: 0;">
+  <img src="./1342D_DTF_PTAX_v1.0_160x600.jpg">
+  </div>
+
+</a>
+
+</div>
+
+
+
+
+</body></html>

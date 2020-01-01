@@ -1,0 +1,288 @@
+var pathArray = window.location.pathname.split("/");
+var secondLevelPath = pathArray[1];
+var pageName = secondLevelPath.replace("-", ""); 
+var pageName = pageName.replace(" ", ""); 
+
+$(document).ready(function(e) {  
+	$('.tradenvmenu li a').click( function(e){
+		e.preventDefault();
+		$(this).closest('ul').find('a').removeClass('active');
+		$(this).addClass('active');
+		var mtab = $(this).attr('href');
+		$(this).closest('ul').parents().find('.tradekeycont').hide();
+		$(mtab).fadeIn();
+	}); 
+	$('.reg_submit').click(function(){
+
+		var err_msg = "success";
+		var brokerval = $("#reg_broker").val();
+		//alert(brokerval);
+		/*START: validate form*/
+		if($("#tname").val() == ''){
+			$("#en_alph").html("Enter your name");
+			$("#en_alph").show();
+			$("#tname").removeClass('brd_green_trd');
+			$("#tname").addClass('brd_red_trd');
+			err_msg = "fail";
+			//return false;
+			
+		}
+
+		if($("#tnumber").val() ==''){
+			$("#en_number").html("Enter your contact number");
+			$("#en_number").show();
+			$("#tnumber").removeClass('brd_green_trd');
+			$("#tnumber").addClass('brd_red_trd');
+			err_msg = "fail";
+			//return false;
+
+		}
+
+		if($("#temail").val() ==''){
+			$("#en_email").html("Enter your email id");
+			$("#en_email").show();
+			$("#temail").removeClass('brd_green_trd');
+			$("#temail").addClass('brd_red_trd');
+			err_msg = "fail";
+			//return false;
+
+		}
+
+		
+
+		if(err_msg == "fail"){
+			return false;
+		}
+		else{
+
+			if(brokerval == ''){
+				alert("Please select interested in");
+				err_msg = "fail";
+				return false;
+			}else{
+				err_msg ='success';
+				
+			}
+		}		
+		
+		/*END: validate form*/
+
+		/*START: Ajax call*/
+		var SITE_LINK = window.location.hostname;
+		//var ajax_link = "http://"+SITE_LINK + '/stocks/marketstats/bsemact1/ajax_trade_now.php';
+		var ajax_link = 'http://www.moneycontrol.com/us-election-2016/tradenow/ajax_trade_now.php';
+		// var ajax_link = 'http://pricechart5.moneycontrol.com/us-election-2016/tradenow/ajax_trade_now.php';
+
+		var tname = $("#tname").val();
+		var tnumber = $("#tnumber").val();
+		var temail = $("#temail").val();
+		var tcity = $("#tcity").val();
+		var tbroker = brokerval;
+
+		if (err_msg=='success') {
+			
+			$.ajax({
+				type: "POST",
+				url: ajax_link,
+				data: { user_name: tname, user_email: temail, user_number:tnumber, user_city:tcity, user_pincode:'', user_remark:'', broker_flag:tbroker },
+				jsonpCallback: 'brokermsg',
+				dataType : "jsonp",
+				crossDomain: true,
+				error: function(obj, errorMsg, d) {
+					//jAlert('Unable to process request - ' + errorMsg + '- ' + d);
+				},
+				success: function(outputmsg) {
+					/*console.log(outputmsg);
+					$.each(outputmsg, function(i, arr){
+						console.log(i);
+					});*/
+					if(outputmsg.msg=='success'){
+						$('.register_frmbxtrd').hide();
+						$('.reg_thankbxtrd').fadeIn();
+						GAEventTracker('TRADENOWUSAGE', 'Registration', ''+pageName+'');
+					}else{
+						alert(outputmsg.msg);
+						return false;
+					}
+				}
+			});
+		}
+		return false;
+		/*END: Ajax call*/
+
+		//$('.register_frmbxtrd').hide()
+		//$('.reg_thankbxtrd').fadeIn()
+	});
+	$('.trd_radilist li').fancyRadioTrade();
+	$('.trd_radilist_login li').fancyRadioTrade();
+	/*$('.btn_tradep_pop').click(function(){
+		$('.popup_block_trade').fadeIn();
+		var isind = $(this).find('.clisind').attr('id');
+		var ex_val = $(this).find('.ex_val').attr('id');
+
+		$("#log_isind").val(isind);
+		$("#log_ex").val(ex_val);
+		//alert(isind+'------'+ex_val);
+
+	});	*/
+	
+	$('.forumclik_popup').click(function(){
+		$('.popup_block_forum').fadeIn();
+	});	
+	$('.close_tradebx').click(function(){
+		$(this).parents().find('.popup_block_trade').hide();
+	});
+	$('.close_tradebx').click(function(){
+		$(this).parents().find('.popup_block_forum').hide();
+	});
+
+	if($('.tipshow').length) {
+		$('.tipshow').hoverIntent( function(){
+			$(this).find('.stagetool').fadeIn();
+		}, function(){
+			$(this).find('.stagetool').hide();
+		});
+	}
+
+});
+$.fn.fancyRadioTrade = function() {
+	this.click(function(){
+		$(this).siblings().removeClass("checked");
+		$(this).addClass("checked");
+		$('input:radio').attr('checked', false);
+		$('input:radio',this).attr('checked', true)
+		var el=$(this);
+		var reg_val = $(this).attr("id");
+		$("#reg_broker").val(reg_val);
+	});
+}
+
+function tradepopup(isinid,ex,exid){
+
+	$('.popup_block_trade').fadeIn();
+		
+		$("#log_isind").val(isinid);
+		$("#log_ex").val(ex);
+		$("#log_exid").val(exid);
+		//$("#log_bseid").val(bseid);
+
+}
+
+function allLetter(){  
+	var inputtxt = $("#tname").val();
+   var letters = /^[A-Za-z]+$/; 
+   if(inputtxt!=''){ 
+	   /*if(letters.test(inputtxt)){ 
+	   		$("#tname").removeClass('brd_red_trd'); 
+	    	 $("#tname").addClass('brd_green_trd'); 
+	    	 $("#en_alph").hide(); 
+	      return true;  
+	    }else{
+	     $("#en_alph").html("Enter alphabets only").show();
+	     $("#en_alph").show();
+	     $("#tname").addClass('brd_red_trd');  
+	     return false;  
+	    }*/
+	    //$("#en_alph").html("Enter your name");
+		$("#en_alph").hide();
+		$("#tname").addClass('brd_green_trd');
+		$("#tname").removeClass('brd_red_trd');
+	}else{
+		$("#en_alph").html("Enter your name");
+		$("#en_alph").show();
+		$("#tname").removeClass('brd_green_trd');
+		$("#tname").addClass('brd_red_trd');
+		return false;
+	}  
+ }
+
+function isDigit (){
+	var s = $("#tnumber").val();
+	var numberReg =  /^[0-9]+$/;
+	//alert(s.length);
+	if(s!=''){
+	   if(!numberReg.test(s)){
+			$("#en_number").html("Enter digits only");
+			$("#en_number").show();
+	     	$("#tnumber").addClass('brd_red_trd'); 
+			return false;
+		}
+
+		if(s.length < 10 || s.length > 10){
+			
+				$("#en_number").html("Enter 10 digits only");
+				$("#en_number").show();
+		     	$("#tnumber").addClass('brd_red_trd'); 
+				return false;
+
+		}else{
+				$("#tnumber").removeClass('brd_red_trd'); 
+		    	$("#tnumber").addClass('brd_green_trd'); 
+		    	$("#en_number").hide();
+				return true;
+			
+		}
+	}else{
+		$("#en_number").html("Enter your contact number");
+		$("#en_number").show();
+		$("#tnumber").removeClass('brd_green_trd');
+		$("#tnumber").addClass('brd_red_trd');
+		return false;
+	}
+}
+
+function isEmail (){
+	var em = $("#temail").val();
+	var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+	if(em!=''){
+		if(!emailReg.test(em)){
+			$("#en_email").html("Enter valid email id");
+			$("#en_email").show();
+	     	$("#temail").addClass('brd_red_trd'); 
+			return false;
+		}else{
+			$("#temail").removeClass('brd_red_trd'); 
+	    	$("#temail").addClass('brd_green_trd'); 
+	    	$("#en_email").hide();
+			return true;
+		}
+	}else{
+		$("#en_email").html("Enter your email id");
+		$("#en_email").show();
+		$("#temail").removeClass('brd_green_trd');
+		$("#temail").addClass('brd_red_trd');
+		return false;
+	}
+}
+
+function signin() {
+	
+	var logisinid=$("#log_isind").val();
+	var logex=$("#log_ex").val();
+	var logexid=$("#log_exid").val();
+	//var logbseid=$("#log_bseid").val();
+	var logbrokerval = $("#reg_broker").val();
+	
+
+	if(logbrokerval == '' && logbrokerval == 'both'){
+		alert('Please select the Broker');
+		return false;
+	}
+
+	var exname = 'NN';
+	if(logex == 'BSE'){
+		exname = 'BN';
+	}else{
+		exname = 'NN';
+	}
+	
+	GAEventTracker('TRADENOWUSAGE', 'Signin', ''+pageName+'');
+	if(logbrokerval == 'kotak'){
+		//window.location='http://203.199.72.119/itrade/user/trd.exe?action=mc&exch_token='+logisinid+'&stk_me='+exname+'& wlsrc=WEB';
+		//window.open('https://www.kotaksecurities.com/itrade/user/trd.exe?action=mc&exch_token='+logexid+'&stk_me='+exname+'& wlsrc=WEB', '_blank');
+		window.open('http://www.kotaksecurities.com/landing-page/MoneyControl/RedirectPage/index.php?action=mc&exch_token='+logexid+'&stk_me='+exname+'& wlsrc=WEB', '_blank');
+	}else if(logbrokerval =='sharekhan'){
+		//window.location='http://220.225.73.216:7080/rmmweb/ext.sk?ee=111&ed=i='+logisinid;
+		window.open('https://newtrade.sharekhan.com/rmmweb/ext.sk?ee=111&ed=i='+logisinid, '_blank');
+	}
+}

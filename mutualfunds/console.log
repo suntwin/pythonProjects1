@@ -1,0 +1,65 @@
+2019-01-18 07:23:07,337 - logger_mutualFundsLink - INFO - Starting File Processing
+2019-01-18 07:23:07,337 - logger_mutualFundsLink - DEBUG - Url being processed is http://www.moneycontrol.com/mutual-funds/performance-tracker/returns/balanced.html
+2019-01-18 07:23:07,337 - logger_mutualFundsLink - DEBUG - fieldnames ['fundname', 'code', 'link', 'Do_Not_Use', 'fund_category']
+2019-01-18 07:23:13,736 - logger_mutualFundsLink - INFO - Links Data Extracted Successfully
+2019-01-18 07:23:13,738 - logger_mutualFundsLink - INFO - number of link records are 54
+2019-01-18 07:23:13,738 - logger_mutualFundsLink - INFO - Begin Writing the file
+2019-01-18 07:23:13,739 - logger_mutualFundsLink - INFO - Link Writing is finished
+2019-01-18 07:23:13,739 - logger_mutualFundsLink - DEBUG - Url being processed is http://www.moneycontrol.com/mutual-funds/performance-tracker/returns/large-cap-fund.html
+2019-01-18 07:23:13,739 - logger_mutualFundsLink - DEBUG - fieldnames ['fundname', 'code', 'link', 'Do_Not_Use', 'fund_category']
+2019-01-18 07:23:20,460 - logger_mutualFundsLink - INFO - Links Data Extracted Successfully
+2019-01-18 07:23:20,460 - logger_mutualFundsLink - INFO - number of link records are 73
+2019-01-18 07:23:20,460 - logger_mutualFundsLink - INFO - Begin Writing the file
+2019-01-18 07:23:20,461 - logger_mutualFundsLink - INFO - Link Writing is finished
+2019-01-18 07:23:20,461 - logger_mutualFundsLink - DEBUG - Url being processed is http://www.moneycontrol.com/mutual-funds/performance-tracker/returns/large-and-mid-cap-fund.html
+2019-01-18 07:23:20,461 - logger_mutualFundsLink - DEBUG - fieldnames ['fundname', 'code', 'link', 'Do_Not_Use', 'fund_category']
+2019-01-18 07:23:29,465 - logger_mutualFundsLink - INFO - Links Data Extracted Successfully
+2019-01-18 07:23:29,465 - logger_mutualFundsLink - INFO - number of link records are 41
+2019-01-18 07:23:29,466 - logger_mutualFundsLink - INFO - Begin Writing the file
+2019-01-18 07:23:29,466 - logger_mutualFundsLink - INFO - Link Writing is finished
+2019-01-18 07:23:29,466 - logger_mutualFundsLink - DEBUG - Url being processed is http://www.moneycontrol.com/mutual-funds/performance-tracker/returns/mid-cap-fund.html
+2019-01-18 07:23:29,466 - logger_mutualFundsLink - DEBUG - fieldnames ['fundname', 'code', 'link', 'Do_Not_Use', 'fund_category']
+2019-01-18 07:23:39,830 - chardet.charsetprober - DEBUG - SHIFT_JIS Japanese prober hit error at byte 35352
+2019-01-18 07:23:40,065 - chardet.charsetprober - DEBUG - EUC-JP Japanese prober hit error at byte 35345
+2019-01-18 07:23:40,335 - chardet.charsetprober - DEBUG - GB2312 Chinese prober hit error at byte 91251
+2019-01-18 07:23:40,446 - chardet.charsetprober - DEBUG - EUC-KR Korean prober hit error at byte 35345
+2019-01-18 07:23:40,556 - chardet.charsetprober - DEBUG - CP949 Korean prober hit error at byte 35351
+2019-01-18 07:23:40,678 - chardet.charsetprober - DEBUG - Big5 Chinese prober hit error at byte 35345
+2019-01-18 07:23:40,792 - chardet.charsetprober - DEBUG - EUC-TW Taiwan prober hit error at byte 35339
+2019-01-18 07:23:41,594 - chardet.charsetprober - DEBUG - windows-1251 Russian confidence = 0.01
+2019-01-18 07:23:41,594 - chardet.charsetprober - DEBUG - KOI8-R Russian confidence = 0.01
+2019-01-18 07:23:41,594 - chardet.charsetprober - DEBUG - ISO-8859-5 Russian confidence = 0.0949035755946
+2019-01-18 07:23:41,594 - chardet.charsetprober - DEBUG - MacCyrillic Russian confidence = 0.0
+2019-01-18 07:23:41,594 - chardet.charsetprober - DEBUG - IBM866 Russian confidence = 0.42456862766
+2019-01-18 07:23:41,594 - chardet.charsetprober - DEBUG - IBM855 Russian confidence = 0.0
+2019-01-18 07:23:41,594 - chardet.charsetprober - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - windows-1253 Greek confidence = 0.01
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - ISO-8859-5 Bulgairan confidence = 0.0956093374293
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - windows-1251 Bulgarian confidence = 0.0
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - TIS-620 Thai confidence = 0.413731707219
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - ISO-8859-9 Turkish confidence = 0.541621037003
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - windows-1251 Russian confidence = 0.01
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - KOI8-R Russian confidence = 0.01
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - ISO-8859-5 Russian confidence = 0.0949035755946
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - MacCyrillic Russian confidence = 0.0
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - IBM866 Russian confidence = 0.42456862766
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - IBM855 Russian confidence = 0.0
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - windows-1253 Greek confidence = 0.01
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - ISO-8859-5 Bulgairan confidence = 0.0956093374293
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - windows-1251 Bulgarian confidence = 0.0
+2019-01-18 07:23:41,595 - chardet.charsetprober - DEBUG - TIS-620 Thai confidence = 0.413731707219
+2019-01-18 07:23:41,596 - chardet.charsetprober - DEBUG - ISO-8859-9 Turkish confidence = 0.541621037003
+2019-01-18 07:23:41,596 - chardet.charsetprober - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-18 07:23:41,596 - chardet.charsetprober - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-18 07:23:41,596 - chardet.charsetprober - DEBUG - windows-1255 Hebrew confidence = 0.0
+2019-01-18 07:23:41,603 - bs4.dammit - WARNING - Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+2019-01-18 07:23:41,820 - logger_mutualFundsLink - INFO - Links Data Extracted Successfully
+2019-01-18 07:23:41,820 - logger_mutualFundsLink - INFO - number of link records are 47
+2019-01-18 07:23:41,820 - logger_mutualFundsLink - INFO - Begin Writing the file
+2019-01-18 07:23:41,820 - logger_mutualFundsLink - INFO - Link Writing is finished
+2019-01-18 07:23:41,820 - logger_mutualFundsLink - DEBUG - Url being processed is http://www.moneycontrol.com/mutual-funds/performance-tracker/returns/small-cap-fund.html
+2019-01-18 07:23:41,820 - logger_mutualFundsLink - DEBUG - fieldnames ['fundname', 'code', 'link', 'Do_Not_Use', 'fund_category']

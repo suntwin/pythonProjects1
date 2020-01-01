@@ -1,0 +1,347 @@
+.widget180 { width: 178px; border: 1px solid #bebebe; font: 12px arial}
+.widget180 a { text-decoration: none}
+.widget180 *:focus { outline: none}
+.widget180 a:hover { text-decoration: underline}
+.widget180 .CL { clear: both}
+.widget180 .header { background:url(https://img-d01.moneycontrol.co.in/images/promo/sme_grid.gif) repeat-x 0 0; border-bottom: 1px solid #bdbdbd}
+.widget180 .logo { width: 102px; padding: 15px 0 10px 10px; float: left}
+.widget180 .arrow { width: 65px; padding-top: 7px; float: left}
+.widget180 .spacer { height: 190px;    padding: 0 8px 15px 9px;    width: 161px;}
+.widget180 .row { padding: 12px 0 12px 0;}
+.widget180 .brdB {border-bottom: 1px solid #dcdcdc; }
+.widget180 .thumb { float: left; width: 80px}
+.widget180 .text { float: left; width: 81px; font: 12px arial; color:#505050}
+.widget180 .date { font: 9px arial; color: #bebebe; padding-top:5px;}
+.widget180 .b_12 {font: 12px arial; color:#505050}
+
+/*** PYT ***/
+#pytfot_ind .blk_18 {
+	color: #000;
+	font: bold 18px Trebuchet MS,Arial;
+}
+#pytfot_ind .gry_16 {
+	color: #4F4F4F;
+	font: bold 16px Trebuchet MS,Arial;
+}
+#pytfot_ind .gry_12 {
+	color: #333333;
+	font: 12px Arial;
+}
+#pytfot_ind .int_bx {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #E7E5E9;
+	height: 46px;
+	padding: 1px;
+}
+#pytfot_ind .brdr {
+	border-right: 1px solid #E7E5E9;
+}
+#pytfot_ind .int {
+	background: url("https://img-d01.moneycontrol.co.in/images/promo/py_footer_index.gif") 0 -30px no-repeat;
+	padding: 10px;
+	width: 152px;
+}
+#pytfot_ind .int1 {
+	padding: 5px 5px 5px;
+	width: 59px;
+	height:38px;
+}
+#pytfot_ind .int2 {
+	background: none repeat scroll 0 0 #E0EB9C;
+	display: inline;
+	padding: 5px 5px 5px;
+	width: 44px;
+	height:36px;
+}
+#pytfot_ind div.rotator {
+	background: none repeat scroll 0 0 #FFFFFF;
+	position: relative;
+}
+#pytfot_ind .pulogo {
+	background: url("https://img-d01.moneycontrol.co.in/images/promo/py_footer_index.gif") 0 0 no-repeat;
+	height: 27px;
+	width: 72px;
+}
+#pytfot_ind .org_13 {
+	color: #DB4500;
+	font: bold 13px Arial;
+}
+#pytfot_ind .gry_10 {
+	color: #666666;
+	font-size: 10px;
+}
+#pytfot_ind .ar_grn {
+	background: url("https://img-d01.moneycontrol.co.in/images/promo/py_footer_index.gif") -175px 0 no-repeat;
+	display: inline-block;
+	height: 6px;
+	width: 11px;
+	overflow:hidden;
+}
+#pytfot_ind .ar_rd {
+	background: url("https://img-d01.moneycontrol.co.in/images/promo/py_footer_index.gif") -175px -9px no-repeat;
+	display: inline-block;
+	height: 6px;
+	width: 11px;
+	overflow:hidden;
+}
+#pytfot_ind .buy_btn {
+	background: url("https://img-d01.moneycontrol.co.in/images/promo/py_footer_index.gif") -77px 0 no-repeat;
+	display: inline-block;
+	float: left;
+	height: 26px;
+	text-indent: -9999px;
+	width: 38px;
+}
+#pytfot_ind .sell_btn {
+	background: url("https://img-d01.moneycontrol.co.in/images/promo/py_footer_index.gif") -125px 0 no-repeat;
+	display: inline-block;
+	float: left;
+	height: 26px;
+	text-indent: -9999px;
+	width: 38px;
+}
+#pytfot_ind .gD_22 {
+	color: #333333;
+	font: bold 14px/16px Arial;
+}
+#pytfot_ind .gL_10 {
+	color: #999999;
+	font: 9px/10px arial;
+}
+
+#pytfot_ind .bg_10 {
+	color: #3B3E42;
+	font: 10px Arial;
+}
+#pytfot_ind .b_20 {
+	color: #333333;
+	font:bold 13px Arial;
+}
+#pytfot_ind  .bl_14{font:14px Arial; color:#043b81; text-decoration:underline;}
+.ath{ height:21px;}
+
+
+/*** PYT RHS ***/
+#pytfot_rhs .win_strip { padding:8px 3px 8px 5px; color:#606262; font:12px Arial; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_repeat_rhs.gif) 0 0 repeat-x; }
+#pytfot_rhs .ourwin_txt { color:#f15804; font:bold 18px/16px Trebuchet MS, Arial; }
+#pytfot_rhs .gray_txt { color:#4f4f4f; font:13px Trebuchet MS, Arial; }
+#pytfot_rhs .org_14 { color:#f15804; font:bold 14px Trebuchet MS, Arial; }
+#pytfot_rhs .org_15 { color:#f15804; font:bold 15px Trebuchet MS, Arial; }
+#pytfot_rhs .gry_14 { color:#4f4f4f; font:bold 14px Trebuchet MS, Arial; }
+#pytfot_rhs .gry_15 { color:#4f4f4f; font:bold 15px Trebuchet MS, Arial; }
+#pytfot_rhs .gry_10 { color:#666666; font:10px Arial; }
+#pytfot_rhs .brdr { border-right:1px solid #e7e5e9 }
+#pytfot_rhs .pulogo { width:152px; height:57px; margin-left:8px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) -168px 0 no-repeat; }
+#pytfot_rhs .pyt_content { padding:10px 6px; }
+#pytfot_rhs .ar_grn { width:13px; height:6px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) -320px -17px no-repeat; display:inline-block; margin:0 1px; }
+#pytfot_rhs .ar_rd { width:13px; height:6px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) -320px -25px no-repeat; display:inline-block; margin:0 1px; }
+#pytfot_rhs .buy_btn { width:36px; height:23px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) 0 -67px no-repeat; display:inline-block; text-indent:-9999px; float:left; }
+#pytfot_rhs .sell_btn { width:36px; height:23px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) 0 -100px no-repeat; display:inline-block; text-indent:-9999px; float:left; }
+#pytfot_rhs .pyt_area { width:164px; margin-top:5px; }
+#pytfot_rhs .curv_top { width:164px; height:4px; overflow:hidden; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) 0 -37px no-repeat; }
+#pytfot_rhs .curv_bg { height:74px; background: url(https://img-d01.moneycontrol.co.in/images/promo/pyt_repeat_rhs.gif) 0 -84px repeat-x; border-left:1px solid #e7e5e9; border-right:1px solid #e7e5e9; padding:3px 0; }
+#pytfot_rhs .curv_bottom { width:164px; height:4px; background: url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) 0 -48px no-repeat; }
+#pytfot_rhs .head_txt { border-bottom:1px solid #e8e8e8; padding:0 6px 5px 6px; }
+#pytfot_rhs .gry_15_r { color:#333333; font:15px Arial; }
+#pytfot_rhs .gry_15_b { color:#333333; font:bold 15px Arial; }
+#pytfot_rhs .ar_9 { font:9px Arial; color:#333333; }
+#pytfot_rhs .grn_11 { font:bold 11px Arial; color:#6b9d00; }
+#pytfot_rhs .rd_11 { font:bold 11px Arial; color:#cd2b2b; }
+#pytfot_rhs .scroll_n2 { position:relative; overflow:hidden; width:164px; height:94px; }
+#pytfot_rhs .scroll_n2 .belt { position:absolute; left:0px; top:0px; }
+#pytfot_rhs .scroll_n2 .panel { float:left; overflow:hidden; }
+#pytfot_rhs .our_pack { background:#f3f6f6; padding:3px }
+#pytfot_rhs .our_pack h3 { background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_repeat_rhs.gif) repeat-x 0 -197px; height:33px; padding:2px 7px 0; font:15px/16px Arial; color:#333; border:1px solid #cacaca; cursor:pointer }
+#pytfot_rhs .pyt_arw { display:inline-block; width:10px; height:20px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) right top; margin-top:7px; float:right }
+#pytfot_rhs .our_pack h3.act .pyt_arw { background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) right -35px; width:20px; height:10px; margin-top:11px; 
+-webkit-transition: all 2s ease-in-out;
+-moz-transition: all 2s ease-in-out;
+-ms-transition: all 2s ease-in-out;
+-o-transition: all 2s ease-in-out;
+transition: all 2s ease-in-out;
+}
+#pytfot_rhs .prc { font:bold 13px Arial; color:#db4500; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) -321px 2px; padding-left:10px }
+#pytfot_rhs .pyt_opc { border-left:1px solid #cacaca; border-right:1px solid #cacaca; padding:10px; background:#FFF; width:140px }
+#pytfot_rhs .pyt_opc .gD_12 { display:table-cell; *display:inline-block}
+#pytfot_rhs .pyt_btm { background:#f1f4f4; padding:12px 10px; text-align:center }
+#pytfot_rhs .subs_now { display:inline-block; width:146px; height:27px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) 0 0; border:0; cursor:pointer }
+
+#pytfot_rhs_bn .win_strip { padding:5px 3px 15px 8px; color:#606262; font:12px Arial; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_repeat_rhs.gif) 0 15px repeat-x; }
+#pytfot_rhs_bn .ourwin_txt { color:#f15804; font:bold 18px/16px Trebuchet MS, Arial; }
+#pytfot_rhs_bn .gray_txt { color:#4f4f4f; font:13px Trebuchet MS, Arial; }
+#pytfot_rhs_bn .org_14 { color:#f15804; font:bold 14px Trebuchet MS, Arial; }
+#pytfot_rhs_bn .org_15 { color:#f15804; font:bold 15px Trebuchet MS, Arial; }
+#pytfot_rhs_bn .gry_14 { color:#4f4f4f; font:bold 14px Trebuchet MS, Arial; }
+#pytfot_rhs_bn .gry_15 { color:#4f4f4f; font:bold 15px Trebuchet MS, Arial; }
+#pytfot_rhs_bn .gry_10 { color:#666666; font:10px Arial; }
+#pytfot_rhs_bn .gry_13 { color:#666666; font:13px Arial; }
+#pytfot_rhs_bn .brdr { border-right:1px solid #e7e5e9 }
+#pytfot_rhs_bn .TAC { text-align:center; }
+#pytfot_rhs_bn .pulogo { width:152px; height:57px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs_bn.gif) 0 0 no-repeat; }
+#pytfot_rhs_bn .pyt_scroll { width:158px; position:relative; }
+#pytfot_rhs_bn .pyt_scroll .prev { width:8px; height:15px; position:absolute; left:8px; top:28px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs_bn.gif) -181px -26px no-repeat; }
+#pytfot_rhs_bn .pyt_scroll .next { width:8px; height:15px; position:absolute; right:8px; top:28px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs_bn.gif) -191px -26px no-repeat; }
+#pytfot_rhs_bn .scroll_mid { position:relative; overflow:hidden; width:108px; height:65px; margin-left:25px; }
+#pytfot_rhs_bn .scroll_mid .belt { position:absolute; left:0px; top:0px; }
+#pytfot_rhs_bn .scroll_mid .panel { float:left; overflow:hidden; width:108px; }
+#pytfot_rhs_bn .scroll_mid_our { position:relative; overflow:hidden; width:108px; height:80px; margin-left:25px; }
+#pytfot_rhs_bn .scroll_mid_our .belt { position:absolute; left:0px; top:0px; }
+#pytfot_rhs_bn .scroll_mid_our .panel { float:left; overflow:hidden; width:108px; }
+#pytfot_rhs_bn .our_pack_main { background:#f3f6f6; padding:3px }
+#pytfot_rhs_bn .our_pack { background:#f3f6f6; }
+#pytfot_rhs_bn .our_pack h3 { background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_repeat_rhs.gif) repeat-x 0 -197px; height:33px; padding:2px 7px 0; font:15px/30px Arial; color:#333; border:1px solid #cacaca; cursor:pointer }
+#pytfot_rhs_bn .our_pack_op { background:#f3f6f6; }
+#pytfot_rhs_bn .our_pack_op h3.dob { background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_repeat_rhs.gif) repeat-x 0 -197px; height:33px; padding:6px 7px 6px; font:15px Arial; color:#333; border:1px solid #cacaca; }
+#pytfot_rhs_bn .our_pack_op h3 { background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_repeat_rhs.gif) repeat-x 0 -197px; height:33px; padding:2px 7px 0; font:15px/30px Arial; color:#333; border:1px solid #cacaca; }
+#pytfot_rhs_bn .pyt_arw { display:inline-block; width:7px; height:15px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs_bn.gif) right top; margin-top:7px; float:right }
+#pytfot_rhs_bn .our_pack h3.act .pyt_arw { background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs_bn.gif) right -17px; width:14px; height:7px; margin-top:14px; 
+-webkit-transition: all 2s ease-in-out;
+-moz-transition: all 2s ease-in-out;
+-ms-transition: all 2s ease-in-out;
+-o-transition: all 2s ease-in-out;
+transition: all 2s ease-in-out;
+}
+#pytfot_rhs_bn .prc { font:bold 13px Arial; color:#db4500; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs_bn.gif) -321px 2px; padding-left:10px }
+#pytfot_rhs_bn .pyt_opc { border-left:1px solid #cacaca; border-right:1px solid #cacaca; padding:10px; background:#FFF; width:140px }
+#pytfot_rhs_bn .pyt_opc_op { border-left:1px solid #cacaca; border-right:1px solid #cacaca; padding:5px 2px; background:#FFF; }
+#pytfot_rhs_bn .pyt_opc .gD_12 { display:table-cell; *display:inline-block
+}
+#pytfot_rhs_bn .pyt_btm { background:#f1f4f4; padding:12px 10px; text-align:center }
+#pytfot_rhs_bn .subs_now { display:inline-block; width:146px; height:27px; background:url(https://img-d01.moneycontrol.co.in/images/promo/pyt_sprite_rhs.gif) 0 0; border:0; cursor:pointer }
+
+/*** Markets & Macros ***/
+#mrktMacro{width:294px; padding-left:5px; padding-top:5px;}
+#mrktMacro p{padding:0; margin:0;}
+#mrktMacro .title{height:38px; padding:3px 0 3px 7px; overflow:hidden;}
+#mrktMacro .title .logo{width:48px; height:38px; display:inline-block; margin-right:4px; background:url(https://img-d01.moneycontrol.co.in/images/promo/mm_sprite.gif) 0 0 no-repeat; float:left;}
+#mrktMacro .title .name{font:bold 14px arial; color:#000;}
+#mrktMacro .title .name .arrow{background:url(https://img-d01.moneycontrol.co.in/images/promo/mm_sprite.gif) -49px 0 no-repeat; width:15px; display:inline-block; height:11px;}
+#mrktMacro .title .dtTime{font:12px arial; color:#666;}
+#mrktMacro .bnrCont{padding:0; background:#fff;}
+#mrktMacro .bnrCont .inner{padding:8px 12px 8px 7px; background:#fff;}
+#mrktMacro .gd_15{font:15px arial; color:#333;}
+#mrktMacro .inputT{background:#fff; border:#d5d5d5 1px solid; padding:12px; box-shadow:inset 3px 3px 5px #f0f0f0; font:12px arial; color:#676767; margin-top:7px; width: 233px; height:54px;
+vertical-align:top;}
+#mrktMacro .ftr{padding-top:4px; overflow:hidden;}
+#mrktMacro .info{font:10px arial; color:#666; float:left; width:200px;}
+#mrktMacro .light{display:inline-block; width:10px; height:14px; background:url(https://img-d01.moneycontrol.co.in/images/promo/mm_sprite.gif) -52px -13px no-repeat; vertical-align:bottom;}
+#mrktMacro .askBtn{background:url(https://img-d01.moneycontrol.co.in/images/promo/mm_sprite.gif) -65px 0 no-repeat; width:43px; height:24px; border:none; cursor:pointer; margin-right:10px;}
+
+* html #fixmetoo{position:absolute;z-index:99999}
+#fixmetoo{position:fixed; bottom:0px; width:100%; z-index:99999; left:0px;}
+.fixband {font:13px arial; color:#000;z-index:99999;}
+
+
+/*-----------moneybhai banner*/
+.MT10{margin-top:10px} .MT15{margin-top:15px} .MT20{margin-top:20px} .TAC{text-align:center}
+#wid_rev{width:180px; height:600px; background:#f3f3f3}
+#wid_rev .wid_top_bx{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0 0; width:180px; height:16px;}
+#wid_rev .wid_mid_bx{background:url(https://img-d03.moneycontrol.co.in/images/promo/banner_mid.gif) repeat-y; width:180px; height:584px;}
+#wid_rev .wid_mid_cnt{height:400px; padding:3px 20px; font:14px/18px Arial; color:#4a4a4a}
+#wid_rev .wid_bot_bx{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0 -16px; width:180px; height:194px;}
+#wid_rev .wid_bot_bx .cnt{padding:15px; font:13px arial; color:#403939}
+#wid_rev .bl16b{font:bold 16px Arial; color:#015c7c}
+#wid_rev .or16b{font:bold 16px Arial; color:#ee6b14}
+#wid_rev .gr18b{font:bold 18px Arial; color:#009900}
+#wid_rev .gr14{font:14px Arial; color:#009900}
+#wid_rev .rd18b{font:bold 18px Arial; color:#cf1900}
+#wid_rev .rd14{font:14px Arial; color:#cf1900}
+#wid_rev .gD16b{font:bold 16px Arial; color:#616361}
+#wid_rev .up_arow{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0 -220px; width:11px; height:6px; display:inline-block; margin:0 3px}
+#wid_rev .dow_arow{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0 -232px; width:11px; height:6px; display:inline-block; margin:0 3px}
+#wid_rev .view_portfolioBtn{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat -22px -214px; width:142px; height:32px; display:inline-block}
+#wid_rev .clickBtn{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0px -250px; width:100px; height:32px; display:inline-block}
+#wid_rev .gr14 .rsIcon{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat -169px -220px; width:7px; height:10px; display:inline-block}
+#wid_rev .rd14 .rsIcon{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat -169px -240px; width:7px; height:10px; display:inline-block}
+#wid_rev .mbLogo{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0 -291px; width:142px; height:89px; display:inline-block;}
+.mcLogo{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0 -391px; width:128px; height:13px; display:inline-block}
+#wid_rev .clickBtn{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0px -250px; width:100px; height:32px; display:inline-block}
+#wid_rev .gr14 .rsIcon{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat -169px -220px; width:7px; height:10px; display:inline-block}
+#wid_rev .rd14 .rsIcon{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat -169px -240px; width:7px; height:10px; display:inline-block}
+#wid_rev .mbLogo{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0 -291px; width:142px; height:89px; display:inline-block;}
+#wid_rev .gr14 .rsIcon{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat -169px -220px; width:7px; height:10px; display:inline-block}
+#wid_rev .rd14 .rsIcon{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat -169px -240px; width:7px; height:10px; display:inline-block}
+#wid_rev .mbLogo{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0 -291px; width:142px; height:89px; display:inline-block;}
+#wid_rev .mcLogo{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0 -391px; width:128px; height:13px; display:inline-block}
+#wid_rev .friend_compete{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) 0 -410px; width:106px; height:105px; display:inline-block}
+#wid_rev .mcsosIconM3, #wid_rev .mcsosIconfb, #wid_rev .mcsosIconmail{display:block; float:left; margin:0 3px}
+#wid_rev .mcsosIconM3{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat 0 -521px; width:28px; height:28px; }
+#wid_rev .mcsosIconfb{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat -32px -521px; width:24px; height:24px; display:block; float:left;}
+#wid_rev .mcsosIconmail{background:url(https://img-d03.moneycontrol.co.in/images/promo/mb_banner_sprite.png) no-repeat -63px -521px; width:25px; height:25px; display:block; float:left;}
+/*-----------moneybhai banner*/
+@font-face {font-family: 'open_sans_condensedbold'; src: url('https://www.moneycontrol.com/commonfiles/font/opensans-condbold.eot'); src: url('https://www.moneycontrol.com/commonfiles/font/opensans-condbold.eot?#iefix') format('embedded-opentype'), url('https://www.moneycontrol.com/commonfiles/font/opensans-condbold.woff') format('woff'), url('https://www.moneycontrol.com/commonfiles/font/opensans-condbold.ttf') format('truetype'), url('https://www.moneycontrol.com/commonfiles/font/opensans-condbold.svg#open_sans_condensedbold') format('svg'); font-weight: normal; font-style: normal;}
+.cnbc_live180 { width: 180px; }
+.clrIn { border: 1px solid #979797; border-top: 0; }
+.clBx { background: url(https://img-d01.moneycontrol.co.in/images/promo/gradc.gif) repeat-x; border: 1px solid #FFF; padding: 10px 7px }
+.hdc { border-bottom: 1px solid #979797; font: 700 18px/20px 'open_sans_condensedbold'; color: #000; background: url(https://img-d01.moneycontrol.co.in/images/promo/cnbc_icon.png) no-repeat 0 4px; padding: 0 0 5px 30px; text-transform: uppercase; }
+.listcl li { border-bottom: 1px solid #e7e9ec; padding: 10px 0; font: 12px/16px Arial; color: #666 }
+.showBx { background: url(https://img-d01.moneycontrol.co.in/images/promo/gradc1.gif) repeat-x; height: 28px; padding: 5px; margin-bottom: 7px }
+.showBx select { border: 1px solid #CCC; width: 120px; padding: 4px 5px }
+.vidcl { border: 1px solid #e0e0e0; padding: 1px; }
+.vply { background: url(https://img-d01.moneycontrol.co.in/images/promo/playc.png) no-repeat; width: 27px; height: 28px; position: absolute; margin: 68px 0 0 10px }
+.livB { background: url(https://img-d01.moneycontrol.co.in/images/promo/livecl.gif) no-repeat; height: 16px; padding-left: 35px; margin-top: 5px; font: 700 15px/16px 'open_sans_condensedbold'; color: #333; }
+.vidcl1 { border-bottom: 1px solid #e0e0e0; }
+.bl15cl { color: #004a7e; font: 700 15px/18px 'open_sans_condensedbold'; }
+#vertical-ticker{height:145px; overflow:hidden;}
+#vertical-ticker li{ padding-left:0px !important;padding-right:0px !important;display:block;}
+.cnbc_live180 .menusnd { width: 125px; height: 38px; cursor: pointer; }
+.cnbc_live180 .pdrp { font: 12px/30px Arial; color: #101010; width: 110px; background: url(https://img-d01.moneycontrol.co.in/images/promo/ddbg.gif) no-repeat; padding: 0 0 0 10px; height: 28px; overflow:hidden;}
+.cnbc_live180 .dropp { display: none; position: absolute; z-index: 99; width: 155px; border: 1px solid #a29797; left: 5px; top: 30px; height: 275px; overflow-y: scroll; }
+.cnbc_live180 .qt_sgt ul { background: #FFF; }
+.cnbc_live180 .qt_sgt li { border-bottom: 1px solid #efeeee }
+.cnbc_live180 .qt_sgt ul li a { font: 11px Arial; color: #333333; padding: 5px 7px; display: inline-block; background: #FFF }
+.cnbc_live180 .qt_sgt ul li a:hover { text-decoration: none; color: #0780be !important; background: #FFF }
+.cnbc_live180 .anchors { background: #0089cf; font: 700 15px/20px 'open_sans_condensedbold'; color: #FFF; padding: 5px; text-transform: uppercase; }
+.cnbc_live180 .reports { background: #6460aa; font: 700 15px/20px 'open_sans_condensedbold'; color: #FFF; padding: 5px; text-transform: uppercase; }
+.MA1 { margin: 1px; }
+
+.aleret_title { font: 700 18px/20px 'open_sans_condensedbold'; color: #c9234b; background: url(https://img-d01.moneycontrol.co.in/images/promo/cnbc_icon.png) no-repeat 0 3px; padding: 0 0 5px 30px; text-transform: uppercase; }
+.alertBx { background: #ebeaee; border: 1px solid #d4cbd2; border-radius: 4px; padding: 7px 10px; font: 12px/16px Arial; color: #000; position: relative; margin-top: 5px }
+.triangle-up { width: 0; hight: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 8px solid #ebeaee; display: inline-block; position: absolute; top: -8px; left: 50px }
+
+/* 7 feb */
+/*YS AND CB*/
+.cnbc_live180 .txtBox { background: url(https://img-d01.moneycontrol.co.in/images/rhs2014/text_box.png) no-repeat 0 0; width: 129px; height: 30px; border: 0; padding: 9px 5px 5px 5px; resize: none; font: 11px Arial; color: #666; }
+.b14osb { font: 700 14px 'open_sans_condensedbold'; color: #333; }
+.cnbc_live180 .textBox2 { border: 1px solid #e0e0e0; border-radius: 3px; padding: 7px 5px; box-shadow: inset 1px 2px 1px #e0e0e0; width: 128px; font: 11px Arial; color: #666; }
+.cnbc_live180 .morelink { font: 700 12px 'open_sans_condensedbold'; color: #3278ac; }
+.cnbc_live180 .acord_title.act { background: #FFF url(https://img-d02.moneycontrol.co.in/images/rhs2014/ac_arow_1.png) no-repeat right top }
+.cnbc_live180 .tog_cont { padding: 7px; }
+.yombx { background: #6460aa; text-align: center; font: 700 16px/20px 'open_sans_condensedbold'; color: #FFF; border-bottom: 1px solid #979797; border-top: 1px solid #979797; padding: 3px 0; }
+.MT2 { margin-top: 2px }
+.gD12 { font: 12px Arial; color: #333333; }
+.imgBrdbx { border: 1px solid #d1d1d1; float: left; }
+.cnbc_live180 .pollr { width: 145px; font: 15px Arial; color: #666 }
+.cnbc_live180 .barbg { background: #f4f4f4; box-shadow: 0 1px 1px #eee inset; height: 12px; border: 1px solid #e5e5e5; border-radius: 3px; width: 95px; margin-right: 7px; }
+.cnbc_live180 .bar { background: url(https://img-d03.moneycontrol.co.in/images/rhs2014/grBar.jpg) repeat-x; display: inline-block; height: 12px; border-radius: 3px }
+.cnbc_live180 .no { background: url(https://img-d01.moneycontrol.co.in/images/rhs2014/ylBar.jpg) repeat-x; }
+.cnbc_live180 .nextBtn, .cnbc_live180 .prevBtn { background: url(https://img-d02.moneycontrol.co.in/images/rhs2014/slider_arow_1.gif) no-repeat; width: 21px; height: 39px; position: absolute; display: block; cursor: default; }
+.cnbc_live180 .nextBtn { background-position: -21px 0; top: 3px; right: 3px; }
+.cnbc_live180 .prevBtn { background-position: 0 0; top: 3px; right: 27px; }
+.cnbs_your_stock .bx-next, .cnbs_your_stock .bx-prev { background: url(https://img-d03.moneycontrol.co.in/images/rhs2014/slider_arow_1.gif) no-repeat; width: 21px; height: 39px; position: absolute; display: block; z-index: 3; text-indent: -99999px }
+.cnbs_your_stock .bx-next { background-position: -21px 0; right: 3px; top: 3px }
+.cnbs_your_stock .bx-prev { background-position: 0 0; right: 28px; top: 3px }
+.cnbs_your_stock .bx-next:hover { background-position: -63px 0; }
+.cnbs_your_stock .bx-prev:hover { background-position: -42px 0; }
+.pyqbx { background: #152b5b; text-align: center; font: 700 16px/20px 'open_sans_condensedbold'; color: #FFF; border-bottom: 1px solid #979797; border-top: 1px solid #979797; padding: 3px 0; }
+.bannerd{ overflow:hidden}
+
+
+.cnbc_live180 .acord_title { background: #FFF url(https://img-d02.moneycontrol.co.in/images/rhs2014/ac_arow_1.png) no-repeat right bottom; padding: 0; height: 25px; border-bottom:1px solid #9196A1 }
+.cnbc_live180 .acord_title a{ display:block; background:url(https://img-d02.moneycontrol.co.in/images/rhs2014/acdBg.gif) repeat-x; font: 400 15px/23px 'open_sans_condensedbold'; color: #333; margin-right:21px; padding:0 0 2px 7px; text-decoration:none !important;}
+.cnbc_live180 .omHd{ background:#e9e9e9; font: 400 15px/25px 'open_sans_condensedbold'; color: #333; padding:0 0 3px 7px; }
+}
+.cnbs_your_stock_test { border: 1px solid #9196a1; background: #FFF; font: 12px Arial; color: #333; box-shadow:2px 2px 2px rgba(0,0,0,.2) }
+/* -- 7 feb */
+
+/* News Alerts */
+@font-face {font-family: 'open_sans_condensedbold'; src: url('https://www.moneycontrol.com/commonfiles/font/opensans-condbold.eot'); src: url('https://www.moneycontrol.com/commonfiles/font/opensans-condbold.eot?#iefix') format('embedded-opentype'), url('https://www.moneycontrol.com/commonfiles/font/opensans-condbold.woff') format('woff'), url('https://www.moneycontrol.com/commonfiles/font/opensans-condbold.ttf') format('truetype'), url('https://www.moneycontrol.com/commonfiles/font/opensans-condbold.svg#open_sans_condensedbold') format('svg'); font-weight: normal; font-style: normal;}
+@font-face {font-family: 'open_sansregular'; src: url('https://www.moneycontrol.com/commonfiles/font/opensans-regular-webfont.eot'); src: url('https://www.moneycontrol.com/commonfiles/font/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('https://www.moneycontrol.com/commonfiles/font/opensans-regular-webfont.woff') format('woff'), url('https://www.moneycontrol.com/commonfiles/font/opensans-regular-webfont.ttf') format('truetype'), url('https://www.moneycontrol.com/commonfiles/font/opensans-regular-webfont.svg#open_sansregular') format('svg'); font-weight: normal; font-style: normal;}
+#newsAlrts{bottom: 0; left: 0; position: fixed; width: 100%; z-index:99999; display:none;}
+#newsAlrts .main{width:990px;margin:0 auto;overflow:hidden;}
+#newsAlrts .newsBX{width:315px;padding:15px;border:#3f4f5b 3px solid;background:url(https://img-d03.moneycontrol.co.in/images/mc_home/nws_alert_bg.png) left bottom repeat-x;float:right;position:relative;}
+#newsAlrts .newsBX .tlbrd{padding-bottom:3px;border-bottom:#ebedee 1px solid;}
+#newsAlrts .newsBX .liks{font:14px/20px 'open_sansregular', arial;color:#00528c;}
+#newsAlrts .newsBX .ar{color:#fe6400;font-family:'open_sans_condensedbold', arial;}
+#newsAlrts .newsBX .btnClose{width:13px;height:13px;position:absolute;top:5px; right:5px;background:url(https://img-d03.moneycontrol.co.in/images/mc_home/nws_alert_btnClose.png) 0 0 no-repeat;}
+/* News Alerts */

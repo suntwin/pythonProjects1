@@ -1,0 +1,35 @@
+$(document).ready(function () {
+// This runs the slide switch function and counts the slides when the page loads
+    slideSwitch();
+var $count = $('.slide');
+
+var $timesRun = 0;
+
+
+//this loops the slides through and sets a time in milliseconds
+var playSlideshow =  setInterval(function(){
+
+ $timesRun += 1;
+if ( $timesRun == $count.length*1 )
+clearInterval(playSlideshow);
+else
+slideSwitch()
+}, 3750 );
+
+});
+//This function switches slides
+
+function slideSwitch() {
+    var $active = $('.slide.active');
+if ( $active.length == 0 ) $active = $('.slide:last');
+    // use this to pull the divs in the order they appear in the markup
+
+var $next =  $active.next().length ? $active.next()
+         : $('.slide:first');
+    $active.addClass('last-active');
+    $next.css({opacity: 0.0})
+        .addClass('active')
+        .animate({opacity: 1.0}, 700, function() {
+            $active.removeClass('active last-active');
+        });
+}
